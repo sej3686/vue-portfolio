@@ -1,0 +1,154 @@
+//Importing other Sass
+@use 'type-animation.scss';
+@use 'underline-animation.scss';
+
+//Importing Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+//variables
+$titleFont: 'Roboto', sans-serif;
+$textFont: 'Open Sans', sans-serif;
+
+$headerColor: #333333;
+$keyColor: #AC4A5F;
+$projectColor: #144EA4;
+$aboutColor: #2B9180;
+$contactColor: #190E65;
+
+
+header {
+
+background-color: $headerColor;
+height: 100vh;
+
+    nav {
+        //background-color: red;
+        height: 10vh;
+        display: flex;
+        padding: 25px;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding: 25px;
+            margin-left: 32%;
+            align-items: baseline;
+
+            li {
+                color: #FFFFFF;
+                font-size: 20px;
+                font-family: $textFont;
+                margin-left: 8em;
+            }
+
+            li:hover {
+                cursor: pointer;
+            }
+        }
+
+        #logo {
+            width: 12%;
+        }
+
+        #logo:hover {
+            cursor: pointer;
+            opacity: 0.9;
+        }
+
+        h1 {
+            font-family: $titleFont;
+            color: #FFFFFF;
+        }
+    }
+
+    section {
+        display: flex;
+
+        div {
+            //border: 3px solid #000000;
+            height: 84vh;
+            width: 100%;
+        }
+
+        .header-div-left {
+
+
+            h3 {
+                color: #FFFFFF;
+                font-family: $titleFont;
+                font-size: 40px;
+                margin-left: 5em;
+                margin-top: 2em; 
+            }
+
+            h2 {
+                color: #FFFFFF;
+                font-family: $titleFont;
+                font-size: 50px;
+                margin-top: 1em;
+                margin-left: 4em;
+            }
+
+            h4 {
+                color: #FFFFFF;
+                font-family: $titleFont;
+                font-size: 30px;
+                margin-top: 8em;
+                margin-left: 7em;
+            }
+
+            .typed-text {
+                color: #2B9180;
+                font-family: $textFont;
+                font-weight: bold;
+                font-size: 30px;
+                margin-top: 18em; 
+                margin-left: 7em;
+                text-decoration: underline;
+            }
+        }
+
+        .header-div-right {
+
+
+            .header-div-right-img {
+                background-image: url(https://sej.one/wp-content/uploads/2021/09/127058711_780069189248378_628254043634158309_n-768x1024.jpg);
+                background-position: center;
+                box-shadow: 15px 10px 25px 0px rgba(0,0,0,0.75);
+                height: 500px;
+                width: 500px;
+                border-radius: 100%;
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+
+            .header-div-right-some {
+                height: 15em;
+                width: 100%;
+                //background-color: red;
+            
+                h2 {
+                    color: #FFFFFF;
+                    font-family: $titleFont;
+                    font-size: 30px;
+                    margin-top: 30px;
+                    text-align: center;
+                }
+
+                a > img {
+                    margin-left: 120px;
+                    margin-top: 30px;
+                }
+
+                a > img:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+
+
+
+}
