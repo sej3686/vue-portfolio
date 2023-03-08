@@ -1,8 +1,8 @@
   // Cursor blinking CSS Starts...
   .blinking-cursor {
-    font-size: 38px;
+    font-size: 50px;
     font-weight: bold;
-    color: #144EA4;
+    color: #FFFFFF;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
@@ -15,7 +15,7 @@
       color: transparent;
     }
     50% {
-      color: #144EA4;
+      color: #FFFFFF;
     }
   }
   @-moz-keyframes blink {
@@ -24,7 +24,7 @@
       color: transparent;
     }
     50% {
-      color: #144EA4;
+      color: #FFFFFF;
     }
   }
   @-webkit-keyframes blink {
@@ -33,7 +33,7 @@
       color: transparent;
     }
     50% {
-      color: #144EA4;
+      color: #FFFFFF;
     }
   }
   @-ms-keyframes blink {
@@ -42,7 +42,7 @@
       color: transparent;
     }
     50% {
-      color: #144EA4;
+      color: #FFFFFF;
     }
   }
   @-o-keyframes blink {
@@ -51,7 +51,7 @@
       color: transparent;
     }
     50% {
-      color: #144EA4;
+      color: #FFFFFF;
     }
   }
   // Cursor blinking CSS Ends...

@@ -14,31 +14,35 @@
       </ul>
     </nav>
 
-    <section>
+    <section class="header-box-wrapper">
+      
     <div class="header-div-left">
-      <h3>Hi my name is</h3>
+      <div class="header-div-left-textbox">
+      <h3>Hi, my name is</h3>
       <h2>Stefan E. Jespersen</h2>
-      <h2>And Welcome To My <span style="color: #AC4A5F">Portfolio!</span></h2>
-      <h4>I'm a</h4>
       <span class="typed-text">{{ typeValue }}</span>
       <span class="blinking-cursor">|</span>
       <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-      </div>
+      <h4>And Welcome To My <span>Portfolio!</span></h4>
+        </div>
+          </div><!-- Header Left Box -->
 
     <div class="header-div-right">
+      <div class="header-div-right-imagebox">
       <div class="header-div-right-img"></div>
-
-      <div class="header-div-right-some">
-        <h2>SoMe</h2>
-
-        <a href="#"><img src="./../components/icons/linkedin.png" alt=""></a>
-        <a href="#"><img src="./../components/icons/github.png" alt=""></a>
-        <a href="#"><img src="./../components/icons/wordpress.png" alt=""></a>
-        <a href="#"><img src="./../components/icons/twitter.png" alt=""></a>
-      </div>
     </div>
-      
+    </div><!-- Header Right Box -->
   </section>
+
+    <div class="header-div-some">
+        <!--<h2>SoMe</h2>-->
+        <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
+        <a href="#"><img src="./../components/icons/github.png" alt="Github"></a>
+        <a href="#"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
+        <a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a>
+      </div><!-- Header SoMe Box -->
+      
+
 
   </header>
 </template>
@@ -50,9 +54,9 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Web-Developer", "Multi Media Designer", "Editor", "Coder", "Worker"],
+      displayTextArray: ["Web-Developer", "Multi-Media-Designer", "Graphics-designer", "Coder", "Worker"],
       typingSpeed: 100,
-      erasingSpeed: 100,
+      erasingSpeed: 50,
       newTextDelay: 2000,
       displayTextArrayIndex: 0,
       charIndex: 0,

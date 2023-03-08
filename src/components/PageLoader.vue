@@ -26,7 +26,7 @@
 
 .load-wrapper {
   animation: moveWrapper 0.01s forwards;
-  animation-delay: 4s;
+  animation-delay: 2s;
   background-color: #333333;
   height: 100vh;
   position: absolute;
@@ -60,7 +60,7 @@
     bottom: 0;
     margin: auto;
     border: 3px solid;
-    border-color: transparent transparent #FF3D00 #FF3D00;
+    border-color: transparent transparent #228A30 #228A30;
     width: 40px;
     height: 40px;
     border-radius: 50%;

@@ -7,11 +7,12 @@ import PageLoader from './components/PageLoader.vue';
 <template>
 
   <PageLoader />
-      <!--
+      
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>-->
+        <RouterLink to="/project">Project</RouterLink>
+      </nav>
   <RouterView />
 </template>
 
