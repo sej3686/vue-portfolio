@@ -55,7 +55,8 @@ height: 100vh;
         }
 
         #logo {
-            width: 12%;
+            width: 100%;
+            height: auto;
         }
 
         #logo:hover {
@@ -79,12 +80,12 @@ height: 100vh;
 
 
             .header-div-left-textbox {
-                border-left: 3px solid $darkGreenColor;
+                //border-left: 3px solid $darkGreenColor;
                 //background-color: yellow;
                 height: 100%;
                 margin-left: 5em;
                 padding-left: 10em;
-                padding-top: 4em;
+                padding-top: 8em;
                 width: 62%;
             
                 h3 {
@@ -141,18 +142,18 @@ height: 100vh;
 
             .header-div-right-imagebox {
                 //background-color: deeppink;
-                border-right: 3px solid $darkGreenColor;
+                //border-right: 3px solid $darkGreenColor;
                 height: 100%;
-                margin-right: 5em;
-                padding-top: 4em;
+                margin-right: 4em;
+                padding-top: 1em;
 
 
                 .header-div-right-img {
                     background-image: url(https://sej.one/wp-content/uploads/2021/09/127058711_780069189248378_628254043634158309_n-768x1024.jpg);
                     background-position: center;
                     box-shadow: 0px 0px 27px 0px rgba(255,255,255,0.71);
-                    height: 500px;
-                    width: 500px;
+                    height: 600px;
+                    width: 600px;
                     border-radius: 100%;
                     //margin-top: 15px;
                 }
