@@ -26,10 +26,10 @@
 
 .load-wrapper {
   animation: moveWrapper 0.01s forwards;
-  animation-duration: 3s;
+  animation-duration: 2s;
   background-color: #333333;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   z-index: 10;
   transition: 1s ease;
@@ -93,6 +93,7 @@
       transform: rotate(-360deg);
     }
   }
+
   @keyframes moveWrapper {
     0% {
       transform: translateY(0%);
@@ -102,9 +103,9 @@
     80% {
       transform: translateY(0%);
     }
+
     100% {
       transform: translateY(-100%);
-      
     }
   }
 }
