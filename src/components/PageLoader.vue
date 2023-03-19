@@ -1,6 +1,6 @@
 <template>
   <div class="load-wrapper">
-  <span class="loader" v-if="!isloaded"></span>
+  <span class="loader"></span>-
 </div>
 </template>
 

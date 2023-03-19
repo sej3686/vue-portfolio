@@ -1,0 +1,29 @@
+$darkGreenColor: #228A30;
+
+footer {
+    background-color: $darkGreenColor;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+
+    p:nth-child(1) {
+        color: #FFFFFF;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 8%;
+        margin-top: 1.2em;
+    }
+
+    img {
+        margin-left: 30%;
+        width: 11%;
+    }
+
+    p:nth-child(3) {
+        color: #FFFFFF;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 12%;
+        margin-top: 1.2em;
+    }
+}

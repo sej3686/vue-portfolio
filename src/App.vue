@@ -6,15 +6,25 @@ import PageLoader from './components/PageLoader.vue';
 
 <template>
 
-  <PageLoader />
+
       
       <!--<nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/project">Project</RouterLink>
       </nav>-->
+  
+  <PageLoader />
+  <!--<ImageSwitch />-->
   <RouterView />
+
+  
+
 </template>
+
+<script>
+
+</script>
 
 <style scoped>
 

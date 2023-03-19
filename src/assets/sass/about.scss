@@ -13,7 +13,7 @@ $darkGreenColor: #228A30;
     }
 
     .about-grid-wrapper {
-        background-color: #2196F3;
+        //background-color: #2196F3;
         //column-gap: 40px;
         display: grid;
         grid-template-columns: 35em auto;
@@ -24,10 +24,39 @@ $darkGreenColor: #228A30;
         width: 95vw;
 
         .about-grid-item {
-            background-color: rgba(255, 255, 255, 0.8);
-            border: 1px solid rgba(0, 0, 0, 0.8);
+            //background-color: rgba(255, 255, 255, 0.8);
+            //border: 1px solid rgba(0, 0, 0, 0.8);
             font-size: 30px;
             position: relative;
+
+            .about-textbox {
+                //background-color: red;
+                margin-left: 2em;
+                width: 90%;
+
+                h3 {
+                    color: #FFFFFF;
+                    margin-top: 1.5em;
+                }
+
+                p {
+                    color: #FFFFFF;
+                    margin-top: 1em;
+                }
+            }
+
+
+
+            .about-div-img {
+                margin-left: 1em;
+                margin-top: 3.5em;
+
+                img {
+                border-radius: 100%;
+                cursor: pointer;
+                width: 500px;
+                }
+            }
         }
     }
 }

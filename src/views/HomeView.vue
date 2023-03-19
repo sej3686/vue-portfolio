@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 
 <template>
@@ -90,24 +89,120 @@
 
   <section id="about">
 
-    <h2>About Me</h2>
+<h2>About Me</h2>
 
-    <main class="about-grid-wrapper">
-      <div class="about-grid-item"></div>
-      <div class="about-grid-item"></div>
-    </main>
+<main class="about-grid-wrapper">
+  <div class="about-grid-item">
+    <div class="about-div-img" id="app">
+      <img src="../assets/img/profil1.jpg" alt="">
+    </div>
+  </div>
 
-  </section><!-- About -->
+  <div class="about-grid-item">
+    <div class="about-textbox">
+    <h3>Resumé</h3>
+    <p>I'm 23 years old
+      and am currently a student at UCL (University College Lillebælt)
+      where I study the Web-developer line
+      The thing that I like about Web-devloping,
+      is that not only do you learn about essential editing programs
+      like the Adobe packs, but also coding and various analyses methods
+      that are currently being used in the professional environment</p>
+
+      <p>My past working experiences have made me more aware
+      of how the working environment, and how to tackle certain things
+      like keeping focus etc. </p>
+  </div>
+  </div>
+</main>
+
+</section><!-- About -->
 
   <section id="contact">
-    
+
+
+    <main class="contact-container">
+      <h3>Send me an Email</h3>
+      <form action="" class="form-box">
+
+        <div class="row">
+          <div class="row-first">
+          <label for="">Name *</label>
+          <input type="text" placeholder="Your name">
+        </div>
+
+        <div class="row-first">
+          <label for="">Email *</label>
+          <input type="text" placeholder="Your email">
+        </div>
+
+        </div><!-- row -->
+
+        <div class="row">
+          <div class="row-rest">
+          <label for="">Subject</label>
+          <input type="text" placeholder="Your subject">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="row-rest">
+          <label for="message">Message *</label>
+          <textarea name="message" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
+          </div>
+        </div>
+
+        <div class="row justify-center">
+          <div class="row-last">
+          <input type="submit">
+        </div>
+        </div>
+
+      </form>
+    </main>
+
+
+
+
+
+    <!--
     <h2>Contact</h2>
 
+    <main class="contact-grid-wrapper">
+      <div class="contact-grid-item">
+        <div class="contact-grid-item-left">
+          <h3>Want to send me an E-mail? <br>Then please fill up the form</h3>
+        </div>
+      </div>
+      <div class="contact-grid-item">
+        <div class="contact-grid-item-right">
+          <form action="#">
+            <input type="email" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Write Message Here">
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+    </main>--><!-- keyword-grid-wrapper -->
+
   </section><!-- About -->
+
+  <footer>
+    <p>©LOLOLOL</p>
+
+    <img src="../assets/img/logo-new-white.png" alt="logo">
+
+    <p>Made personally by Stefan E. Jespersen</p>
+
+</footer>
+
+
 
 </template>
 
 <script>
+
 /*
 const comp = ref(null)
 function scrollTo() {
