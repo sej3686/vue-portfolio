@@ -7,7 +7,7 @@
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
       <ul>
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
-        <li>Skills &dtrif;</li>
+        <li>Skill &dtrif;</li>
         <a href="#projects"><li class="hover-underline-animation">Projects</li></a>
         <a href="#about"><li class="hover-underline-animation">About</li></a>
         <a href="#contact"><li class="hover-underline-animation">Contact</li></a>
