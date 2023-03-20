@@ -1,0 +1,21 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ftp.sej.one
+        username: sej.one
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./dist/
+        port: 21
