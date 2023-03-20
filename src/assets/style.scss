@@ -74,28 +74,81 @@ height: 100vh;
         display: flex;
         padding: 25px;
 
-        ul {
+        .main-menu {
             list-style-type: none;
             display: flex;
             padding: 25px;
-            margin-left: 20%;
+            //margin-left: 20%;
             align-items: baseline;
-
-            li {
-                color: #FFFFFF;
-                font-size: 20px;
-                font-family: $textFont;
-                margin-left: 8em;
-                position: relative;
-
-                a {
-                    width: 0;
-                }
-            }
 
             li:hover {
                 cursor: pointer;
             }
+        }
+
+        .main-menu li {
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: $textFont;
+            margin-left: 10em;
+            position: relative;
+        }
+
+        .main-menu li a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: $textFont;
+            width: 0;
+        }
+
+        .main-menu li a:hover {
+            color: #ccc;
+        }
+
+        .drop-down {
+            background: #FFFFFF;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            display: none;
+            left: 0;
+            list-style-type: none;
+            opacity: 0;
+            padding: 8px;
+            position: absolute;
+            visibility: hidden;
+
+            .icon-row {
+                display: flex;
+                float: left;
+                margin-top: 8px;
+            }
+
+            .icon-row div {
+                //background-color: red;
+                clear: both;
+                float: left;
+                height: 50px;
+                width: 50px;
+                margin-left: 5px;
+                //margin-bottom: 20px;
+                border-style: none;
+            }
+        }
+
+        .main-menu li:hover > .drop-down,
+        .main-menu li .drop-down:hover {
+        cursor: default;
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        width: 275px;
+        text-align: left;
+        //padding-top: 10px;
+        box-shadow: 0px 3px 5px -1px #ccc;
         }
 
         #logo {

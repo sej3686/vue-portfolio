@@ -5,12 +5,33 @@
   <header>
     <nav>
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
-      <ul>
+      <ul class="main-menu">
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
-        <li>Skill &dtrif;</li>
-        <a href="#projects"><li class="hover-underline-animation">Projects</li></a>
-        <a href="#about"><li class="hover-underline-animation">About</li></a>
-        <a href="#contact"><li class="hover-underline-animation">Contact</li></a>
+        <li class="hover-underline-animation"><a href="#">Skills &dtrif;</a>
+          <ul class="drop-down">
+
+            <div class="icon-row">            
+            <div><img src="../assets/img/html.png" alt="html logo"></div>
+            <div><img src="../assets/img/css.png" alt="css logo"></div>
+            <div><img src="../assets/img/js.png" alt="javascript logo"></div>
+            <div><img src="../assets/img/vue.png" alt="vue logo"></div>
+            <div><img src="../assets/img/git.png" alt="git logo"></div>
+          </div>
+
+          <div class="icon-row">            
+            <div><img src="../assets/img/adobe.png" alt="adobe logo"></div>
+            <div><img src="../assets/img/sass.png" alt="sass logo"></div>
+            <div><img src="../assets/img/php.png" alt="php logo"></div>
+            <div><img src="../assets/img/sql.png" alt="sql logo"></div>
+            <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
+          </div>
+
+        </ul>
+        </li>
+
+        <li class="hover-underline-animation"><a href="#projects">Projects</a></li>
+        <li class="hover-underline-animation"><a href="#about">About</a></li>
+        <li class="hover-underline-animation"><a href="#contact">Contact</a></li>
        
       </ul>
     </nav>
@@ -39,7 +60,7 @@
         <!--<h2>SoMe</h2>-->
         <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
         <a href="#"><img src="./../components/icons/github.png" alt="Github"></a>
-        <a href="#"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
+        <a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
         <a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a>
       </div><!-- Header SoMe Box -->
 
@@ -73,17 +94,20 @@
 
     <main class="project-grid-wrapper">
 
-      <a href="" class="project-grid-item"><div class="project-grid-item-titlebox">
+      <a href="https://www.ucl.dk" class="project-grid-item">
+        <img src="../assets/img/ucl.jpg" alt="UCL logo">
+        <div class="project-grid-item-titlebox">
         <h4>UCL</h4>
       </div></a>
-      <a href="" class="project-grid-item"><div class="project-grid-item-titlebox">
+      <a href="https://www.rtidbyludo.com/" class="project-grid-item">
+        <img src="../assets/img/rtid.jpg" alt="RTID by LUDO logo">
+        <div class="project-grid-item-titlebox">
+        <h4>RTID by Ludo</h4>
+      </div></a>
+      <a href="" class="project-grid-item">
+        <img src="../assets/img/llr.jpg" alt="Lifeline Robotics logo">
+        <div class="project-grid-item-titlebox">
         <h4>Lifeline Robotics</h4>
-      </div></a>
-      <a href="" class="project-grid-item"><div class="project-grid-item-titlebox">
-        <h4>Rtidbyludo</h4>
-      </div></a>
-      <a href="" class="project-grid-item"><div class="project-grid-item-titlebox">
-        <h4>Vue</h4>
       </div></a>
 
     </main><!-- project-grid-wrapper -->
@@ -198,7 +222,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Web-Developer", "Multi-Media-Designer", "Graphics-designer", "Coder", "Worker"],
+      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Worker"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 2000,

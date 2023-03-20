@@ -16,7 +16,7 @@ $darkColor: #212222;
         //background-color: #2196F3;
         column-gap: 40px;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
         height: 40%;
         margin: 0 auto;
         margin-top: 12em;
@@ -26,9 +26,15 @@ $darkColor: #212222;
         .project-grid-item {
             background-color: rgba(255, 255, 255, 0.8);
             border: 1px solid rgba(0, 0, 0, 0.8);
-            border-radius: 10px;
+            //border-radius: 10px;
             font-size: 30px;
             position: relative;
+            width: 400px;
+            height: 400px;
+
+            .project-grid-item img {
+                width: 100%;
+            }
 
             .project-grid-item-titlebox {
                 background-color: #212222;
@@ -47,7 +53,7 @@ $darkColor: #212222;
         }
 
         .project-grid-item:hover {
-            background-color: red;
+            //background-color: red;
 
             .project-grid-item-titlebox {
                 display: block;
