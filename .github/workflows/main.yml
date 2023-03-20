@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: sej.one
+        server: ftp://sej.one
         username: sej.one
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
