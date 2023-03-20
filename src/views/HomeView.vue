@@ -7,9 +7,11 @@
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
       <ul>
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
+        <li>Skills &dtrif;</li>
         <a href="#projects"><li class="hover-underline-animation">Projects</li></a>
         <a href="#about"><li class="hover-underline-animation">About</li></a>
         <a href="#contact"><li class="hover-underline-animation">Contact</li></a>
+       
       </ul>
     </nav>
 
@@ -120,10 +122,9 @@
 
   <section id="contact">
 
-
     <main class="contact-container">
       <h3>Send me an Email</h3>
-      <form action="" class="form-box">
+      <form action="https://formspree.io/f/mnqybnwq" method="post" class="form-box">
 
         <div class="row">
           <div class="row-first">
@@ -133,7 +134,7 @@
 
         <div class="row-first">
           <label for="">Email *</label>
-          <input type="text" placeholder="Your email">
+          <input type="email" placeholder="Your email">
         </div>
 
         </div><!-- row -->
@@ -165,26 +166,8 @@
 
 
 
-    <!--
-    <h2>Contact</h2>
 
-    <main class="contact-grid-wrapper">
-      <div class="contact-grid-item">
-        <div class="contact-grid-item-left">
-          <h3>Want to send me an E-mail? <br>Then please fill up the form</h3>
-        </div>
-      </div>
-      <div class="contact-grid-item">
-        <div class="contact-grid-item-right">
-          <form action="#">
-            <input type="email" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <input type="text" placeholder="Write Message Here">
-            <input type="submit">
-          </form>
-        </div>
-      </div>
-    </main>--><!-- keyword-grid-wrapper -->
+    
 
   </section><!-- About -->
 
