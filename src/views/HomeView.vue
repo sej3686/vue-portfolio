@@ -5,11 +5,10 @@
   <header>
     <nav>
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
-      <ul class="main-menu">
+      <ul>
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
         <li class="hover-underline-animation"><a href="#">Skills &dtrif;</a>
           <ul class="drop-down">
-
             <div class="icon-row">            
             <div><img src="../assets/img/html.png" alt="html logo"></div>
             <div><img src="../assets/img/css.png" alt="css logo"></div>
@@ -26,9 +25,7 @@
             <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
           </div>
 
-        </ul>
-        </li>
-
+        </ul></li>
         <li class="hover-underline-animation"><a href="#projects">Projects</a></li>
         <li class="hover-underline-animation"><a href="#about">About</a></li>
         <li class="hover-underline-animation"><a href="#contact">Contact</a></li>
@@ -51,7 +48,7 @@
 
     <div class="header-div-right">
       <div class="header-div-right-imagebox">
-      <img class="header-div-right-img" src="../assets/img/profil2.jpg">
+      <img class="header-div-right-img" src="../assets/img/profil2.jpg" alt="Stefan">
     </div>
     </div><!-- Header Right Box -->
   </section>
@@ -71,17 +68,17 @@
 
     <main class="keyword-grid-wrapper">
       <div class="keyword-grid-item">
-        <img src="../assets/img/code.png">
+        <img src="../assets/img/code.png" alt="code icon">
         <h3>Coder</h3>
         <p>What I do when I'm not busy doing other things, is coding for fun.</p>
       </div>
       <div class="keyword-grid-item">
-        <img src="../assets/img/gallery.png">
+        <img src="../assets/img/gallery.png" alt="gallery icon">
         <h3>Designer</h3>
         <p>Because of my earlier decree. I have experiance in varoious Adobe programms.</p>
       </div>
       <div class="keyword-grid-item">
-        <img src="../assets/img/handshake.png">
+        <img src="../assets/img/handshake.png" alt="handshake icon">
         <h3>Friendly</h3>
         <p>All of my former work places have appreciated how friendly and accommodating I am.</p>
       </div>
@@ -120,7 +117,7 @@
 <main class="about-grid-wrapper">
   <div class="about-grid-item">
     <div class="about-div-img" id="app">
-      <img src="../assets/img/profil1.jpg" alt="">
+      <img src="../assets/img/profil1.jpg" alt="Myself">
     </div>
   </div>
 
