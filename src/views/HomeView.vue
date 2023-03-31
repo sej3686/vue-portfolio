@@ -117,7 +117,7 @@
 <main class="about-grid-wrapper">
   <div class="about-grid-item">
     <div class="about-div-img" id="app">
-      <img src="../assets/img/profil1.jpg" alt="Myself">
+      <img src="@/assets/img/profil1.jpg" alt="Stefan Emil Jespersen" id="imgClickAndChange" onclick="changeImage()">
     </div>
   </div>
 
@@ -206,6 +206,9 @@
 </template>
 
 <script>
+import { reactive } from 'vue';
+import image1 from '@/assets/img/profil1.jpg';
+import image2 from '@/assets/img/profil2.jpg';
 
 /*
 const comp = ref(null)
@@ -214,6 +217,7 @@ function scrollTo() {
 }*/
 
 export default {
+  
   name: "typeWiriter",
   data: () => {
     return {
@@ -227,10 +231,12 @@ export default {
       charIndex: 0,
     };
   },
+
   props: {},
   created() {
     setTimeout(this.typeText, this.newTextDelay + 200);
   },
+
   methods: {
     typeText() {
       if (this.charIndex < this.displayTextArray[this.displayTextArrayIndex].length) {
@@ -263,5 +269,20 @@ export default {
       }
     },
   },
+  
+  setup() {
+    const state = reactive({
+      imageUrl: image1
+    });
+
+    function changeImage() {
+      state.imageUrl = state.imageUrl === image1 ? image2 : image1;
+    }
+    return {
+      imageUrl: state.imageUrl,
+      changeImage
+    }
+
+  }
 };
 </script>

@@ -4,8 +4,9 @@ import PageLoader from './components/PageLoader.vue';
 
 </script>
 
-<template>
 
+<template>
+<ImageChanger/>
 
       
       <!--<nav>
@@ -21,10 +22,6 @@ import PageLoader from './components/PageLoader.vue';
   
 
 </template>
-
-<script>
-
-</script>
 
 <style scoped>
 
