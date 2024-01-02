@@ -12,7 +12,7 @@ jobs:
         npm install
         npm run build
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         server: linux369.unoeuro.com
         username: sej.one
