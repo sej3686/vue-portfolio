@@ -106,6 +106,11 @@
         <div class="project-grid-item-titlebox">
         <h4>Internship at Lifeline Robotics</h4>
       </div></a>
+      <a href="https://www.bachelor.sej.one" class="project-grid-item">
+        <img src="../assets/img/webdock.png" alt="Webdock logo">
+        <div class="project-grid-item-titlebox">
+        <h4>Bachelor Project at Webdock</h4>
+      </div></a>
 
     </main><!-- project-grid-wrapper -->
   </section><!-- Projects -->

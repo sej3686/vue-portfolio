@@ -2,24 +2,25 @@ $darkColor: #212222;
 
 #projects {
     background-color: $darkColor;
-    height: 100vh;
+    height: 84vh;
     width: 100%;
 
     h2 {
         color: #FFFFFF;
-        font-size: 45px;
+        font-size: 35px;
         padding-left: 2em;
         padding-top: 1em;
     }
 
     .project-grid-wrapper {
-        //background-color: #2196F3;
+        // background-color: #2196F3;
         column-gap: 40px;
         display: grid;
+        grid-gap: 150px;
         grid-template-columns: auto auto auto;
-        height: 40%;
-        margin: 0 auto;
-        margin-top: 12em;
+        height: 60%;
+        justify-content: center;
+        margin-top: 1em;
         padding: 10px;
         width: 90vw;
 
@@ -29,8 +30,8 @@ $darkColor: #212222;
             //border-radius: 10px;
             font-size: 30px;
             position: relative;
-            width: 400px;
-            height: 400px;
+            width: 250px;
+            height: 250px;
 
             img {
                 width: 100%;
@@ -46,7 +47,7 @@ $darkColor: #212222;
 
                 h4 {
                     color: #FFFFFF;
-                    font-size: 22px;
+                    font-size: 18px;
                     margin-top: 10px;
                     text-align: center;
                 }

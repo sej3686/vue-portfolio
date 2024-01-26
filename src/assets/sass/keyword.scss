@@ -3,24 +3,24 @@ $darkGreenColor: #228A30;
 
 #keyword {
     background-color: $darkGreenColor;
-    height: 65vh;
+    height: 45vh;
     width: 100%;
 
     h2 {
         color: #FFFFFF;
-        font-size: 45px;
+        font-size: 35px;
         padding-left: 2em;
         padding-top: 1em;
     }
 
     .keyword-grid-wrapper {
-        //background-color: #2196F3;
+        // background-color: #2196F3;
         column-gap: 40px;
         display: grid;
         grid-template-columns: auto auto auto;
         height: 60%;
         margin: 0 auto;
-        margin-top: 4em;
+        margin-top: 1em;
         padding: 10px;
         width: 90vw;
 
@@ -28,21 +28,22 @@ $darkGreenColor: #228A30;
                 //background-color: rgba(255, 255, 255, 0.8);
                 //border: 1px solid rgba(0, 0, 0, 0.8);
                 padding: 10px;
-                font-size: 30px;
+                font-size: 22px;
 
                 img {
                     //border: 1px solid black;
-                    height: auto;
+                    height: 40%;
                     width: 30%;
                 }
 
                 h3 {
                     color: #FFFFFF;
+                    margin-top: 10px;
                 }
 
                 p {
                     color: #FFFFFF;
-                    margin-top: 10px;
+                    margin-top: 20px;
                 }
             }
     }
