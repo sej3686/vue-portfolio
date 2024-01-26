@@ -26,7 +26,7 @@
 
 .load-wrapper {
   animation: moveWrapper 0.01s forwards;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   background-color: #333333;
   height: 100vh;
   position: fixed;

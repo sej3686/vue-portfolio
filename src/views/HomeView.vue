@@ -56,7 +56,7 @@
     <div class="header-div-some">
         <!--<h2>SoMe</h2>-->
         <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
-        <a href="#"><img src="./../components/icons/github.png" alt="Github"></a>
+        <a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a>
         <a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
         <a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a>
       </div><!-- Header SoMe Box -->
@@ -188,13 +188,6 @@
       </form>
     </main>
 
-
-
-
-
-
-    
-
   </section><!-- About -->
 
   <footer>
@@ -228,7 +221,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Worker"],
+      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Hard worker"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 2000,
