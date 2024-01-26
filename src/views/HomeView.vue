@@ -99,7 +99,7 @@
       <a href="https://www.rtidbyludo.com/" class="project-grid-item">
         <img src="../assets/img/rtid.jpg" alt="RTID by LUDO logo">
         <div class="project-grid-item-titlebox">
-        <h4>Made wordpress for RTID by Ludo</h4>
+        <h4>Wordpress for RTID by Ludo</h4>
       </div></a>
       <a href="https://www.lifeline.sej.one" class="project-grid-item">
         <img src="../assets/img/llr.jpg" alt="Lifeline Robotics logo">
