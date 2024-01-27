@@ -1,7 +1,9 @@
 $darkGreenColor: #228A30;
+$darkColor: #212222;
 
 footer {
-    background-color: $darkGreenColor;
+    background-color: $darkColor;
+    border-top: 3px solid #FFFFFF;
     display: flex;
     height: 8vh;
     width: 100%;

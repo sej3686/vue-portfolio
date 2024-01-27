@@ -5,7 +5,7 @@
   <header>
     <nav>
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
-      <ul>
+      <ul class="main-menu">
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
         <li class="hover-underline-animation"><a href="#">Skills &dtrif;</a>
           <ul class="drop-down">
@@ -25,11 +25,18 @@
             <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
           </div>
 
-        </ul></li>
+        </ul></li><!-- Drop Down -->
         <li class="hover-underline-animation"><a href="#projects">Projects</a></li>
         <li class="hover-underline-animation"><a href="#about">About</a></li>
         <li class="hover-underline-animation"><a href="#contact">Contact</a></li>
        
+      </ul><!-- Main Menu -->
+
+      <ul class="some-menu">
+        <li><a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a></li>
+        <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li>
+        <li><a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a></li>
       </ul>
     </nav>
 
@@ -53,13 +60,14 @@
     </div><!-- Header Right Box -->
   </section>
 
-    <div class="header-div-some">
+    <!-- <div class="header-div-some"> -->
         <!--<h2>SoMe</h2>-->
-        <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
+        <!-- <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
         <a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a>
         <a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
         <a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a>
-      </div><!-- Header SoMe Box -->
+      </div> -->
+      <!-- Header SoMe Box -->
 
   </header>
 
@@ -122,20 +130,21 @@
 <main class="about-grid-wrapper">
   <div class="about-grid-item">
     <div class="about-div-img" id="app">
-      <img src="@/assets/img/profil1.jpg" alt="Stefan Emil Jespersen" id="imgClickAndChange" onclick="changeImage()">
+      <!-- <img src="@/assets/img/profil1.jpg" alt="Stefan Emil Jespersen"> -->
+      <img :src="currentImage" @click="changeImage" alt="Stefan Emil Jespersen">
     </div>
   </div>
 
   <div class="about-grid-item">
     <div class="about-textbox">
     <h3>Resumé</h3>
-    <p>I'm 23 years old
-      and am currently a student at UCL (University College Lillebælt)
-      where I study the Web-developer line
+    <p>I'm 24 years old
+      and I just recently graduated at UCL (University College Lillebælt)
+      where I studied the Web-developer line
       The thing that I like about Web-devloping,
       is that not only do you learn about essential editing programs
       like the Adobe packs, but also coding and various analyses methods
-      that are currently being used in the professional environment</p>
+      that are currently being used in the professional environment.</p>
 
       <p>My past working experiences have made me more aware
       of how the working environment, and how to tackle certain things
@@ -199,14 +208,17 @@
 
 </footer>
 
-
-
 </template>
 
 <script>
 import { reactive } from 'vue';
 import image1 from '@/assets/img/profil1.jpg';
 import image2 from '@/assets/img/profil2.jpg';
+import image3 from '@/assets/img/profil-fun1.jpg';
+import image4 from '@/assets/img/profil-fun2.jpg';
+import image5 from '@/assets/img/profil-fun3.jpg';
+import image6 from '@/assets/img/profil-fun4.jpg';
+import image7 from '@/assets/img/profil-fun5.jpg';
 
 /*
 const comp = ref(null)
@@ -221,13 +233,30 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Hard worker"],
+      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Hard Worker"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 2000,
       displayTextArrayIndex: 0,
       charIndex: 0,
+
+      images: [
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,
+        image6,
+        image7
+      ],
+      currentImageIndex: 0
     };
+  },
+
+  computed: {
+    currentImage() {
+      return this.images[this.currentImageIndex];
+    }
   },
 
   props: {},
@@ -249,6 +278,7 @@ export default {
         setTimeout(this.eraseText, this.newTextDelay);
       }
     },
+
     eraseText() {
       if (this.charIndex > 0) {
         if (!this.typeStatus) this.typeStatus = true;
@@ -266,21 +296,10 @@ export default {
         setTimeout(this.typeText, this.typingSpeed + 1000);
       }
     },
+
+    changeImage() {
+      this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length
+    }
   },
-  
-  setup() {
-    const state = reactive({
-      imageUrl: image1
-    });
-
-    function changeImage() {
-      state.imageUrl = state.imageUrl === image1 ? image2 : image1;
-    }
-    return {
-      imageUrl: state.imageUrl,
-      changeImage
-    }
-
-  }
 };
 </script>
