@@ -6,7 +6,6 @@ import PageLoader from './components/PageLoader.vue';
 
 
 <template>
-<ImageChanger/>
 
       
       <!--<nav>

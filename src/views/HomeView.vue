@@ -7,7 +7,7 @@
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
       <ul class="main-menu">
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
-        <li class="hover-underline-animation"><a href="#">Skills &dtrif;</a>
+        <li class="hover-underline-animation"><a href="#">Skills <span>&dtrif;</span></a>
           <ul class="drop-down">
             <div class="icon-row">            
             <div><img src="../assets/img/html.png" alt="html logo"></div>

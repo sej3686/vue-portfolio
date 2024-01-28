@@ -1,8 +1,11 @@
 $chinarose: #ae4b60;
 $darkGreenColor: #228A30;
+$darkBlue: #253b84;
 
 #keyword {
-    background-color: $darkGreenColor;
+    background-color: $darkBlue;
+    // border-bottom: 2px solid $chinarose;
+    // border-top: 2px solid $chinarose;
     height: 45vh;
     width: 100%;
 
