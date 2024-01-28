@@ -202,6 +202,8 @@ $darkGreenColor: #228A30;
 //Mobile devices
 @media only screen and (max-width: 425px) {
     header {
+        height: 115vh !important;
+
         nav {
             // background-color: green;
             border: 0 !important;
@@ -263,7 +265,7 @@ $darkGreenColor: #228A30;
             .header-div-right {
                 // background-color: aqua;
                 height: 34vh !important;
-                margin-top: 12em !important;
+                margin-top: 15em !important;
                 width: 100% !important;
 
                 .header-div-right-imagebox {
@@ -280,7 +282,7 @@ $darkGreenColor: #228A30;
     } // Header
 
     #keyword {
-        height: 85vh;
+        height: 95vh;
 
         h2 {
             padding-left: 0.8em;
@@ -295,7 +297,7 @@ $darkGreenColor: #228A30;
 
     #projects {
         // background-color: yellow;
-        height: 125vh !important;
+        height: 140vh !important;
 
         h2 {
             padding-left: 0.8em;
@@ -333,7 +335,7 @@ $darkGreenColor: #228A30;
     }
 
     #about {
-        height: 130vh;
+        height: 150vh;
 
         h2 {
             padding-left: 0.8em;
@@ -372,11 +374,12 @@ $darkGreenColor: #228A30;
     }
 
     #contact {
-        height: 80vh;
+        height: 100vh;
+        padding-top: 8em;
         
         .contact-container {
             // display: none;
-            height: 36em;
+            height: 40em;
             width: 80%;
 
             .form-box {
@@ -388,25 +391,25 @@ $darkGreenColor: #228A30;
                     .row-first {
 
                         input {
-                            width: 320px;
+                            width: 300px;
                         }
                     }
 
                     .row-rest {
 
                         input {
-                            width: 320px;
+                            width: 300px;
                         }
 
                         textarea {
-                            width: 320px;
+                            width: 300px;
                         }
                     }
 
                     .row-last {
 
                         input {
-                            width: 320px;
+                            width: 300px;
                         }
                     }
                 }
@@ -417,7 +420,7 @@ $darkGreenColor: #228A30;
     footer {
         background-color: green;
         flex-direction: column;
-        height: 20vh;
+        height: 22vh;
 
         p:nth-child(1) {
             margin: 0;
