@@ -238,6 +238,17 @@ $darkGreenColor: #228A30;
                 }
             }
 
+            .drop-down {
+                display: none;
+            }
+
+            ul li:hover > .drop-down,
+            ul li .drop-down:hover {
+                display: none;
+                opacity: 0;
+                visibility: hidden;
+            }
+
             #logo {
                 width: 50%;
                 margin-left: 7em !important;
@@ -282,7 +293,7 @@ $darkGreenColor: #228A30;
     } // Header
 
     #keyword {
-        height: 95vh;
+        height: 100vh;
 
         h2 {
             padding-left: 0.8em;
@@ -335,7 +346,7 @@ $darkGreenColor: #228A30;
     }
 
     #about {
-        height: 150vh;
+        height: 155vh;
 
         h2 {
             padding-left: 0.8em;
