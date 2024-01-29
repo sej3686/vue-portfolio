@@ -83,7 +83,7 @@
       <div class="keyword-grid-item">
         <img src="../assets/img/gallery.png" alt="gallery icon">
         <h3>Designer</h3>
-        <p>Because of my earlier decree. I have experiance in varoious Adobe programms.</p>
+        <p>Because of my earlier decree. I have experiance in various Adobe programs.</p>
       </div>
       <div class="keyword-grid-item">
         <img src="../assets/img/handshake.png" alt="handshake icon">
@@ -99,7 +99,7 @@
 
     <main class="project-grid-wrapper">
 
-      <a href="https://www.ucl.dk" class="project-grid-item">
+      <a href="https://github.com/FrederikLandtved/UCLStudievejleder" class="project-grid-item">
         <img src="../assets/img/ucl.jpg" alt="UCL logo">
         <div class="project-grid-item-titlebox">
         <h4>UCL studievejledning</h4>
@@ -129,7 +129,7 @@
 
 <main class="about-grid-wrapper">
   <div class="about-grid-item">
-    <div class="about-div-img" id="app">
+    <div class="about-div-img">
       <!-- <img src="@/assets/img/profil1.jpg" alt="Stefan Emil Jespersen"> -->
       <img :src="currentImage" @click="changeImage" alt="Stefan Emil Jespersen">
     </div>
@@ -140,7 +140,7 @@
     <h3>Resumé</h3>
     <p>I'm 24 years old
       and I just recently graduated at UCL (University College Lillebælt)
-      where I studied the Web-developer line
+      where I studied the Web-developer line.<br>
       The thing that I like about Web-devloping,
       is that not only do you learn about essential editing programs
       like the Adobe packs, but also coding and various analyses methods
@@ -159,25 +159,25 @@
 
     <main class="contact-container">
       <h3>Send me an Email</h3>
-      <form action="https://formspree.io/f/mnqybnwq" method="post" class="form-box">
+      <form action="https://formspree.io/f/mnqybnwq" method="post" class="form-box" id="form-box">
 
         <div class="row">
           <div class="row-first">
-          <label for="">Name *</label>
-          <input type="text" placeholder="Your name">
+          <label for="fname">Name *</label>
+          <input autocomplete="name" id="fname" name="name" type="text" placeholder="Your name">
         </div>
 
         <div class="row-first">
-          <label for="">Email *</label>
-          <input type="email" placeholder="Your email">
+          <label for="femail">Email *</label>
+          <input autocomplete="femail" id="femail" name="email" type="email" placeholder="Your email">
         </div>
 
         </div><!-- row -->
 
         <div class="row">
           <div class="row-rest">
-          <label for="">Subject</label>
-          <input type="text" placeholder="Your subject">
+          <label for="fptext">Subject</label>
+          <input id="fptext"  name="plaintext" type="text" placeholder="Your subject">
           </div>
         </div>
 
@@ -190,7 +190,7 @@
 
         <div class="row justify-center">
           <div class="row-last">
-          <input type="submit">
+          <input name="submit" type="submit">
         </div>
         </div>
 

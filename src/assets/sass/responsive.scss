@@ -35,20 +35,81 @@ $darkGreenColor: #228A30;
 
 @media only screen and (max-width: 1510px) {
     header {
-            nav {
+        nav {
         
-                ul {
-                    margin-left: 10% !important;
-                }
+            .main-menu {
+                margin-left: 5% !important;
 
-                ul li {
-                    margin-left: 8em !important;
-                }
+                li {
+                    margin-left: 2em !important;
 
-                ul li a {
-                    font-size: 20px;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .some-menu {
+                margin-top: 5px;
             }
         }
+
+        .header-box-wrapper {
+
+            .header-div-right {
+
+                .header-div-right-imagebox {
+
+                    .header-div-right-img {
+                        margin-left: 10em !important;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    #projects {
+
+        .project-grid-wrapper {
+
+
+            .project-grid-item {
+                height: 225px;
+                width: 225px;
+            }
+        }
+    }
+
+    #about {
+      
+        .about-grid-wrapper {
+            margin-top: 0;
+
+            .about-grid-item {
+                padding: 0 !important;
+
+                .about-textbox {
+
+                    h3 {
+                        font-size: 26px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        margin: 0;
+                    }
+                }
+
+                .about-div-img {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    #contact {
+        height: 70vh;
     }
 }
 
@@ -113,8 +174,47 @@ $darkGreenColor: #228A30;
 
 @media only screen and (max-width: 1215px) {
     header {
+
+        nav {
+
+            .main-menu {
+                padding: 0 !important;
+                padding-top: 25px !important;
+                margin: 0 !important;
+
+                li {
+                    width: 80px;
+
+                    a {
+
+                    }
+                }
+            }
+
+            #logo {
+                margin-left: 1em !important;
+            }
+
+            .some-menu {
+                margin-left: 1em !important;
+
+                li {
+                    margin: 0 !important;
+                    
+                    a {
+
+                        img {
+                            width: 50% !important;
+                        }
+                    }
+                }
+            }
+        }
+
         .header-box-wrapper {
+
             .header-div-left {
+
                 .header-div-left-textbox {
                     margin-left: 2em !important;
                     padding-left: 5em !important;
@@ -141,15 +241,20 @@ $darkGreenColor: #228A30;
                     }
                 }
             }
+
             .header-div-right {
+
                 .header-div-right-imagebox {
+                    
                     .header-div-right-img {
+                        margin-left: 0 !important;
                         width: 80%;
                     }
                 }
             }
         }
     }
+
     #projects {
         height: 100vh;
         width: 100%;
@@ -157,8 +262,8 @@ $darkGreenColor: #228A30;
         .project-grid-wrapper {
     
             .project-grid-item {
-                width: 300px;
-                height: 300px;
+                width: 250px;
+                height: 250px;
 
                 img {
                     height: 300px;
@@ -175,16 +280,35 @@ $darkGreenColor: #228A30;
         }
     }
 
-    .about-textbox {
-        p {
-            font-size: 20px;
+    #about {
+        height: 70vh;
+
+        .about-grid-wrapper {
+
+            .about-grid-item {
+                padding: 0 !important;
+                width: 100%;
+
+                .about-textbox {
+                    margin: 0;
+                    width: 100%;
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+
+                .about-div-img {
+                    img {
+                        width: 65% !important;
+                    }
+                }
+            }
         }
     }
 
-    .about-div-img {
-        img {
-            width: 88% !important;
-        }
+    #contact {
+        height: 70vh;
     }
 
     footer {
@@ -196,13 +320,191 @@ $darkGreenColor: #228A30;
 
 //iPads, Tablets
 @media only screen and (max-width: 768px) {
+    header {
+        height: 110vh !important;
+
+        nav {
+            flex-direction: column;
+            height: 15em !important;
+
+            .main-menu {
+                justify-content: center;
+                margin-top: 0 !important;
+                
+
+                li {
+                    
+
+                    a {
+                        width: 20% !important;
+                    }
+                }
+            }
+
+            .some-menu {
+                margin-left: 1em !important;
+                margin-top: 1em;
+                width: 83% !important;
+
+                li {
+                    margin: 0 !important;
+
+                    a {
+
+                        img {
+
+                        }
+                    }
+                }
+            }
+
+            #logo {
+                margin: 0 auto !important;
+                width: 40%;
+            }
+        }
+
+        .header-box-wrapper {
+
+            .header-div-left {
+
+                .header-div-left-textbox {
+                    padding-left: 0 !important;
+                    padding-top: 5em !important;
+                    width: 80% !important;
+                }
+            }
+
+            .header-div-right {
+
+
+                .header-div-right-imagebox {
+
+                    .header-div-right-img {
+                        height: 70% !important;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #keyword {
+
+        .keyword-grid-wrapper {
+
+
+            .keyword-grid-item {
+
+                img {
+                    height: 38%;
+                    width: 38%;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    #projects {
+        margin: 0 auto !important;
+
+        .project-grid-wrapper {
+            grid-gap: 30px;
+
+            .project-grid-item {
+                height: 200px;
+                width: 200px;
+
+                img {
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    #about {
+        height: 85vh;
+
+        .about-grid-wrapper {
+            grid-template-columns: 20em auto;
+
+            .about-grid-item {
+
+                .about-textbox {
+                    margin: 0 !important;
+                    width: 100% !important;
+                }
+
+                .about-div-img {
+
+                    img {
+                        margin-top: 3em;
+                        width: 90% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        height: 80vh;
+
+        .contact-container {
+            height: 550px;
+            width: 600px;
+
+            .form-box {
+
+                .row {
+
+                    .row-first {
+
+                        input {
+                            width: 275px;
+                        }
+                    }
+
+                    .row-rest {
+
+                        input {
+                            width: 575px;
+                        }
+
+                        textarea {
+                            width: 575px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    footer {
+
+
+       img {
+        margin-left: 10%;
+        width: 20%;
+       }
+
+       p:nth-child(3) {
+        font-size: 18px;
+       }
+    }
+
 //...
 }
 
 //Mobile devices
 @media only screen and (max-width: 425px) {
     header {
-        height: 115vh !important;
+        height: 130vh !important;
 
         nav {
             // background-color: green;
@@ -253,12 +555,18 @@ $darkGreenColor: #228A30;
                 width: 50%;
                 margin-left: 7em !important;
             }
+
+            .some-menu {
+                padding-left: 1em;
+                padding-top: 1em;
+                width: 90% !important;
+            }
         } // Nav
 
         .header-box-wrapper {
             // background-color: deeppink;
             flex-direction: column;
-            margin-top: 13em;
+            margin-top: 18em;
 
             .header-div-left {
                 margin-top: 0 !important;
@@ -293,7 +601,7 @@ $darkGreenColor: #228A30;
     } // Header
 
     #keyword {
-        height: 100vh;
+        height: 150vh;
 
         h2 {
             padding-left: 0.8em;
@@ -302,7 +610,9 @@ $darkGreenColor: #228A30;
         .keyword-grid-wrapper {
             grid-template-columns: auto;
 
-
+            img {
+                margin-top: 3em;
+            }
         }
     } // Keyword
 
@@ -359,15 +669,21 @@ $darkGreenColor: #228A30;
 
             .about-grid-item {
                 // background-color: red;
-                padding: 0;
+                width: 100%;
 
                 .about-div-img {
-                    margin: 0 auto;
                     margin-top: 0.5em;
-                    width: 80%;
+                    margin: 0 auto;
+                    width: 100%;
+
+                    img {
+                        margin-left: 2em;
+                        width: 70% !important;
+                    }
                 }
 
                 .about-textbox {
+                    width: 95% !important;
 
                     h3 {
                         margin-left: 0.8em;
@@ -429,7 +745,7 @@ $darkGreenColor: #228A30;
     }
 
     footer {
-        background-color: green;
+        // background-color: green;
         flex-direction: column;
         height: 22vh;
 
