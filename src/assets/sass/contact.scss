@@ -54,6 +54,7 @@ $lightGreenColor: #39B54A;
                     input {
                         border: 0;
                         border-bottom: 1px solid $lightGreenColor;
+                        font-size: 16px;
                         height: 45px;
                         margin-top: 10px;
                         width: 350px;
@@ -79,6 +80,8 @@ $lightGreenColor: #39B54A;
                     input {
                         border: 0;
                         border-bottom: 1px solid $lightGreenColor;
+                        color: #000000;
+                        font-size: 16px;
                         height: 45px;
                         margin-top: 10px;
                         width: 725px;
@@ -92,6 +95,8 @@ $lightGreenColor: #39B54A;
                     textarea {
                         border: 0;
                         border-bottom: 1px solid $lightGreenColor;
+                        color: #000000;
+                        font-size: 16px;
                         margin-top: 10px;
                         resize: none;
                         max-width: 725px;

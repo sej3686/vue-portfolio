@@ -62,7 +62,10 @@ $contactColor: #190E65;
 header {
 
 // background-color: $headerColor;
-background-color: $darkColor;
+// background-color: $darkColor;
+background-image: url("../assets/img/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 height: 100vh;
 
     nav {

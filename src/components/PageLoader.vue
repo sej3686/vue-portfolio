@@ -1,6 +1,10 @@
 <template>
   <div class="load-wrapper">
-  <span class="loader"></span>-
+  <!-- <span class="loader"></span>- -->
+  <div class="vertical-div">
+    <h1>One man's dream</h1>
+  </div>
+
 </div>
 </template>
 
@@ -26,7 +30,8 @@
 
 .load-wrapper {
   animation: moveWrapper 0.01s forwards;
-  animation-duration: 1.5s;
+  // animation-duration: 2s;
+  animation-duration: 2s;
   background-color: #333333;
   height: 100vh;
   position: fixed;
@@ -35,11 +40,30 @@
   transition: 1s ease;
   transform: translateY(-100%);
 
-  span {
-    display: table;
-    margin: 0 auto;
-    top: 45%;
+  .vertical-div {
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+    h1 {
+    animation: fadeIn 0.75s forwards;
+    color: #FFFFFF;
+    font-size: 50px;
+    // margin-top: 22%;
+    text-align: center;
   }
+  }
+
+
+
+  // span {
+  //   display: table;
+  //   margin: 0 auto;
+  //   top: 45%;
+  // }
 
   .loader {
     width: 48px;
@@ -76,6 +100,15 @@
     border-color: #FFF #FFF transparent transparent;
     animation: rotation 1.5s linear infinite;
   }
+
+  @keyframes fadeIn {
+    0% {
+      font-size: 0px;
+    }
+    100% {
+      font-size: 50px;
+    }
+  }
       
   @keyframes rotation {
     0% {
@@ -109,5 +142,12 @@
     }
   }
 }
+
+// Responsive 
+// @media only screen and (max-width: 1600px) {
+//   h1 {
+//     margin-top: 32%;
+//   }
+// }
 
 </style>
