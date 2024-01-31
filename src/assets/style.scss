@@ -59,13 +59,18 @@ $contactColor: #190E65;
     background: $darkGreenColor; 
   }
 
-header {
 
+body {
+    background-image: url("../assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
 // background-color: $headerColor;
 // background-color: $darkColor;
-background-image: url("../assets/img/background.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+
 height: 100vh;
 
     nav {
@@ -268,7 +273,7 @@ height: 100vh;
 
 
                 .header-div-right-img {
-                    animation: img-rotation 0.8s 2s forwards;
+                    animation: img-rotation 0.8s 1.8s forwards;
                     border-radius: 100%;
                     box-shadow: 0px 0px 27px 0px rgba(255,255,255,0.71);
                     width: 55%;
