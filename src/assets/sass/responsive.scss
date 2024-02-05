@@ -11,6 +11,8 @@ $darkGreenColor: #228A30;
             height: 6vh !important;
 
             .some-menu {
+                justify-content: none;
+                padding-left: 14em;
             
                 li {
                     padding-left: 3em !important;
@@ -58,8 +60,7 @@ $darkGreenColor: #228A30;
         .project-grid-wrapper {
           
             .project-grid-item {
-                height: 375px;
-                width: 375px;
+
             }
         }
     }

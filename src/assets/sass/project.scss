@@ -3,7 +3,10 @@ $orangeColor: #e08814;
 $darkBlue: #192b66;
 
 #projects {
-    background-color: $darkBlue;
+    // background-color: $darkBlue;
+    background-image: url('../assets/img/stacked-waves-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 84vh;
     width: 100%;
 

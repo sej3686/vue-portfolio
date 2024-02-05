@@ -131,8 +131,6 @@
 
 </section><!-- About -->
 
-
-
   <section id="keyword">
     <h2>Keywords</h2>
 
@@ -165,12 +163,12 @@
         <div class="row">
           <div class="row-first">
           <label for="fname">Name</label>
-          <input autocomplete="name" id="fname" name="name" type="text" placeholder="Your name">
+          <input autocomplete="name" id="fname" required name="name" type="text" placeholder="Your name">
         </div>
 
         <div class="row-first">
           <label for="femail">Email</label>
-          <input autocomplete="femail" id="femail" name="email" type="email" placeholder="Your email">
+          <input autocomplete="femail" required  id="femail" name="email" type="email" placeholder="Your email">
         </div>
 
         </div><!-- row -->
@@ -178,20 +176,20 @@
         <div class="row">
           <div class="row-rest">
           <label for="fptext">Subject</label>
-          <input id="fptext"  name="plaintext" type="text" placeholder="Your subject">
+          <input id="fptext" required name="plaintext" type="text" placeholder="Your subject">
           </div>
         </div>
 
         <div class="row">
           <div class="row-rest">
           <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
+          <textarea name="message" minlength="10" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
           </div>
         </div>
 
         <div class="row justify-center">
           <div class="row-last">
-          <input name="submit" type="submit" >
+          <input name="submit" value="Send" type="submit" >
         </div>
         </div>
 
