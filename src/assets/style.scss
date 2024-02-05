@@ -112,6 +112,38 @@ height: 100vh;
             }
         }
 
+        .main-menu-2 {
+            // background-color: #212222;
+            list-style-type: none;
+            display: none;
+            padding: 25px;
+            margin-left: 2%;
+            align-items: baseline;
+
+            li {
+                color: #FFFFFF;
+                font-family: $textFont;
+                margin-left: 6em;
+                position: relative;
+
+                a {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-family: $textFont;
+                    width: 0;
+                }
+
+                a:hover {
+                    color: #ccc;
+                }
+            }
+
+            li:hover {
+                cursor: pointer;
+            }
+        }
+
         .drop-down {
             background: #FFFFFF;
             border-bottom-left-radius: 10px;

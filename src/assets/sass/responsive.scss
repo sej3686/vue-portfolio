@@ -161,8 +161,7 @@ $darkGreenColor: #228A30;
 
 
             .project-grid-item {
-                height: 225px;
-                width: 225px;
+
             }
         }
     }
@@ -170,6 +169,7 @@ $darkGreenColor: #228A30;
     #about {
       
         .about-grid-wrapper {
+            grid-template-columns: 45em auto;
             margin-top: 0;
 
             .about-grid-item {
@@ -188,7 +188,8 @@ $darkGreenColor: #228A30;
                 }
 
                 .about-div-img {
-                    margin: 0;
+                    margin-left: 8em;
+                    // margin: 0;
                 }
             }
         }
@@ -220,14 +221,11 @@ $darkGreenColor: #228A30;
         width: 100%;
     
         .project-grid-wrapper {
+            width: 80%;
     
             .project-grid-item {
-                // width: 350px;
-                // height: 350px;
 
                 img {
-                    // height: 350px;
-                    // width: 350px;
                 }
             }
 
@@ -357,16 +355,14 @@ $darkGreenColor: #228A30;
     }
 
     #projects {
-        height: 100vh;
-        width: 100%;
     
         .project-grid-wrapper {
+            width: 90%;
     
             .project-grid-item {
                 // width: 100% !important;
 
                 img {
-                    width: 100%;
                 }
 
                 .project-grid-item-titlebox {
@@ -383,9 +379,9 @@ $darkGreenColor: #228A30;
         height: 70vh;
 
         .about-grid-wrapper {
+            grid-template-columns: 35em auto;
 
             .about-grid-item {
-                padding: 0 !important;
                 width: 100%;
 
                 .about-textbox {
@@ -398,8 +394,10 @@ $darkGreenColor: #228A30;
                 }
 
                 .about-div-img {
+                    margin-left: 4em;
+
                     img {
-                        width: 65% !important;
+                        width: 80%;
                     }
                 }
             }
@@ -510,7 +508,7 @@ $darkGreenColor: #228A30;
         .project-grid-wrapper {
         
             .project-grid-item {
-                width: 80% !important;
+                width: 120%;
             }
 
             .project-grid-item-titlebox {
@@ -555,6 +553,7 @@ $darkGreenColor: #228A30;
         height: 110vh !important;
 
         nav {
+            align-items: center;
             flex-direction: column;
             height: 15em !important;
 
@@ -573,9 +572,9 @@ $darkGreenColor: #228A30;
             }
 
             .some-menu {
-                margin-left: 1em !important;
+                // justify-content: center !important;
                 margin-top: 1em;
-                width: 83% !important;
+                // width: 83% !important;
 
                 li {
                     margin: 0 !important;
@@ -661,8 +660,10 @@ $darkGreenColor: #228A30;
 
         .project-grid-wrapper {
             grid-gap: 30px;
+            width: 90%;
 
             .project-grid-item {
+                width: 100%;
 
                 img {
                 }
@@ -745,6 +746,7 @@ $darkGreenColor: #228A30;
 //...
 }
 
+//Mobile devices
 @media only screen and (max-width: 675px) {
     header {
         height: 140vh !important;
@@ -757,7 +759,7 @@ $darkGreenColor: #228A30;
             width: 100%;
 
             .main-menu {
-                display: flex;
+                display: none !important;
                 flex-direction: column;
                 margin-left: 0 !important;
                 margin-top: 0.5em;
@@ -768,10 +770,41 @@ $darkGreenColor: #228A30;
                     border-bottom: 1px solid $darkGreenColor;
                     border-top: 1px solid $darkGreenColor;
                     margin-left: 0 !important;
-                    width: 95.2%;
                     padding: 10px;
+                    width: 95.2%;
 
                     a {
+                        background-color: red;
+                        width: 100%;
+
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .main-menu-2 {
+                display: flex !important;
+                flex-direction: column;
+                margin-left: 0 !important;
+                margin-top: 0.5em;
+                padding: 0 !important;
+                width: 100%;
+
+                a {
+                    border-bottom: 1px solid $darkGreenColor;
+                    border-top: 1px solid $darkGreenColor;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    margin-left: 0 !important;
+                    padding: 10px;
+                    text-decoration: none;
+                    width: 100%;
+
+                    li {
+                        // background-color: red;
+                        margin-left: 0;
                         width: 100%;
 
                         span {
@@ -829,102 +862,16 @@ $darkGreenColor: #228A30;
 
                 .header-div-right-imagebox {
                     height: 100% !important;
-                    padding-left: 4em;
+                    padding-left: 8em;
 
                     .header-div-right-img {
                         height: 110% !important;
-                        width: 90% !important;
+                        width: 70% !important;
                     }
                 }
             }
         }
     } // Header
-
-    #keyword {
-
-        .keyword-grid-wrapper {
-
-            .keyword-grid-item {
-
-                img {
-                    height: 30%;
-                    width: 48%;
-                }
-            }
-        }
-    }
-
-    #projects {
-
-        .project-grid-wrapper {
-        
-            .project-grid-item {
-                // width: 20% !important;
-            }
-        }
-    }
-
-    #about {
-        height: 80vh;
-
-        .about-grid-wrapper {
-            grid-template-columns: 15em auto;
-
-            .about-grid-item {
-
-                .about-textbox {
-                    margin: 0 !important;
-                    width: 100% !important;
-                }
-
-                .about-div-img {
-
-                    img {
-                        margin-top: 3em;
-                        width: 90% !important;
-                    }
-                }
-            }
-        }  
-    }
-
-    #contact {
-
-        .contact-container {
-            max-width: 500px;
-
-            .form-box {
-
-                .row {
-
-                    .row-first {
-
-                        input {
-                            width: 220px;
-                        }
-                    }
-
-                    .row-rest {
-                        
-                        input {
-                            width: 470px;
-                        }
-
-                        textarea {
-                            width: 470px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-//Mobile devices
-@media only screen and (max-width: 425px) {
-    header {
-        height: 150vh !important;
-    }
 
     #keyword {
         height: 150vh;
@@ -953,16 +900,18 @@ $darkGreenColor: #228A30;
         }
 
         .project-grid-wrapper {
-            
             grid-template-columns: auto;
             grid-gap: 50px;
-            justify-items: end;
+            justify-content: end;
+            margin: 0 auto;
+            padding-top: 4em;
 
             .project-grid-item {
+                width: 60%;
 
-                img {
-                    width: 70%;
-                }
+                // img {
+                //     width: 58%;
+                // }
 
                 .project-grid-item-titlebox {
 
@@ -991,16 +940,14 @@ $darkGreenColor: #228A30;
         .about-grid-wrapper {
             grid-template-columns: auto;
             padding: 0;
-            width: 100vw;
 
             .about-grid-item {
                 // background-color: red;
-                width: 100%;
 
                 .about-div-img {
                     margin-top: 0.5em;
                     margin: 0 auto;
-                    width: 100%;
+                    width: 90%;
 
                     img {
                         margin-left: 2em;
@@ -1025,6 +972,126 @@ $darkGreenColor: #228A30;
             }
         }
     }
+
+    #contact {
+
+        .contact-container {
+            max-width: 450px;
+
+            .form-box {
+
+                .row {
+
+                    .row-first {
+
+                        input {
+                            width: 200px;
+                        }
+                    }
+
+                    .row-rest {
+                        
+                        input {
+                            width: 425px;
+                        }
+
+                        textarea {
+                            width: 425px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Mobile devices
+@media only screen and (max-width: 485px) {
+    #contact {
+        height: 100vh;
+        padding-top: 8em;
+        
+        .contact-container {
+            // display: none;
+            height: 40em;
+            width: 80%;
+
+            .form-box {
+                display: flex;
+                flex-direction: column;
+
+                .row {
+
+                    flex-direction: column;
+
+                    .row-first {
+
+                        input {
+                            width: 340px;
+                        }
+                    }
+
+                    .row-rest {
+
+                        input {
+                            width: 340px;
+                        }
+
+                        textarea {
+                            width: 340px;
+                        }
+                    }
+
+                    .row-last {
+
+                        input {
+                            width: 340px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        height: 150vh !important;
+
+        nav {
+            .main-menu-2 {
+                display: flex !important;
+                flex-direction: column;
+                margin-left: 0 !important;
+                margin-top: 0.5em;
+                padding: 0 !important;
+                width: 100%;
+
+                a {
+                    border-bottom: 1px solid $darkGreenColor;
+                    border-top: 1px solid $darkGreenColor;
+                    font-size: 20px;
+                    margin-left: 0 !important;
+                    padding: 10px;
+                    text-decoration: none;
+
+                    li {
+                        // background-color: red;
+                        margin-left: 0;
+                        width: 100%;
+
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    
 
     #contact {
         height: 100vh;

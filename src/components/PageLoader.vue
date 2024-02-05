@@ -1,9 +1,9 @@
 <template>
   <div class="load-wrapper">
-  <!-- <span class="loader"></span>- -->
-  <div class="vertical-div">
-    <h1>One man's dream</h1>
-  </div>
+    <!-- <span class="loader"></span>- -->
+    <div class="vertical-div">
+      <h1>One man's dream</h1>
+    </div>
 
 </div>
 </template>
@@ -143,11 +143,18 @@
   }
 }
 
-// Responsive 
-// @media only screen and (max-width: 1600px) {
-//   h1 {
-//     margin-top: 32%;
+@media only screen and (max-width: 675px) {
+
+// .load-wrapper {
+//   .vertical-div {
+    
+//     h1 {
+//       font-size: 40px !important;
+//     }
 //   }
+
 // }
+
+}
 
 </style>

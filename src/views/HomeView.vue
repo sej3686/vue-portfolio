@@ -32,6 +32,14 @@
        
       </ul><!-- Main Menu -->
 
+      <ul class="main-menu-2">
+        <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#contact"><li>Contact</li></a>
+       
+      </ul><!-- Main Menu 2 -->
+
       <ul class="some-menu">
         <li><a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a></li>
         <li><a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a></li>
