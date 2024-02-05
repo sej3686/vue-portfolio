@@ -2,8 +2,8 @@ $darkGreenColor: #228A30;
 $orangeColor: #e08814;
 
 #about {
-    background-color: $orangeColor;
-    height: 60vh;
+    background-color: transparent;
+    height: 70vh;
     width: 100%;
 
     h2 {
@@ -17,16 +17,16 @@ $orangeColor: #e08814;
         //background-color: #2196F3;
         //column-gap: 40px;
         display: grid;
-        grid-template-columns: 35em auto;
+        grid-template-columns: 55em auto;
         height: 80%;
         margin: 0 auto;
         margin-top: 1em;
         padding: 10px;
-        width: 95vw;
+        width: 95%;
 
         .about-grid-item {
             // background-color: rgba(255, 255, 255, 0.8);
-            //border: 1px solid rgba(0, 0, 0, 0.8);
+            // border: 1px solid rgba(0, 0, 0, 0.8);
             font-size: 30px;
             padding-right: 300px;
             position: relative;
@@ -42,13 +42,13 @@ $orangeColor: #e08814;
                 p {
                     color: #FFFFFF;
                     font-size: 20px;
-                    line-height: 50px;
+                    line-height: 40px;
                     margin-top: 1em;
                 }
             }
 
             .about-div-img {
-                margin-left: 1em;
+                margin-left: 14em;
                 margin-top: 1.5em;
 
                 img {

@@ -1,7 +1,9 @@
 $darkColor: #212222;
+$orangeColor: #e08814;
+$darkBlue: #192b66;
 
 #projects {
-    background-color: transparent;
+    background-color: $darkBlue;
     height: 84vh;
     width: 100%;
 
@@ -16,12 +18,12 @@ $darkColor: #212222;
         // background-color: #2196F3;
         display: grid;
         grid-gap: 100px;
-        grid-template-columns: auto auto auto;
-        height: 60%;
-        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+        // height: 60%;
+        margin: 0 auto;
         margin-top: 1em;
         padding-top: 10px;
-        width: 100%;
+        width: 70%;
 
         .project-grid-item {
             // background-color: rgba(255, 255, 255, 0.8);
@@ -29,7 +31,7 @@ $darkColor: #212222;
             //border-radius: 10px;
             font-size: 30px;
             position: relative;
-            width: 70%;
+            width: 90%;
 
             img {
                 width: 100%;
@@ -37,7 +39,7 @@ $darkColor: #212222;
 
             .project-grid-item-titlebox {
                 background-color: #212222;
-                bottom: 0;
+                bottom: 0.27em;
                 display: none;
                 height: 50px;
                 position: absolute;
@@ -46,7 +48,7 @@ $darkColor: #212222;
                 h4 {
                     color: #FFFFFF;
                     font-size: 18px;
-                    margin-top: 10px;
+                    margin-top: 5px;
                     text-align: center;
                 }
             }
@@ -57,7 +59,7 @@ $darkColor: #212222;
 
             .project-grid-item-titlebox {
                 display: block;
-                opacity: 0.8;
+                opacity: 0.92;
             }
         }
     }

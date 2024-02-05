@@ -162,17 +162,17 @@ height: 100vh;
             margin-left: 5em;
         }
 
-        #logo:hover {
-            cursor: pointer;
-            opacity: 0.8;
-        }
+        // #logo:hover {
+        //     cursor: pointer;
+        //     opacity: 0.8;
+        // }
 
         .some-menu {
             // background-color: green;
             display: flex;
             flex-direction: row;
             list-style-type: none;
-            justify-content: flex-end;
+            justify-content: center;
             width: 40%;
 
             li {
@@ -197,6 +197,7 @@ height: 100vh;
         display: flex;
 
         .header-div-left {
+            // background-color: red;
             height: 60vh;
             margin-top: 3em;
             width: 50%;
@@ -207,7 +208,7 @@ height: 100vh;
                 //background-color: yellow;
                 // height: 100%;
                 margin-left: 0em;
-                padding-left: 10em;
+                padding-left: 25em;
                 padding-top: 8em;
                 width: 62%;
             
@@ -260,6 +261,7 @@ height: 100vh;
         }
 
         .header-div-right {
+            // background-color: blue;
             height: 60vh;
             margin-top: 3em;
             width: 50%;
@@ -277,7 +279,7 @@ height: 100vh;
                     border-radius: 100%;
                     box-shadow: 0px 0px 27px 0px rgba(255,255,255,0.71);
                     width: 55%;
-                    margin-left: 18em;
+                    margin-left: 10em;
                     margin-top: 1.5em;
                     transform: rotate(35deg);
                     //margin-top: 15px;

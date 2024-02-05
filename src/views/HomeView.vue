@@ -35,8 +35,7 @@
       <ul class="some-menu">
         <li><a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a></li>
         <li><a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a></li>
-        <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li>
-        <li><a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a></li>
+        <!-- <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li> -->
       </ul>
     </nav>
 
@@ -71,29 +70,6 @@
 
   </header>
 
-  <section id="keyword">
-    <h2>Keywords</h2>
-
-    <main class="keyword-grid-wrapper">
-      <div class="keyword-grid-item">
-        <img src="../assets/img/code.png" alt="code icon">
-        <h3>Coder</h3>
-        <p>What I do when I'm not busy doing other things, is coding for fun.</p>
-      </div>
-      <div class="keyword-grid-item">
-        <img src="../assets/img/gallery.png" alt="gallery icon">
-        <h3>Designer</h3>
-        <p>Because of my earlier decree. I have experiance in various Adobe programs.</p>
-      </div>
-      <div class="keyword-grid-item">
-        <img src="../assets/img/handshake.png" alt="handshake icon">
-        <h3>Friendly</h3>
-        <p>All of my former work places have appreciated how friendly and accommodating I am.</p>
-      </div>
-    </main><!-- keyword-grid-wrapper -->
-
-  </section><!-- Keyword -->
-
   <section id="projects" ref="comp">
     <h2>Featured Projects</h2>
 
@@ -102,7 +78,7 @@
       <a href="https://github.com/FrederikLandtved/UCLStudievejleder" class="project-grid-item">
         <img src="../assets/img/ucl.jpg" alt="UCL logo">
         <div class="project-grid-item-titlebox">
-        <h4>UCL studievejledning</h4>
+        <h4>School Project - UCL studievejledning</h4>
       </div></a>
       <a href="https://www.rtidbyludo.com/" class="project-grid-item">
         <img src="../assets/img/rtid.jpg" alt="RTID by LUDO logo">
@@ -155,6 +131,31 @@
 
 </section><!-- About -->
 
+
+
+  <section id="keyword">
+    <h2>Keywords</h2>
+
+    <main class="keyword-grid-wrapper">
+      <div class="keyword-grid-item">
+        <img src="../assets/img/code.png" alt="code icon">
+        <h3>Coder</h3>
+        <p>What I do when I'm not busy doing other things, is coding for fun.</p>
+      </div>
+      <div class="keyword-grid-item">
+        <img src="../assets/img/gallery.png" alt="gallery icon">
+        <h3>Designer</h3>
+        <p>Because of my earlier degree. I have experience in various Adobe programs.</p>
+      </div>
+      <div class="keyword-grid-item">
+        <img src="../assets/img/handshake.png" alt="handshake icon">
+        <h3>Friendly</h3>
+        <p>All of my former work places have appreciated how friendly and accommodating I am.</p>
+      </div>
+    </main><!-- keyword-grid-wrapper -->
+
+  </section><!-- Keyword -->
+
   <section id="contact">
 
     <main class="contact-container">
@@ -163,12 +164,12 @@
 
         <div class="row">
           <div class="row-first">
-          <label for="fname">Name *</label>
+          <label for="fname">Name</label>
           <input autocomplete="name" id="fname" name="name" type="text" placeholder="Your name">
         </div>
 
         <div class="row-first">
-          <label for="femail">Email *</label>
+          <label for="femail">Email</label>
           <input autocomplete="femail" id="femail" name="email" type="email" placeholder="Your email">
         </div>
 
@@ -183,14 +184,14 @@
 
         <div class="row">
           <div class="row-rest">
-          <label for="message">Message *</label>
+          <label for="message">Message</label>
           <textarea name="message" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
           </div>
         </div>
 
         <div class="row justify-center">
           <div class="row-last">
-          <input name="submit" type="submit">
+          <input name="submit" type="submit" >
         </div>
         </div>
 
