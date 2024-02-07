@@ -858,15 +858,14 @@ $darkGreenColor: #228A30;
             .header-div-right {
                 height: 34vh !important;
                 margin-top: 13em !important;
-                width: 100% !important;
+                padding-left: 8em;
+                width: 60% !important;
 
                 .header-div-right-imagebox {
-                    height: 100% !important;
-                    padding-left: 8em;
 
                     .header-div-right-img {
-                        height: 110% !important;
-                        width: 70% !important;
+                        height: auto;
+                        width: 100% !important;
                     }
                 }
             }
@@ -1089,9 +1088,22 @@ $darkGreenColor: #228A30;
         }
     }
 
+    #projects {
+        // background-color: yellow;
+        height: 180vh !important;
 
+        h2 {
+            padding-left: 0.8em;
+        }
 
-    
+        .project-grid-wrapper {
+            grid-template-columns: auto;
+            grid-gap: 50px;
+            justify-items: center;
+            margin: 0 auto;
+            padding-top: 4em;
+        }
+    }
 
     #contact {
         height: 100vh;

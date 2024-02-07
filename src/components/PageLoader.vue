@@ -1,6 +1,5 @@
 <template>
   <div class="load-wrapper">
-    <!-- <span class="loader"></span>- -->
     <div class="vertical-div">
       <h1>One man's dream</h1>
     </div>
@@ -9,21 +8,6 @@
 </template>
 
 <script>
-  /*export default {
-    data: () => {
-      return {
-        isloaded: false
-      }
-    },
-    mounted() {
-      document.onreadystatechange = () => {
-        if(document.readyState == "complete") {
-          this.isloaded = true;
-        }
-      }
-      
-    }
-  }*/
 </script>
 
 <style lang="scss" scoped>
@@ -52,18 +36,9 @@
     animation: fadeIn 0.75s forwards;
     color: #FFFFFF;
     font-size: 50px;
-    // margin-top: 22%;
     text-align: center;
   }
   }
-
-
-
-  // span {
-  //   display: table;
-  //   margin: 0 auto;
-  //   top: 45%;
-  // }
 
   .loader {
     width: 48px;
@@ -143,18 +118,18 @@
   }
 }
 
-@media only screen and (max-width: 675px) {
+// @media only screen and (max-width: 675px) {
 
-// .load-wrapper {
-//   .vertical-div {
+//  .load-wrapper {
+//    .vertical-div {
     
-//     h1 {
-//       font-size: 40px !important;
-//     }
-//   }
+//      h1 {
+//        font-size: 40px !important;
+//      }
+//    }
+
+//  }
 
 // }
-
-}
 
 </style>
