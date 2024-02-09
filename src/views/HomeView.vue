@@ -61,9 +61,9 @@
           </div><!-- Header Left Box -->
 
     <div class="header-div-right">
-      <div class="header-div-right-imagebox">
+      
       <img class="header-div-right-img" src="../assets/img/profil2.jpg" alt="Stefan">
-    </div>
+
     </div><!-- Header Right Box -->
   </section>
 
