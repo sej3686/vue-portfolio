@@ -67,6 +67,14 @@ body {
     background-attachment: fixed;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
 header {
 // background-color: $headerColor;
 // background-color: $darkColor;
@@ -75,9 +83,10 @@ height: 100vh;
 
     nav {
         // background-color: red;
-        border-bottom: 3px dashed $darkGreenColor;
+        // border-bottom: 3px dashed $darkGreenColor;
         height: 8vh;
         display: flex;
+        justify-content: space-between;
         padding: 25px;
 
         .main-menu {
@@ -85,8 +94,7 @@ height: 100vh;
             list-style-type: none;
             display: flex;
             padding: 25px;
-            margin-left: 2%;
-            align-items: baseline;
+            // margin-left: 2%;
 
             li {
                 color: #FFFFFF;
@@ -205,7 +213,7 @@ height: 100vh;
             flex-direction: row;
             list-style-type: none;
             justify-content: center;
-            width: 40%;
+            // width: 40%;
 
             li {
                 padding: 12px;
@@ -227,29 +235,23 @@ height: 100vh;
 
     .header-box-wrapper {
         display: flex;
+        margin-top: 3em;
 
         .header-div-left {
             // background-color: red;
             height: 60vh;
-            margin-top: 3em;
             width: 50%;
 
 
             .header-div-left-textbox {
-                //border-left: 3px solid $darkGreenColor;
-                //background-color: yellow;
-                // height: 100%;
-                margin-left: 0em;
+                // background-color: yellow;
                 padding-left: 25em;
                 padding-top: 8em;
-                width: 62%;
             
                 h3 {
                     color: #FFFFFF;
                     font-family: $titleFont;
                     font-size: 40px;
-                    //margin-left: 6em;
-                    //margin-top: 2em; 
                 }
 
                 h2 {
@@ -257,9 +259,6 @@ height: 100vh;
                     font-family: $titleFont;
                     font-size: 50px;
                     margin-top: 0.5em;
-                    //margin-left: 5em;
-
-
                 }
 
                 .typed-text {
@@ -267,8 +266,6 @@ height: 100vh;
                     font-family: $textFont;
                     font-weight: bold;
                     font-size: 40px;
-                    margin-top: 18em; 
-                    //margin-left: 7.5em;
                     text-decoration: underline;
                 }
 
@@ -277,7 +274,6 @@ height: 100vh;
                     font-family: $titleFont;
                     font-size: 40px;
                     margin-top: 2em;
-                    //margin-left: 7.5em;
 
                     span {
                         color: $lightGreenColor;
@@ -294,19 +290,19 @@ height: 100vh;
 
         .header-div-right {
             // background-color: blue;
+            display: flex;
+            justify-content: start;
             height: 60vh;
-            margin-top: 3em;
             width: 50%;
 
             .header-div-right-img {
                 animation: img-rotation 0.8s 1.8s forwards;
                 border-radius: 100%;
                 box-shadow: 0px 0px 27px 0px rgba(255,255,255,0.71);
-                width: 55%;
-                margin-left: 10em;
-                margin-top: 1.5em;
+                height: auto;
+                margin-left: 2em;
+                width: 60%;
                 transform: rotate(35deg);
-                //margin-top: 15px;
                 
             }
 

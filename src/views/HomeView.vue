@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <div class="container">
   <header>
     <nav>
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
@@ -182,14 +183,14 @@
         </div><!-- row -->
 
         <div class="row">
-          <div class="row-rest">
+          <div class="row-mid">
           <label for="fptext">Subject</label>
           <input id="fptext" required name="plaintext" type="text" placeholder="Your subject">
           </div>
         </div>
 
         <div class="row">
-          <div class="row-rest">
+          <div class="row-mid">
           <label for="message">Message</label>
           <textarea name="message" minlength="10" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
           </div>
@@ -212,9 +213,8 @@
     <img src="../assets/img/logo-new-white.png" alt="logo">
 
     <p>Made personally by Stefan E. Jespersen</p>
-
 </footer>
-
+</div>
 </template>
 
 <script>
