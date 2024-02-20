@@ -4,7 +4,7 @@ $lightGreenColor: #39B54A;
 $darkGreenColor: #228A30;
 
 
-@media only screen and (min-width: 2300px) {
+@media (max-width: 2300px) {
     header {
 
         nav {
@@ -117,7 +117,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 1510px) {
+@media (max-width: 1510px) {
     header {
         nav {
         
@@ -194,7 +194,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 1370px) {
+@media (max-width: 1370px) {
     header {
 
 
@@ -233,7 +233,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 1335px) {
+@media (max-width: 1335px) {
     // header {
     //     nav {
     //         height: 10vh;
@@ -265,7 +265,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 1215px) {
+@media (max-width: 1215px) {
     header {
 
         nav {
@@ -407,7 +407,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 1140px) {
+@media (max-width: 1140px) {
        header {
         height: 110vh !important;
 
@@ -490,7 +490,7 @@ $darkGreenColor: #228A30;
     } 
 }
 
-@media only screen and (max-width: 890px) {
+@media (max-width: 890px) {
     #projects {
 
         .project-grid-wrapper {
@@ -536,7 +536,7 @@ $darkGreenColor: #228A30;
 }
 
 //iPads, Tablets
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     header {
         height: 110vh !important;
 
@@ -724,7 +724,7 @@ $darkGreenColor: #228A30;
 }
 
 //Mobile devices
-@media only screen and (max-width: 675px) {
+@media (max-width: 675px) {
     header {
         height: 140vh !important;
 
@@ -977,7 +977,7 @@ $darkGreenColor: #228A30;
 }
 
 //Mobile devices
-@media only screen and (max-width: 485px) {
+@media (max-width: 485px) {
     #contact {
         height: 100vh;
         padding-top: 8em;
@@ -1025,7 +1025,7 @@ $darkGreenColor: #228A30;
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
     header {
         height: 150vh !important;
 
