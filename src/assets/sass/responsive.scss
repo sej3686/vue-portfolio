@@ -5,30 +5,99 @@ $darkGreenColor: #228A30;
 
 /* 2xl */
 @media (max-width: 1600px) {
+    .container {
+        max-width: 1280px;
+    }
 
+    #about {
+
+        .about-grid-wrapper {
+            grid-template-columns: 26em auto;
+
+            .about-grid-item {
+
+                .about-textbox {
+
+                    p {
+                        font-size: 1rem;
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            .about-div-img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 /* xl */
 @media (max-width: 1280px) {
+    .main-menu {
+        li:nth-child(1) {
+            display: none;
+        }
+    }
 
+    .container {
+        max-width: 1024px;
+    }
 }
 
 /* lg */
 @media (max-width: 1024px) {
+    .header-div-right-img {
+    max-width: 320px;
+    margin-left: 0;
+    }
 
+    .about-grid-item {
+        width: 320px;
+
+        .about-textbox {
+            width: 100%;
+        }
+
+        .about-div-img {
+
+            img {
+                width: 300px;
+            }
+        }
+    }
+
+    .container {
+        max-width: 768px;
+    }
 }
 
 /* md */
 @media (max-width: 768px) {
+    #keyword {
+        opacity: 1;
+        transform: none;
+    }
 
+    .animate {
+        animation: none;
+    }
+
+    .container {
+        max-width: 640px;
+    }
 }
 
 /* sm */
 @media (max-width: 640px) {
-
+    .container {
+        max-width: 475px;
+    }
 }
 
 /* xs */
 @media (max-width: 475px) {
-
+    .container {
+        max-width: 425px;
+    }
 }

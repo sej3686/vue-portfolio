@@ -4,18 +4,13 @@ $darkBlue: hsl(226, 56%, 33%);
 $orangeColor: #e08814;
 
 #keyword {
-    background-color: $orangeColor;
+    // background-color: $orangeColor;
     // border-bottom: 2px solid $chinarose;
     // border-top: 2px solid $chinarose;
     height: 45vh;
+    opacity: 0;
+    transform: translateY(50%);
     width: 100%;
-
-    h2 {
-        color: #FFFFFF;
-        font-size: 35px;
-        padding-left: 2em;
-        padding-top: 1em;
-    }
 
     .keyword-grid-wrapper {
         // background-color: #2196F3;
@@ -23,15 +18,14 @@ $orangeColor: #e08814;
         display: grid;
         grid-template-columns: auto auto auto;
         height: 60%;
-        margin: 0 auto;
+        justify-items: center;
         margin-top: 1em;
         padding: 10px;
-        width: 90vw;
 
             .keyword-grid-item {
                 //border: 1px solid rgba(0, 0, 0, 0.8);
                 padding: 10px;
-                font-size: 22px;
+                font-size: 1.5rem;
 
                 img {
                     //border: 1px solid black;
@@ -51,3 +45,18 @@ $orangeColor: #e08814;
             }
     }
 }
+
+.animate {
+    animation: slideIn 0.8s forwards;
+  }
+  
+  @keyframes slideIn {
+          from {
+              opacity: 0;
+              transform: translateY(50%);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }

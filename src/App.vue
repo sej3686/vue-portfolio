@@ -8,14 +8,13 @@ import PageLoader from './components/PageLoader.vue';
 <template>
 
       
-      <!--<nav>
+      <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/project">Project</RouterLink>
-      </nav>-->
+      </nav> -->
   
   <PageLoader />
-  <!--<ImageSwitch />-->
   <RouterView />
 
   

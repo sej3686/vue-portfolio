@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
   <div class="container">
   <header>
@@ -79,38 +76,105 @@
 
   </header>
 
+  <section ref="keyword" id="keyword">
+    <h2 class="sec-title">Keywords</h2>
+
+    <main class="keyword-grid-wrapper">
+      <div class="keyword-grid-item">
+        <img src="../assets/img/code.png" alt="code icon">
+        <h3>Coder</h3>
+        <p>What I do when I'm not busy doing other things, is coding for fun.</p>
+      </div>
+      <div class="keyword-grid-item">
+        <img src="../assets/img/gallery.png" alt="gallery icon">
+        <h3>Designer</h3>
+        <p>Because of my earlier degree. I have experience in various Adobe programs.</p>
+      </div>
+      <div class="keyword-grid-item">
+        <img src="../assets/img/handshake.png" alt="handshake icon">
+        <h3>Friendly</h3>
+        <p>All of my former work places have appreciated how friendly and accommodating I am.</p>
+      </div>
+    </main><!-- keyword-grid-wrapper -->
+
+  </section><!-- Keyword -->
+
   <section id="projects" ref="comp">
-    <h2>Featured Projects</h2>
+    <h2 class="sec-title">Featured Projects</h2>
+    
+    <div ref="project1" class="project-wrapper animate-2">
 
-    <main class="project-grid-wrapper">
+      <div class="project">
+        <img src="../assets//img/UCL-case.jpg" alt="">
+      </div>
 
-      <a href="https://github.com/FrederikLandtved/UCLStudievejleder" class="project-grid-item">
-        <img src="../assets/img/ucl.jpg" alt="UCL logo">
-        <div class="project-grid-item-titlebox">
-        <h4>School Project - UCL studievejledning</h4>
-      </div></a>
-      <a href="https://www.rtidbyludo.com/" class="project-grid-item">
-        <img src="../assets/img/rtid.jpg" alt="RTID by LUDO logo">
-        <div class="project-grid-item-titlebox">
-        <h4>Wordpress for RTID by Ludo</h4>
-      </div></a>
-      <a href="https://www.lifeline.sej.one" class="project-grid-item">
-        <img src="../assets/img/llr.jpg" alt="Lifeline Robotics logo">
-        <div class="project-grid-item-titlebox">
-        <h4>Internship at Lifeline Robotics</h4>
-      </div></a>
-      <a href="http://www.bachelor.sej.one" class="project-grid-item">
-        <img src="../assets/img/webdock.png" alt="Webdock logo">
-        <div class="project-grid-item-titlebox">
-        <h4>Bachelor Project at Webdock</h4>
-      </div></a>
+      <div class="desc">
+        <h2>UCL Studievejleder</h2>
+        <p>This is a website made for an exam</p>
+        <p>The website is for the school of UCL's "study guide" teachers of whom helps students with all sorts of problems they may encounter. 
+          <br>The application is made in C# and html</p>
+        <p>Note: this website is not up at the moment</p>
+        <a href="https://github.com/FrederikLandtved/UCLStudievejleder"><button class="visit-button">Visit Git repo</button></a>
+      </div>
 
-    </main><!-- project-grid-wrapper -->
+    </div><!-- project-wrapper -->
+
+    <div class="project-wrapper animate-3">
+
+
+    <div class="desc">
+      <h2>RTID by Ludo</h2>
+        <p>This is a webshop that I've been helping developing on</p>
+        <p>The website is for a company called "RTID by Ludo". The company in question is a shop where people buy clothing and other materials from Northern Thailand and where by buying said items, you're helping the local population
+          <br> The webshop is made in WordPress
+        </p>
+        <a href="https://www.rtidbyludo.com/"><button class="visit-button">Visit Website</button></a>
+    </div>
+
+    <div class="project">
+      <img src="../assets/img/rtid-2.jpg" alt="RTID by Ludo">
+    </div>
+
+
+    </div><!-- project-wrapper -->
+
+    <div class="project-wrapper">
+
+    <div class="project">
+      <img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics">
+    </div>
+
+    <div class="desc">
+      <h2>Lifeline Robotics</h2>
+      <p>This is a website from when I was an intern</p>
+      <p>The website was made to be their new offical website. Due to time constraints it was never finished. 
+        <br>The website is made in WordPress</p>
+      <a href="https://www.lifeline.sej.one"><button class="visit-button">Visit Website</button></a>
+    </div>
+
+</div><!-- project-wrapper -->
+
+<div class="project-wrapper">
+
+
+<div class="desc">
+  <h2>Webdock - bachelor project</h2>
+    <p>This is a website for my bachelor project</p>
+    <p>For the bachelor project we had webdock as a client. The site's purpose is to configure a server in the easiest and user-friendly way as possible.  The project was made in Vue3.</p>
+    <a href="http://www.bachelor.sej.one"><button class="visit-button">Visit Website</button></a>
+</div>
+
+<div class="project">
+  <img src="../assets/img/webdock-2.jpg" alt="Bachelor project">
+</div>
+
+
+</div><!-- project-wrapper -->
   </section><!-- Projects -->
 
   <section id="about">
 
-<h2>About Me</h2>
+<h2 class="sec-title">About Me</h2>
 
 <main class="about-grid-wrapper">
   <div class="about-grid-item">
@@ -140,70 +204,38 @@
 
 </section><!-- About -->
 
-  <section id="keyword">
-    <h2>Keywords</h2>
-
-    <main class="keyword-grid-wrapper">
-      <div class="keyword-grid-item">
-        <img src="../assets/img/code.png" alt="code icon">
-        <h3>Coder</h3>
-        <p>What I do when I'm not busy doing other things, is coding for fun.</p>
-      </div>
-      <div class="keyword-grid-item">
-        <img src="../assets/img/gallery.png" alt="gallery icon">
-        <h3>Designer</h3>
-        <p>Because of my earlier degree. I have experience in various Adobe programs.</p>
-      </div>
-      <div class="keyword-grid-item">
-        <img src="../assets/img/handshake.png" alt="handshake icon">
-        <h3>Friendly</h3>
-        <p>All of my former work places have appreciated how friendly and accommodating I am.</p>
-      </div>
-    </main><!-- keyword-grid-wrapper -->
-
-  </section><!-- Keyword -->
-
   <section id="contact">
+    <h2 class="sec-title">Let's get in Touch!</h2>
 
     <main class="contact-container">
-      <h3>Send me an Email</h3>
+      <!-- <h3>Send me an Email</h3> -->
       <form action="https://formspree.io/f/mnqybnwq" method="post" class="form-box" id="form-box">
 
-        <div class="row">
-          <div class="row-first">
-          <label for="fname">Name</label>
-          <input autocomplete="name" id="fname" required name="name" type="text" placeholder="Your name">
+          <div class="field" tabindex="1">
+          <label for="fname"><img src="../assets/img/man.png" alt="man icon"> Name</label>
+          <input autocomplete="name" id="fname" required name="name" type="text" placeholder="firstname surname">
         </div>
 
-        <div class="row-first">
-          <label for="femail">Email</label>
-          <input autocomplete="femail" required  id="femail" name="email" type="email" placeholder="Your email">
+        <div class="field" tabindex="2">
+          <label for="femail"><img src="../assets/img/mail.png" alt="mail icon"> Email</label>
+          <input autocomplete="femail" required  id="femail" name="email" type="email" placeholder="email@domain.com">
         </div>
 
-        </div><!-- row -->
-
-        <div class="row">
-          <div class="row-mid">
+          <!-- <div class="field">
           <label for="fptext">Subject</label>
           <input id="fptext" required name="plaintext" type="text" placeholder="Your subject">
-          </div>
-        </div>
+          </div> -->
 
-        <div class="row">
-          <div class="row-mid">
-          <label for="message">Message</label>
-          <textarea name="message" minlength="10" id="message" cols="30" rows="4" placeholder="Write your message..."></textarea>
+          <div class="field" tabindex="3">
+          <label for="message"><img src="../assets/img/pen-papir.png" alt="pen and papir icon"> Message</label>
+          <textarea name="message" minlength="10" id="message" cols="30" rows="4" placeholder="type here"></textarea>
           </div>
-        </div>
 
-        <div class="row justify-center">
-          <div class="row-last">
-          <input name="submit" value="Send" type="submit" >
-        </div>
-        </div>
+          <!-- <input name="submit" value="Send" type="submit" > -->
+          <button name="submit" value="Send" type="submit">Send Me Message</button>
 
       </form>
-    </main>
+    </main> 
 
   </section><!-- About -->
 
@@ -218,7 +250,7 @@
 </template>
 
 <script>
-import { reactive } from 'vue';
+import { ref, onMounted } from 'vue';
 import image1 from '@/assets/img/profil1.jpg';
 import image2 from '@/assets/img/profil2.jpg';
 import image3 from '@/assets/img/profil-fun1.jpg';
@@ -227,14 +259,37 @@ import image5 from '@/assets/img/profil-fun3.jpg';
 import image6 from '@/assets/img/profil-fun4.jpg';
 import image7 from '@/assets/img/profil-fun5.jpg';
 
-/*
-const comp = ref(null)
-function scrollTo() {
-  comp.value.scrollIntoView({ behavior: 'smooth' })
-}*/
 
 export default {
   
+  setup() {
+    const keyword = ref(null);
+    const project1 = ref(null);
+
+    const handleIntersect = (entries, observer) => {
+      entries.forEach(entry => {
+        // console.log('entry: ', entry)
+         if(entry.isIntersecting) {
+           entry.target.classList.add('animate');
+           observer.unobserve(entry.target);
+         }
+      });
+    }
+
+    onMounted(() => {
+      const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.2
+      };
+
+      const observer = new IntersectionObserver(handleIntersect, options);
+      observer.observe(keyword.value);
+    });
+
+    return { keyword };
+  },
+
   name: "typeWiriter",
   data: () => {
     return {

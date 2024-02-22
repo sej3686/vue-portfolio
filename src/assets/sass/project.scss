@@ -1,69 +1,163 @@
 $darkColor: #212222;
+$headerColor: #333333;
 $orangeColor: #e08814;
+$lightBlue: #203c98;
 $darkBlue: #192b66;
+$lightGreenColor: #39B54A;
+$darkGreenColor: #228A30;
 
 #projects {
-    // background-color: $darkBlue;
-    // background-image: url('../assets/img/stacked-waves.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    margin-top: 7em;
     width: 100%;
 
-    h2 {
-        color: #FFFFFF;
-        font-size: 35px;
-        padding-left: 2em;
-        padding-top: 1em;
-    }
+    .project-wrapper {
+        // background-color: red;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
 
-    .project-grid-wrapper {
-        // background-color: #2196F3;
-        display: grid;
-        grid-gap: 100px;
-        grid-template-columns: auto auto auto auto;
-        // height: 60%;
-        margin: 0 auto;
-        margin-top: 1em;
-        padding-top: 10px;
-        width: 70%;
-
-        .project-grid-item {
-            // background-color: rgba(255, 255, 255, 0.8);
-            // border: 1px solid rgba(0, 0, 0, 0.8);
-            //border-radius: 10px;
-            font-size: 30px;
-            position: relative;
-            // width: 90%;
+        .project {
+            background-color: black;
+            height: 500px;
+            width: 50%;
 
             img {
+                height: 500px;
+                opacity: 0.8;
                 width: 100%;
-            }
-
-            .project-grid-item-titlebox {
-                background-color: #212222;
-                bottom: 0.27em;
-                display: none;
-                height: 50px;
-                position: absolute;
-                width: 100%;
-
-                h4 {
-                    color: #FFFFFF;
-                    font-size: 18px;
-                    margin-top: 5px;
-                    text-align: center;
-                }
             }
         }
 
-        .project-grid-item:hover {
-            //background-color: red;
+        .desc {
+            background-color: $headerColor;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            text-align: center;
+            width: 50%;
 
-            .project-grid-item-titlebox {
-                display: block;
-                opacity: 0.92;
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+                padding-top: 1em;
+            }
+
+            p:nth-child(3) {
+                line-height: 1.6rem;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+
+            .visit-button {
+                background-color: $lightGreenColor;
+                border: 0;
+                border-radius: 6px;
+                color: #FFFFFF;
+                font-size: 1.1rem;
+                font-weight: bold;
+                height: 40px;
+                margin-top: 50px;
+                width: 150px;
+            }
+
+            .visit-button:hover {
+                background-color: $darkGreenColor;
+                cursor: pointer;
             }
         }
     }
+
+    // .project-grid-wrapper {
+    //     background-color: #2196F3;
+    //     display: grid;
+    //     grid-template-columns: auto auto;
+    //     grid-template-rows: 100px 100vh;
+    //     // height: 60%;
+    //     margin: 0 auto;
+    //     width: 100%;
+
+    //     .project {
+    //         background-color: red;
+    //     }
+
+    //     .desc {
+    //         background-color: #FFFFFF;
+    //     }
+
+    //     // .project-grid-item {
+    //     //     // background-color: rgba(255, 255, 255, 0.8);
+    //     //     // border: 1px solid rgba(0, 0, 0, 0.8);
+    //     //     //border-radius: 10px;
+    //     //     font-size: 30px;
+    //     //     position: relative;
+    //     //     // width: 90%;
+
+    //     //     img {
+    //     //         width: 100%;
+    //     //     }
+
+    //     //     .project-grid-item-titlebox {
+    //     //         background-color: #212222;
+    //     //         bottom: 0.27em;
+    //     //         display: none;
+    //     //         height: 50px;
+    //     //         position: absolute;
+    //     //         width: 100%;
+
+    //     //         h4 {
+    //     //             color: #FFFFFF;
+    //     //             font-size: 18px;
+    //     //             margin-top: 5px;
+    //     //             text-align: center;
+    //     //         }
+    //     //     }
+    //     // }
+
+    //     // .project-grid-item:hover {
+    //     //     //background-color: red;
+
+    //     //     .project-grid-item-titlebox {
+    //     //         display: block;
+    //     //         opacity: 0.92;
+    //     //     }
+    //     // }
+    // }
 }
+
+// .animate-2 {
+//     animation: slideRight 0.8s forwards;
+// }
+
+// @keyframes slideRight {
+//     from {
+//         opacity: 0;
+//         transform: translateX(-100%);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: translateX(0);
+//     }
+// }
+
+// .animate-3 {
+//     animation: slideLeft 0.8s forwards;
+// }
+
+// @keyframes slideLeft {
+//     from {
+//         opacity: 0;
+//         transform: translateX(100%);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: translateX(0);
+//     }
+// }

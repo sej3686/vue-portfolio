@@ -3,33 +3,25 @@ $orangeColor: #e08814;
 
 #about {
     background-color: transparent;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 
-    h2 {
-        color: #FFFFFF;
-        font-size: 35px;
-        padding-left: 2em;
-        padding-top: 1em;
-    }
-
     .about-grid-wrapper {
-        display: grid;
-        grid-template-columns: 55em auto;
-        grid-gap: 50px;
+        display: inline-grid;
+        grid-template-columns: 49em auto;
+        gap: 10px;
         height: 80%;
         justify-items: end;
         margin: 0 auto;
         margin-top: 1em;
         padding: 10px;
-        width: 95%;
         
         .about-grid-item {
-            font-size: 30px;
-            
+        font-size: 1.8rem;
 
             .about-textbox {
-                width: 90%;
+                display: inline-block;
+                justify-self: start;
 
                 h3 {
                     color: #FFFFFF;
@@ -37,7 +29,7 @@ $orangeColor: #e08814;
 
                 p {
                     color: #FFFFFF;
-                    font-size: 20px;
+                    font-size: 1.2rem;
                     line-height: 40px;
                     margin-top: 1em;
                 }
@@ -48,7 +40,7 @@ $orangeColor: #e08814;
                 img {
                 border-radius: 100%;
                 cursor: pointer;
-                width: 400px;
+                max-width: 400px;
                 }
             }
         }
