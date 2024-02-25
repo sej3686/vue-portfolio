@@ -5,7 +5,7 @@
       <img id="logo" src="../assets/img/logo-new-white.png" alt="logo">
       <ul class="main-menu">
         <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
-        <li class="hover-underline-animation"><a href="#">Skills <span>&dtrif;</span></a>
+        <!-- <li class="hover-underline-animation"><a href="#">Skills <span>&dtrif;</span></a>
           <ul class="drop-down">
             <div class="icon-row">            
             <div><img src="../assets/img/html.png" alt="html logo"></div>
@@ -23,7 +23,7 @@
             <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
           </div>
 
-        </ul></li><!-- Drop Down -->
+        </ul></li>Drop Down -->
         <li class="hover-underline-animation"><a href="#projects">Projects</a></li>
         <li class="hover-underline-animation"><a href="#about">About</a></li>
         <li class="hover-underline-animation"><a href="#contact">Contact</a></li>
@@ -49,31 +49,49 @@
       
     <div class="header-div-left">
       <div class="header-div-left-textbox">
-      <h3>Hi, my name is</h3>
-      <h2>Stefan E. Jespersen</h2>
+      <h3>Hi,</h3>
+      <h2>I'm <span>Stefan</span></h2>
       <span class="typed-text">{{ typeValue }}</span>
       <span class="blinking-cursor">|</span>
       <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-      <h4>And Welcome To My <span>Portfolio!</span></h4>
+      <h4>I'm a newly graduated Web Developer with various experiences in 
+        <br>
+        both web-design
+        and multi-media
+      </h4>
+      <h4>Interested? Then check out my <span>Portfolio</span></h4>
+      <h5>I have experiance in:</h5>
+      <!-- <a href="#keyword"><button>Check it out <span>&dtrif;</span></button></a> -->
+      <!-- <h4>And Welcome To My <span>Portfolio!</span></h4> -->
+
+      <div class="skills">
+        <img src="../assets/img/icons/html.png" alt="html logo">
+        <img src="../assets/img/icons/css.png" alt="css logo">
+        <img src="../assets/img/icons/sass.png" alt="sass logo">
+        <img src="../assets/img/icons/js.png" alt="javascript logo">
+        <img src="../assets/img/icons/ts.png" alt="typescript logo">
+        <img src="../assets/img/icons/vue.png" alt="vue logo">
+        <img src="../assets/img/icons/react.png" alt="react logo">
+        <br>
+        <img src="../assets/img/icons/angular.png" alt="angular logo">
+        <img src="../assets/img/icons/git.png" alt="git logo">
+        <img src="../assets/img/icons/adobe.png" alt="adobe logo">
+        <img src="../assets/img/icons/php.png" alt="php logo">
+        <img src="../assets/img/icons/sql.png" alt="sql logo">
+        <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo">
+    </div><!-- Skills -->
+
         </div>
+        
           </div><!-- Header Left Box -->
-
-    <div class="header-div-right">
       
+      <div class="header-div-right">
       <img class="header-div-right-img" src="../assets/img/profil2.jpg" alt="Stefan">
+    </div>
 
-    </div><!-- Header Right Box -->
+
+
   </section>
-
-    <!-- <div class="header-div-some"> -->
-        <!--<h2>SoMe</h2>-->
-        <!-- <a href="#"><img src="./../components/icons/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/FisterMedister"><img src="./../components/icons/github.png" alt="Github"></a>
-        <a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a>
-        <a href="https://twitter.com/Fister_Medister"><img src="./../components/icons/twitter.png" alt="Twitter"></a>
-      </div> -->
-      <!-- Header SoMe Box -->
-
   </header>
 
   <section ref="keyword" id="keyword">
@@ -105,7 +123,7 @@
     <div ref="project1" class="project-wrapper animate-2">
 
       <div class="project">
-        <img src="../assets//img/UCL-case.jpg" alt="">
+        <a href="https://github.com/FrederikLandtved/UCLStudievejleder"><img src="../assets//img/UCL-case.jpg" alt=""></a>
       </div>
 
       <div class="desc">
@@ -132,7 +150,7 @@
     </div>
 
     <div class="project">
-      <img src="../assets/img/rtid-2.jpg" alt="RTID by Ludo">
+      <a href="https://www.rtidbyludo.com/"><img src="../assets/img/rtid-2.jpg" alt="RTID by Ludo"></a>
     </div>
 
 
@@ -141,7 +159,7 @@
     <div class="project-wrapper">
 
     <div class="project">
-      <img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics">
+      <a href="https://www.lifeline.sej.one"><img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics"></a>
     </div>
 
     <div class="desc">
@@ -165,7 +183,7 @@
 </div>
 
 <div class="project">
-  <img src="../assets/img/webdock-2.jpg" alt="Bachelor project">
+  <a href="http://www.bachelor.sej.one"><img src="../assets/img/webdock-2.jpg" alt="Bachelor project"></a>
 </div>
 
 
@@ -176,10 +194,29 @@
 
 <h2 class="sec-title">About Me</h2>
 
-<main class="about-grid-wrapper">
+<main class="about-wrapper">
+  <div class="about-img">
+    <img :src="currentImage" @click="changeImage" alt="Stefan Emil Jespersen">
+  </div>
+  <div class="about-text">
+    <p>
+      I'm 24 years old
+      and I've just recently graduated at UCL (University College Lillebælt)
+      where I studied the Web-developer line.<br>
+      The thing that I like about Web-devloping,
+      is that not only do you learn about essential editing programs
+      like the Adobe packs, but also coding and various analyses methods
+      that are currently being used in the professional environment.
+    </p>
+    <p>My past working experiences have made me more aware
+      of the working environment, and how to tackle certain things
+      like keeping focus etc.</p>
+  </div>
+</main>
+
+<!-- <main class="about-grid-wrapper">
   <div class="about-grid-item">
     <div class="about-div-img">
-      <!-- <img src="@/assets/img/profil1.jpg" alt="Stefan Emil Jespersen"> -->
       <img :src="currentImage" @click="changeImage" alt="Stefan Emil Jespersen">
     </div>
   </div>
@@ -200,7 +237,7 @@
       like keeping focus etc. </p>
   </div>
   </div>
-</main>
+</main> -->
 
 </section><!-- About -->
 
@@ -212,12 +249,12 @@
       <form action="https://formspree.io/f/mnqybnwq" method="post" class="form-box" id="form-box">
 
           <div class="field" tabindex="1">
-          <label for="fname"><img src="../assets/img/man.png" alt="man icon"> Name</label>
+          <label for="fname"><img src="../assets/img/icons/man.png" alt="man icon"> Name</label>
           <input autocomplete="name" id="fname" required name="name" type="text" placeholder="firstname surname">
         </div>
 
         <div class="field" tabindex="2">
-          <label for="femail"><img src="../assets/img/mail.png" alt="mail icon"> Email</label>
+          <label for="femail"><img src="../assets/img/icons/mail.png" alt="mail icon"> Email</label>
           <input autocomplete="femail" required  id="femail" name="email" type="email" placeholder="email@domain.com">
         </div>
 
@@ -227,7 +264,7 @@
           </div> -->
 
           <div class="field" tabindex="3">
-          <label for="message"><img src="../assets/img/pen-papir.png" alt="pen and papir icon"> Message</label>
+          <label for="message"><img src="../assets/img/icons/pen-papir.png" alt="pen and papir icon"> Message</label>
           <textarea name="message" minlength="10" id="message" cols="30" rows="4" placeholder="type here"></textarea>
           </div>
 
@@ -295,7 +332,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "Coder", "Hard Worker"],
+      displayTextArray: ["Web Developer", "Multimedia Designer", "Graphics Designer", "A guy"],
       typingSpeed: 100,
       erasingSpeed: 50,
       newTextDelay: 2000,

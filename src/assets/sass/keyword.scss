@@ -1,5 +1,6 @@
 $chinarose: #ae4b60;
 $darkGreenColor: #228A30;
+$lightGreenColor: #39B54A;
 $darkBlue: hsl(226, 56%, 33%);
 $orangeColor: #e08814;
 
@@ -29,12 +30,11 @@ $orangeColor: #e08814;
 
                 img {
                     //border: 1px solid black;
-                    height: 32%;
-                    width: 22%;
+                    width: 100px;
                 }
 
                 h3 {
-                    color: #FFFFFF;
+                    color: $lightGreenColor;
                     margin-top: 10px;
                 }
 

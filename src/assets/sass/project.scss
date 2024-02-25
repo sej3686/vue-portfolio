@@ -16,6 +16,7 @@ $darkGreenColor: #228A30;
         // background-color: red;
         display: flex;
         flex-direction: row;
+        // margin-top: 1em;
         width: 100%;
 
         .project {
@@ -23,15 +24,25 @@ $darkGreenColor: #228A30;
             height: 500px;
             width: 50%;
 
-            img {
-                height: 500px;
-                opacity: 0.8;
-                width: 100%;
+            a {
+                img {
+                    height: 500px;
+                    opacity: 0.8;
+                    transition: 0.3s ease-out;
+                    width: 100%;
+                }
+    
+                img:hover {
+                    cursor: pointer;
+                    opacity: 1;
+                }
             }
+
+
         }
 
         .desc {
-            background-color: $headerColor;
+            // background-color: $headerColor;
             color: #FFFFFF;
             display: flex;
             flex-direction: column;
@@ -42,6 +53,7 @@ $darkGreenColor: #228A30;
             width: 50%;
 
             h2 {
+                color: $lightGreenColor;
                 font-size: 1.8rem;
             }
 
@@ -57,19 +69,21 @@ $darkGreenColor: #228A30;
             }
 
             .visit-button {
-                background-color: $lightGreenColor;
-                border: 0;
-                border-radius: 6px;
+                background-color: transparent;
+                border: 3px solid $lightGreenColor;
+                border-radius: 30px;
                 color: #FFFFFF;
                 font-size: 1.1rem;
                 font-weight: bold;
                 height: 40px;
                 margin-top: 50px;
+                transition: 0.2s;
                 width: 150px;
             }
 
             .visit-button:hover {
-                background-color: $darkGreenColor;
+                background-color: #FFFFFF;
+                color: #000000;
                 cursor: pointer;
             }
         }

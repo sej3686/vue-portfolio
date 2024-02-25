@@ -6,43 +6,76 @@ $orangeColor: #e08814;
     height: 80vh;
     width: 100%;
 
-    .about-grid-wrapper {
-        display: inline-grid;
-        grid-template-columns: 49em auto;
-        gap: 10px;
-        height: 80%;
-        justify-items: end;
-        margin: 0 auto;
-        margin-top: 1em;
-        padding: 10px;
-        
-        .about-grid-item {
-        font-size: 1.8rem;
+    .about-wrapper {
+        display: flex;
 
-            .about-textbox {
-                display: inline-block;
-                justify-self: start;
+        .about-img {
+            // background-color: red;
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            width: 35%;
 
-                h3 {
-                    color: #FFFFFF;
-                }
-
-                p {
-                    color: #FFFFFF;
-                    font-size: 1.2rem;
-                    line-height: 40px;
-                    margin-top: 1em;
-                }
-            }
-
-            .about-div-img {
-
-                img {
+            img {
                 border-radius: 100%;
                 cursor: pointer;
-                max-width: 400px;
-                }
+                max-width: 90%;
+            }
+        }
+
+        .about-text {
+            // background-color: #228A30;
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            justify-content: space-evenly;
+            width: 65%;
+
+            p {
+                color: #FFFFFF;
+                font-size: 1.2rem;
+                line-height: 35px;
             }
         }
     }
+
+    // .about-grid-wrapper {
+    //     display: inline-grid;
+    //     grid-template-columns: 49em auto;
+    //     gap: 10px;
+    //     height: 80%;
+    //     justify-items: end;
+    //     margin: 0 auto;
+    //     margin-top: 1em;
+    //     padding: 10px;
+        
+    //     .about-grid-item {
+    //     font-size: 1.8rem;
+
+    //         .about-textbox {
+    //             display: inline-block;
+    //             justify-self: start;
+
+    //             h3 {
+    //                 color: #FFFFFF;
+    //             }
+
+    //             p {
+    //                 color: #FFFFFF;
+    //                 font-size: 1.2rem;
+    //                 line-height: 40px;
+    //                 margin-top: 1em;
+    //             }
+    //         }
+
+    //         .about-div-img {
+
+    //             img {
+    //             border-radius: 100%;
+    //             cursor: pointer;
+    //             max-width: 400px;
+    //             }
+    //         }
+    //     }
+    // }
 }
