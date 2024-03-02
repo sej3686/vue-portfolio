@@ -1,81 +1,81 @@
-$darkGreenColor: #228A30;
+$darkGreenColor: #228a30;
 $orangeColor: #e08814;
 
 #about {
-    background-color: transparent;
-    height: 80vh;
-    width: 100%;
+  background-color: transparent;
+  height: 80vh;
+  width: 100%;
 
-    .about-wrapper {
-        display: flex;
+  .about-wrapper {
+    display: flex;
 
-        .about-img {
-            // background-color: red;
-            display: flex;
-            height: 400px;
-            justify-content: center;
-            width: 35%;
+    .about-img {
+      // background-color: red;
+      display: flex;
+      height: 400px;
+      justify-content: center;
+      width: 35%;
 
-            img {
-                border-radius: 100%;
-                cursor: pointer;
-                max-width: 90%;
-            }
-        }
-
-        .about-text {
-            // background-color: #228A30;
-            display: flex;
-            flex-direction: column;
-            height: 400px;
-            justify-content: space-evenly;
-            width: 65%;
-
-            p {
-                color: #FFFFFF;
-                font-size: 1.2rem;
-                line-height: 35px;
-            }
-        }
+      img {
+        border-radius: 100%;
+        cursor: pointer;
+        max-width: 90%;
+      }
     }
 
-    // .about-grid-wrapper {
-    //     display: inline-grid;
-    //     grid-template-columns: 49em auto;
-    //     gap: 10px;
-    //     height: 80%;
-    //     justify-items: end;
-    //     margin: 0 auto;
-    //     margin-top: 1em;
-    //     padding: 10px;
-        
-    //     .about-grid-item {
-    //     font-size: 1.8rem;
+    .about-text {
+      // background-color: #228A30;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      justify-content: space-evenly;
+      width: 65%;
 
-    //         .about-textbox {
-    //             display: inline-block;
-    //             justify-self: start;
+      p {
+        color: #ffffff;
+        font-size: 1.2rem;
+        line-height: 35px;
+      }
+    }
+  }
 
-    //             h3 {
-    //                 color: #FFFFFF;
-    //             }
+  // .about-grid-wrapper {
+  //     display: inline-grid;
+  //     grid-template-columns: 49em auto;
+  //     gap: 10px;
+  //     height: 80%;
+  //     justify-items: end;
+  //     margin: 0 auto;
+  //     margin-top: 1em;
+  //     padding: 10px;
 
-    //             p {
-    //                 color: #FFFFFF;
-    //                 font-size: 1.2rem;
-    //                 line-height: 40px;
-    //                 margin-top: 1em;
-    //             }
-    //         }
+  //     .about-grid-item {
+  //     font-size: 1.8rem;
 
-    //         .about-div-img {
+  //         .about-textbox {
+  //             display: inline-block;
+  //             justify-self: start;
 
-    //             img {
-    //             border-radius: 100%;
-    //             cursor: pointer;
-    //             max-width: 400px;
-    //             }
-    //         }
-    //     }
-    // }
+  //             h3 {
+  //                 color: #FFFFFF;
+  //             }
+
+  //             p {
+  //                 color: #FFFFFF;
+  //                 font-size: 1.2rem;
+  //                 line-height: 40px;
+  //                 margin-top: 1em;
+  //             }
+  //         }
+
+  //         .about-div-img {
+
+  //             img {
+  //             border-radius: 100%;
+  //             cursor: pointer;
+  //             max-width: 400px;
+  //             }
+  //         }
+  //     }
+  // }
 }

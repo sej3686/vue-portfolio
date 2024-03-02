@@ -1,222 +1,221 @@
 $darkColor: #212222;
-$darkGreenColor: #228A30;
+$darkGreenColor: #228a30;
 $lightBlue: #203c98;
 $darkBlue: #172c73;
-$lightGreenColor: #39B54A;
+$lightGreenColor: #39b54a;
 
-$all: all .5s ease;
+$all: all 0.5s ease;
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 #contact {
-    // background-color: #228A30;
-    height: 75vh;
-    // padding-top: 4rem;
-    width: 100%;
+  // background-color: #228A30;
+  height: 75vh;
+  // padding-top: 4rem;
+  width: 100%;
 
-    .contact-container {
-        // background-color: #FFFFFF;
-        height: 500px;
-        margin: 0 auto;
-        width: 50%;
+  .contact-container {
+    // background-color: #FFFFFF;
+    height: 500px;
+    margin: 0 auto;
+    width: 50%;
 
-        .form-box {
-            align-items: center;
-            // background-color: lightblue;
-            display: flex;
-            flex-flow: column wrap;
-            height: 500px;
-            justify-content: center;
-            width: 480px;
-            margin: 0 auto;
+    .form-box {
+      align-items: center;
+      // background-color: lightblue;
+      display: flex;
+      flex-flow: column wrap;
+      height: 500px;
+      justify-content: center;
+      width: 480px;
+      margin: 0 auto;
 
-            .field {
-                // background-color: red;
-                font-size: 1.2rem;
-                width: 100%;
-                padding-bottom: 10px;
+      .field {
+        // background-color: red;
+        font-size: 1.2rem;
+        width: 100%;
+        padding-bottom: 10px;
 
-                label, input, textarea {
-                    padding: 10px;
-                }
-
-                label {
-                    color: #FFFFFF;
-
-                    img {
-                        width: 20px;
-                    }
-                }
-                
-                input, textarea {
-                    border: 0;
-                    border-radius: 3px;
-                    box-shadow: 0 10px 6px -6px rgb(56, 179, 31);
-                    outline: none;
-                    
-                }
-
-                input {
-                    font-size: 1rem;
-                    height: 35px;
-                    width: 450px;
-                }
-
-                textarea {
-                    font-size: 1rem;
-                    resize: vertical;
-                    max-height: 210px;
-                    width: 450px;
-                }
-            }
-
-            button {
-                background-color: $lightBlue;
-                border: 3px solid $lightGreenColor;
-                border-radius: 30px;
-                color: #FFFFFF;
-                font-size: 1.1rem;
-                font-weight: bold;
-                height: 40px;
-                margin-top: 10px;
-                transition: 0.2s;
-                width: 200px;
-            }
-
-            button:hover {
-                background-color: #FFFFFF;
-                color: #000000;
-                cursor: pointer;
-            }
+        label,
+        input,
+        textarea {
+          padding: 10px;
         }
+
+        label {
+          color: #ffffff;
+
+          img {
+            width: 20px;
+          }
+        }
+
+        input,
+        textarea {
+          border: 0;
+          border-radius: 3px;
+          box-shadow: 0 10px 6px -6px rgb(56, 179, 31);
+          outline: none;
+        }
+
+        input {
+          font-size: 1rem;
+          height: 35px;
+          width: 450px;
+        }
+
+        textarea {
+          font-size: 1rem;
+          resize: vertical;
+          max-height: 210px;
+          width: 450px;
+        }
+      }
+
+      button {
+        background-color: $lightBlue;
+        border: 3px solid $lightGreenColor;
+        border-radius: 30px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 40px;
+        margin-top: 10px;
+        transition: 0.2s;
+        width: 200px;
+      }
+
+      button:hover {
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+      }
     }
+  }
 
+  // .contact-container {
+  //     background-color: #FFFFFF;
+  //     border-radius: 10px;
+  //     box-shadow: 0px 0px 5px 0px rgba(255,255,255);
+  //     height: 32em;
+  //     margin: 0 auto;
+  //     width: 750px;
+  //     padding: 10px;
 
-    // .contact-container {
-    //     background-color: #FFFFFF;
-    //     border-radius: 10px;
-    //     box-shadow: 0px 0px 5px 0px rgba(255,255,255);
-    //     height: 32em;
-    //     margin: 0 auto;
-    //     width: 750px;
-    //     padding: 10px;
+  //     h3 {
+  //         font-size: 40px;
+  //         text-align: center;
+  //     }
 
-    //     h3 {
-    //         font-size: 40px;
-    //         text-align: center;
-    //     }
+  //     .form-box {
+  //         margin-top: 10px;
+  //         display: block;
 
-    //     .form-box {
-    //         margin-top: 10px;
-    //         display: block;
+  //         .row {
+  //             //background-color: #39B54A;
+  //             display: flex;
+  //             flex-direction: row;
+  //             width: 100%;
 
+  //             .row-first {
+  //                 //background-color: red;
+  //                 //border: 1px solid black;
+  //                 display: block;
+  //                 height: 80px;
+  //                 margin-top: 10px;
 
-    //         .row {
-    //             //background-color: #39B54A;
-    //             display: flex;
-    //             flex-direction: row;
-    //             width: 100%;
+  //                 label {
+  //                     color: #000000;
+  //                     font-size: 14px;
+  //                     font-weight: bold;
+  //                 }
 
-    //             .row-first {
-    //                 //background-color: red;
-    //                 //border: 1px solid black;
-    //                 display: block;
-    //                 height: 80px;
-    //                 margin-top: 10px;
+  //                 input {
+  //                     border: 0;
+  //                     border-bottom: 1px solid $lightGreenColor;
+  //                     font-size: 16px;
+  //                     height: 45px;
+  //                     margin-top: 10px;
+  //                     width: 350px;
+  //                 }
 
-                    
-    //                 label {
-    //                     color: #000000;
-    //                     font-size: 14px;
-    //                     font-weight: bold;
-    //                 }
+  //                 input:focus {
+  //                     outline: none;
+  //                     border-bottom: 1px solid $darkGreenColor;
+  //                 }
+  //             }
 
-    //                 input {
-    //                     border: 0;
-    //                     border-bottom: 1px solid $lightGreenColor;
-    //                     font-size: 16px;
-    //                     height: 45px;
-    //                     margin-top: 10px;
-    //                     width: 350px;
-    //                 }
+  //             .row-mid {
+  //                 //border: 1px solid black;
+  //                 display: block;
+  //                 // height: 80px;
+  //                 margin-top: 30px;
 
-    //                 input:focus {
-    //                     outline: none;
-    //                     border-bottom: 1px solid $darkGreenColor;
-    //                 }
-    //             }
+  //                 label {
+  //                     color: #000000;
+  //                     font-weight: bold;
+  //                     font-size: 14px;
+  //                 }
 
-    //             .row-mid {
-    //                 //border: 1px solid black;
-    //                 display: block;
-    //                 // height: 80px;
-    //                 margin-top: 30px;
+  //                 input {
+  //                     border: 0;
+  //                     border-bottom: 1px solid $lightGreenColor;
+  //                     color: #000000;
+  //                     font-size: 16px;
+  //                     height: 45px;
+  //                     margin-top: 10px;
+  //                     width: 725px;
+  //                 }
 
-    //                 label {
-    //                     color: #000000;
-    //                     font-weight: bold;
-    //                     font-size: 14px;
-    //                 }
+  //                 input:focus {
+  //                     outline: none;
+  //                     border-bottom: 1px solid $darkGreenColor;
+  //                 }
 
-    //                 input {
-    //                     border: 0;
-    //                     border-bottom: 1px solid $lightGreenColor;
-    //                     color: #000000;
-    //                     font-size: 16px;
-    //                     height: 45px;
-    //                     margin-top: 10px;
-    //                     width: 725px;
-    //                 }
+  //                 textarea {
+  //                     border: 0;
+  //                     border-bottom: 1px solid $lightGreenColor;
+  //                     color: #000000;
+  //                     font-size: 16px;
+  //                     margin-top: 10px;
+  //                     resize: none;
+  //                     width: 725px;
+  //                 }
 
-    //                 input:focus {
-    //                     outline: none;
-    //                     border-bottom: 1px solid $darkGreenColor;
-    //                 }
+  //                 textarea:focus {
+  //                     outline: none;
+  //                     border-bottom: 1px solid $darkGreenColor;
+  //                 }
+  //             }
 
-    //                 textarea {
-    //                     border: 0;
-    //                     border-bottom: 1px solid $lightGreenColor;
-    //                     color: #000000;
-    //                     font-size: 16px;
-    //                     margin-top: 10px;
-    //                     resize: none;
-    //                     width: 725px;
-    //                 }
+  //             .row-last {
+  //                 //background-color: red;
+  //                 display: block;
+  //                 justify-content: center;
+  //                 margin-top: 50px;
+  //                 width: 300px;
 
-    //                 textarea:focus {
-    //                     outline: none;
-    //                     border-bottom: 1px solid $darkGreenColor;
-    //                 }
-    //             }
+  //                     input {
+  //                         background-color: $lightGreenColor;
+  //                         border: 0;
+  //                         border-radius: 10px;
+  //                         color: #FFFFFF;
+  //                         font-size: 16px;
+  //                         height: 50px;
+  //                         width: 100%;
+  //                     }
 
-    //             .row-last {
-    //                 //background-color: red;
-    //                 display: block;
-    //                 justify-content: center;
-    //                 margin-top: 50px;
-    //                 width: 300px;
-
-    //                     input {
-    //                         background-color: $lightGreenColor;
-    //                         border: 0;
-    //                         border-radius: 10px;
-    //                         color: #FFFFFF;
-    //                         font-size: 16px;
-    //                         height: 50px;
-    //                         width: 100%;
-    //                     }
-
-    //                     input:hover {
-    //                         background-color: $darkGreenColor;
-    //                         cursor: pointer;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    }
+  //                     input:hover {
+  //                         background-color: $darkGreenColor;
+  //                         cursor: pointer;
+  //                     }
+  //                 }
+  //             }
+  //         }
+  //     }
+}
 
 /*
     h2 {

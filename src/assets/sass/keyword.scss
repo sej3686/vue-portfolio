@@ -1,62 +1,62 @@
 $chinarose: #ae4b60;
-$darkGreenColor: #228A30;
-$lightGreenColor: #39B54A;
+$darkGreenColor: #228a30;
+$lightGreenColor: #39b54a;
 $darkBlue: hsl(226, 56%, 33%);
 $orangeColor: #e08814;
 
 #keyword {
-    // background-color: $orangeColor;
-    // border-bottom: 2px solid $chinarose;
-    // border-top: 2px solid $chinarose;
-    height: 45vh;
-    opacity: 0;
-    transform: translateY(50%);
-    width: 100%;
+  // background-color: $orangeColor;
+  // border-bottom: 2px solid $chinarose;
+  // border-top: 2px solid $chinarose;
+  height: 45vh;
+  opacity: 0;
+  transform: translateY(50%);
+  width: 100%;
 
-    .keyword-grid-wrapper {
-        // background-color: #2196F3;
-        column-gap: 40px;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        height: 60%;
-        justify-items: center;
-        margin-top: 1em;
-        padding: 10px;
+  .keyword-grid-wrapper {
+    // background-color: #2196F3;
+    column-gap: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 60%;
+    justify-items: center;
+    margin-top: 1em;
+    padding: 10px;
 
-            .keyword-grid-item {
-                //border: 1px solid rgba(0, 0, 0, 0.8);
-                padding: 10px;
-                font-size: 1.5rem;
+    .keyword-grid-item {
+      //border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      font-size: 1.5rem;
 
-                img {
-                    //border: 1px solid black;
-                    width: 100px;
-                }
+      img {
+        //border: 1px solid black;
+        width: 100px;
+      }
 
-                h3 {
-                    color: $lightGreenColor;
-                    margin-top: 10px;
-                }
+      h3 {
+        color: $lightGreenColor;
+        margin-top: 10px;
+      }
 
-                p {
-                    color: #FFFFFF;
-                    margin-top: 20px;
-                }
-            }
+      p {
+        color: #ffffff;
+        margin-top: 20px;
+      }
     }
+  }
 }
 
 .animate {
-    animation: slideIn 0.8s forwards;
+  animation: slideIn 0.8s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
   }
-  
-  @keyframes slideIn {
-          from {
-              opacity: 0;
-              transform: translateY(50%);
-          }
-          to {
-              opacity: 1;
-              transform: translateY(0);
-          }
-      }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
