@@ -191,13 +191,14 @@ $darkGreenColor: #228a30;
     }
 
     .about-text {
+      margin-top: 5em;
       width: 100% !important;
     }
   }
 
   //Contact
   #contact {
-    margin-top: 20em;
+    margin-top: 30em;
 
     .contact-container {
       width: 100%;
@@ -214,7 +215,7 @@ $darkGreenColor: #228a30;
   footer {
     align-items: center;
     flex-direction: column !important;
-    margin-top: 5em;
+    margin-top: 8em;
 
     img {
       width: 40%;
@@ -234,4 +235,27 @@ $darkGreenColor: #228a30;
   #keyword {
     margin-top: 45em;
   }
+
+    //Contact
+    #contact {
+      margin-top: 35em;
+  
+      .contact-container {
+        width: 100%;
+    
+        .form-box {
+      
+          .field {
+
+            input {
+              width: 80%;
+            }
+
+            textarea {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
 }
