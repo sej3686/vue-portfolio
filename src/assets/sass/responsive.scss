@@ -95,7 +95,6 @@ $darkGreenColor: #228a30;
   //Header
   nav {
     // background-color: green;
-    height: 35vh;
     flex-direction: column;
     justify-content: center !important;
     padding-top: 12em;
@@ -109,12 +108,13 @@ $darkGreenColor: #228a30;
       width: 100%;
 
       a {
-        color: #FFFFFF;
+        color: #ffffff;
         text-decoration: none;
 
         li {
           border: 3px solid $lightGreenColor;
           font-size: 1.2rem;
+          padding: 0.3em;
           margin-top: 0.2em;
         }
       }
@@ -162,24 +162,24 @@ $darkGreenColor: #228a30;
     }
   }
 
-//Projects
-#projects {
-  margin-top: 30em;
+  //Projects
+  #projects {
+    margin-top: 30em;
 
-  .project-wrapper {
-    border: 3px solid #FFFFFF;
-    flex-direction: column;
-    width: 98%;
+    .project-wrapper {
+      border: 3px solid #ffffff;
+      flex-direction: column;
+      width: 98%;
 
-    .project {
-      width: 100%;
-    }
+      .project {
+        width: 100%;
+      }
 
-    .desc {
-      width: 100%;
+      .desc {
+        width: 100%;
+      }
     }
   }
-}
 
   //About
   .about-wrapper {
@@ -202,9 +202,8 @@ $darkGreenColor: #228a30;
 
     .contact-container {
       width: 100%;
-  
+
       .form-box {
-    
         .field {
         }
       }
@@ -229,34 +228,49 @@ $darkGreenColor: #228a30;
     nav {
       justify-content: center;
     }
+
+    .header-div-right-img {
+      transform: none !important;
+      animation: none !important;
+    }
   }
 
   //keywords
   #keyword {
-    margin-top: 45em;
+    margin-top: 52em;
   }
 
-    //Contact
-    #contact {
-      margin-top: 35em;
-  
-      .contact-container {
+  //Projects
+  #projects {
+    margin-top: 35em;
+  }
+
+  //About
+  #about {
+
+    .about-img {
+      width: 100% !important;
+    }
+  }
+
+  //Contact
+  #contact {
+    margin-top: 35em;
+
+    .contact-container {
+      .form-box {
         width: 100%;
-    
-        .form-box {
-          align-items: flex-start !important;
-      
-          .field {
 
-            input {
-              width: 80%;
-            }
+        .field {
+          input {
+            width: 80%;
+          }
 
-            textarea {
-              width: 80%;
-            }
+          textarea {
+            width: 80%;
           }
         }
       }
     }
+  }
 }
