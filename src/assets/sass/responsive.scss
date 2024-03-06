@@ -4,9 +4,17 @@ $lightGreenColor: #39b54a;
 $darkGreenColor: #228a30;
 
 /* 2k */
-@media (max-width: 2500px) {
+@media (max-width: 2700px) {
   .container {
     max-width: 1920px;
+  }
+
+  #about {
+    height: 50vh !important;
+  }
+
+  #contact {
+    height: 55vh;
   }
 }
 
