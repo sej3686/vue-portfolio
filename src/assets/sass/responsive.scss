@@ -42,8 +42,20 @@ $darkGreenColor: #228a30;
     margin-top: 15em;
   }
 
+  #projects {
+    margin-top: 7em;
+  }
+
   .container {
     max-width: 1024px;
+  }
+
+  #about {
+    .about-wrapper {
+      .about-img {
+        width: 60%;
+      }
+    }
   }
 }
 
@@ -73,6 +85,10 @@ $darkGreenColor: #228a30;
   #keyword {
     opacity: 1;
     transform: none;
+  }
+
+  #projects {
+    margin-top: 8em;
   }
 
   .animate {
@@ -105,6 +121,7 @@ $darkGreenColor: #228a30;
 
     .main-menu-2 {
       display: block !important;
+      position: sticky;
       width: 100%;
 
       a {
@@ -136,22 +153,27 @@ $darkGreenColor: #228a30;
     }
   }
 
-  .header-box-wrapper {
-    align-items: center;
-    flex-direction: column;
-
-    .header-div-left {
-      width: 100% !important;
-    }
-    .header-div-right {
-      margin-top: 3em;
-    }
+  .sec-title {
+    padding: 0 !important;
+    text-align: center;
   }
 
-  .header-div-right-img {
-    height: 350px !important;
-    width: 350px !important;
-  }
+  // .header-box-wrapper {
+  //   align-items: center;
+  //   flex-direction: column;
+
+  //   .header-div-left {
+  //     width: 100% !important;
+  //   }
+  //   .header-div-right {
+  //     margin-top: 3em;
+  //   }
+  // }
+
+  // .header-div-right-img {
+  //   height: 350px !important;
+  //   width: 350px !important;
+  // }
 
   //Keyword
   #keyword {
@@ -182,19 +204,28 @@ $darkGreenColor: #228a30;
   }
 
   //About
-  .about-wrapper {
-    align-items: center;
-    flex-direction: column;
 
-    .about-img {
-      width: 70% !important;
-    }
+  #about {
+    margin-top: 3em;
 
-    .about-text {
-      margin-top: 5em;
-      width: 100% !important;
+    .about-wrapper {
+      align-items: center;
+      flex-direction: column;
+  
+      .about-img {
+        img {
+          width: 300px;
+        }
+      }
+  
+      .about-text {
+        margin-top: 5em;
+        text-align: center;
+        width: 100% !important;
+      }
     }
   }
+
 
   //Contact
   #contact {
@@ -246,13 +277,13 @@ $darkGreenColor: #228a30;
   }
 
   //About
-  #about {
-
+  .about-wrapper {
     .about-img {
-      width: 100% !important;
+      img {
+        width: 200px;
+      }
     }
   }
-
   //Contact
   #contact {
     margin-top: 35em;

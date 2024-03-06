@@ -58,9 +58,49 @@
       </nav>
 
       <section class="header-box-wrapper">
-        <div class="header-div-left">
+        <img class="profile-pic" src="../assets/img/profil2.jpg" />
+
+        <h2>
+          Hi &#128075;
+          <br />
+          I'm <span>Stefan</span>
+        </h2>
+
+        <div class="typeing">
+          <span class="typed-text">{{ typeValue }}</span>
+          <span class="blinking-cursor">|</span>
+          <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+        </div>
+
+        <h4>
+          I'm a newly graduated Web Developer <br />
+          with various experiences in
+          <br />
+          both web-design and multi-media
+        </h4>
+
+        <h5>I experiance in:</h5>
+
+        <div class="skills">
+          <img src="../assets/img/icons/html.png" alt="html logo" />
+          <img src="../assets/img/icons/css.png" alt="css logo" />
+          <img src="../assets/img/icons/sass.png" alt="sass logo" />
+          <img src="../assets/img/icons/js.png" alt="javascript logo" />
+          <img src="../assets/img/icons/ts.png" alt="typescript logo" />
+          <img src="../assets/img/icons/vue.png" alt="vue logo" />
+          <img src="../assets/img/icons/react.png" alt="react logo" />
+          <br />
+          <img src="../assets/img/icons/angular.png" alt="angular logo" />
+          <img src="../assets/img/icons/git.png" alt="git logo" />
+          <img src="../assets/img/icons/adobe.png" alt="adobe logo" />
+          <img src="../assets/img/icons/php.png" alt="php logo" />
+          <img src="../assets/img/icons/sql.png" alt="sql logo" />
+          <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
+        </div>
+
+        <!-- <div class="header-div-left">
           <div class="header-div-left-textbox">
-            <h3>Hi,</h3>
+            <h3>Hi &#128075;</h3>
             <h2>I'm <span>Stefan</span></h2>
             <span class="typed-text">{{ typeValue }}</span>
             <span class="blinking-cursor">|</span>
@@ -69,13 +109,13 @@
               I'm a newly graduated Web Developer with various experiences in
               <br />
               both web-design and multi-media
-            </h4>
-            <h4>Interested? Then check out my <span>Portfolio</span></h4>
-            <h5>I have experiance in:</h5>
-            <!-- <a href="#keyword"><button>Check it out <span>&dtrif;</span></button></a> -->
-            <!-- <h4>And Welcome To My <span>Portfolio!</span></h4> -->
+            </h4> -->
+        <!-- <h4>Interested? Then check out my <span>Portfolio</span></h4> -->
+        <!-- <h5>I have experiance in:</h5> -->
+        <!-- <a href="#keyword"><button>Check it out <span>&dtrif;</span></button></a> -->
+        <!-- <h4>And Welcome To My <span>Portfolio!</span></h4> -->
 
-            <div class="skills">
+        <!-- <div class="skills">
               <img src="../assets/img/icons/html.png" alt="html logo" />
               <img src="../assets/img/icons/css.png" alt="css logo" />
               <img src="../assets/img/icons/sass.png" alt="sass logo" />
@@ -91,10 +131,8 @@
               <img src="../assets/img/icons/sql.png" alt="sql logo" />
               <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
             </div>
-            <!-- Skills -->
           </div>
         </div>
-        <!-- Header Left Box -->
 
         <div class="header-div-right">
           <img
@@ -102,7 +140,7 @@
             src="../assets/img/profil2.jpg"
             alt="Stefan"
           />
-        </div>
+        </div> -->
       </section>
     </header>
 
@@ -420,7 +458,6 @@ export default {
         "Web Developer",
         "Multimedia Designer",
         "Graphics Designer",
-        "A guy",
       ],
       typingSpeed: 100,
       erasingSpeed: 50,

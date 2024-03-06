@@ -12,14 +12,17 @@ $orangeColor: #e08814;
     .about-img {
       // background-color: red;
       display: flex;
-      height: 400px;
       justify-content: center;
       width: 35%;
 
       img {
         border-radius: 100%;
         cursor: pointer;
-        max-width: 90%;
+        max-width: 400px;
+      }
+
+      img:hover {
+        opacity: 0.9;
       }
     }
 
