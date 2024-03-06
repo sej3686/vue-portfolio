@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- <div ref="scrollTopButton" class="scrollToTop">&uarr;</div> -->
     <header>
       <nav>
         <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
@@ -22,7 +23,7 @@
             <div><img src="../assets/img/sql.png" alt="sql logo"></div>
             <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
           </div>
-
+          
         </ul></li>Drop Down -->
           <li class="hover-underline-animation">
             <a href="#projects">Projects</a>
@@ -79,7 +80,7 @@
           both web-design and multi-media
         </h4>
 
-        <h5>I experiance in:</h5>
+        <h5>I have experiance in:</h5>
 
         <div class="skills">
           <img src="../assets/img/icons/html.png" alt="html logo" />
@@ -410,6 +411,7 @@
   </div>
 </template>
 
+
 <script>
 import { ref, onMounted } from "vue";
 import image1 from "@/assets/img/profil1.jpg";
@@ -482,6 +484,15 @@ export default {
   },
 
   methods: {
+    handleScroll() {
+      if(this.scTimer) return;
+      this.scTimer = setTimeout(() => {
+        this.scY = window.scrollY;
+        clearTimeout(this.scTimer);
+        this.scTimer = 0;
+      }, 100);
+    },
+
     typeText() {
       if (
         this.charIndex <
