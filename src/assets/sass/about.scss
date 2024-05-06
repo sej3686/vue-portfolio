@@ -18,11 +18,12 @@ $orangeColor: #e08814;
       img {
         border-radius: 100%;
         cursor: pointer;
+        transition: 0.2s;
         max-width: 400px;
       }
 
       img:hover {
-        opacity: 0.9;
+        opacity: 0.8;
       }
     }
 
@@ -41,44 +42,4 @@ $orangeColor: #e08814;
       }
     }
   }
-
-  // .about-grid-wrapper {
-  //     display: inline-grid;
-  //     grid-template-columns: 49em auto;
-  //     gap: 10px;
-  //     height: 80%;
-  //     justify-items: end;
-  //     margin: 0 auto;
-  //     margin-top: 1em;
-  //     padding: 10px;
-
-  //     .about-grid-item {
-  //     font-size: 1.8rem;
-
-  //         .about-textbox {
-  //             display: inline-block;
-  //             justify-self: start;
-
-  //             h3 {
-  //                 color: #FFFFFF;
-  //             }
-
-  //             p {
-  //                 color: #FFFFFF;
-  //                 font-size: 1.2rem;
-  //                 line-height: 40px;
-  //                 margin-top: 1em;
-  //             }
-  //         }
-
-  //         .about-div-img {
-
-  //             img {
-  //             border-radius: 100%;
-  //             cursor: pointer;
-  //             max-width: 400px;
-  //             }
-  //         }
-  //     }
-  // }
 }

@@ -5,26 +5,6 @@
       <nav>
         <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
         <ul class="main-menu">
-          <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
-          <!-- <li class="hover-underline-animation"><a href="#">Skills <span>&dtrif;</span></a>
-          <ul class="drop-down">
-            <div class="icon-row">            
-            <div><img src="../assets/img/html.png" alt="html logo"></div>
-            <div><img src="../assets/img/css.png" alt="css logo"></div>
-            <div><img src="../assets/img/js.png" alt="javascript logo"></div>
-            <div><img src="../assets/img/vue.png" alt="vue logo"></div>
-            <div><img src="../assets/img/git.png" alt="git logo"></div>
-          </div>
-
-          <div class="icon-row">            
-            <div><img src="../assets/img/adobe.png" alt="adobe logo"></div>
-            <div><img src="../assets/img/sass.png" alt="sass logo"></div>
-            <div><img src="../assets/img/php.png" alt="php logo"></div>
-            <div><img src="../assets/img/sql.png" alt="sql logo"></div>
-            <div><img src="../assets/img/c-sharp.png" alt="c sharp logo"></div>
-          </div>
-          
-        </ul></li>Drop Down -->
           <li class="hover-underline-animation">
             <a href="#projects">Projects</a>
           </li>
@@ -59,7 +39,7 @@
       </nav>
 
       <section class="header-box-wrapper">
-        <img class="profile-pic" src="../assets/img/profil2.jpg" />
+        <img class="profile-pic" src="../assets/img/profil2.jpg" alt="Profile Picture"/>
 
         <h2>
           Hi &#128075;
@@ -90,7 +70,8 @@
           <img src="../assets/img/icons/ts.png" alt="typescript logo" />
           <img src="../assets/img/icons/vue.png" alt="vue logo" />
           <img src="../assets/img/icons/react.png" alt="react logo" />
-          <br />
+        </div>
+        <div class="skills">
           <img src="../assets/img/icons/angular.png" alt="angular logo" />
           <img src="../assets/img/icons/git.png" alt="git logo" />
           <img src="../assets/img/icons/adobe.png" alt="adobe logo" />
@@ -98,50 +79,6 @@
           <img src="../assets/img/icons/sql.png" alt="sql logo" />
           <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
         </div>
-
-        <!-- <div class="header-div-left">
-          <div class="header-div-left-textbox">
-            <h3>Hi &#128075;</h3>
-            <h2>I'm <span>Stefan</span></h2>
-            <span class="typed-text">{{ typeValue }}</span>
-            <span class="blinking-cursor">|</span>
-            <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-            <h4>
-              I'm a newly graduated Web Developer with various experiences in
-              <br />
-              both web-design and multi-media
-            </h4> -->
-        <!-- <h4>Interested? Then check out my <span>Portfolio</span></h4> -->
-        <!-- <h5>I have experiance in:</h5> -->
-        <!-- <a href="#keyword"><button>Check it out <span>&dtrif;</span></button></a> -->
-        <!-- <h4>And Welcome To My <span>Portfolio!</span></h4> -->
-
-        <!-- <div class="skills">
-              <img src="../assets/img/icons/html.png" alt="html logo" />
-              <img src="../assets/img/icons/css.png" alt="css logo" />
-              <img src="../assets/img/icons/sass.png" alt="sass logo" />
-              <img src="../assets/img/icons/js.png" alt="javascript logo" />
-              <img src="../assets/img/icons/ts.png" alt="typescript logo" />
-              <img src="../assets/img/icons/vue.png" alt="vue logo" />
-              <img src="../assets/img/icons/react.png" alt="react logo" />
-              <br />
-              <img src="../assets/img/icons/angular.png" alt="angular logo" />
-              <img src="../assets/img/icons/git.png" alt="git logo" />
-              <img src="../assets/img/icons/adobe.png" alt="adobe logo" />
-              <img src="../assets/img/icons/php.png" alt="php logo" />
-              <img src="../assets/img/icons/sql.png" alt="sql logo" />
-              <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
-            </div>
-          </div>
-        </div>
-
-        <div class="header-div-right">
-          <img
-            class="header-div-right-img"
-            src="../assets/img/profil2.jpg"
-            alt="Stefan"
-          />
-        </div> -->
       </section>
     </header>
 

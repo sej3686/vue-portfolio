@@ -298,15 +298,19 @@ $darkGreenColor: #228a30;
 
     .contact-container {
       .form-box {
+        box-sizing: border-box;
         width: 100%;
 
         .field {
+          margin-left: 10px;
+          width: 90%;
+          
           input {
-            width: 80%;
+            width: 90%;
           }
 
           textarea {
-            width: 80%;
+            width: 90%;
           }
         }
       }

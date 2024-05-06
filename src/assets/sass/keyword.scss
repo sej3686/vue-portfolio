@@ -30,7 +30,12 @@ $orangeColor: #e08814;
 
       img {
         //border: 1px solid black;
+        transition: 0.2s;
         width: 100px;
+      }
+
+      img:hover {
+        transform: translateY(-10px);
       }
 
       h3 {
