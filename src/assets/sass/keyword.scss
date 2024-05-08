@@ -9,8 +9,8 @@ $orangeColor: #e08814;
   // border-bottom: 2px solid $chinarose;
   // border-top: 2px solid $chinarose;
   height: 45vh;
-  opacity: 0;
-  transform: translateY(50%);
+  // opacity: 0;
+  // transform: translateY(50%);
   width: 100%;
 
   .keyword-grid-wrapper {
@@ -64,4 +64,16 @@ $orangeColor: #e08814;
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }

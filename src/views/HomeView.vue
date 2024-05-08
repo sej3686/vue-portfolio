@@ -85,9 +85,9 @@
     <section ref="keyword" id="keyword">
       <h2 class="sec-title">Keywords</h2>
 
-      <main class="keyword-grid-wrapper">
+      <main class="keyword-grid-wrapper reveal">
         <div class="keyword-grid-item">
-          <img src="../assets/img/code.png" alt="code icon" />
+          <img class="img-1" src="../assets/img/code.png" alt="code icon" />
           <h3>Coder</h3>
           <p>
             What I do when I'm not busy doing other things, is coding for fun.
@@ -117,7 +117,7 @@
     <section id="projects" ref="comp">
       <h2 class="sec-title">Featured Projects</h2>
 
-      <div ref="project1" class="project-wrapper animate-2">
+      <div ref="project1" class="project-wrapper animate-2 reveal">
         <div class="project">
           <a href="https://github.com/FrederikLandtved/UCLStudievejleder"
             ><img src="../assets//img/UCL-case.jpg" alt=""
@@ -140,7 +140,7 @@
       </div>
       <!-- project-wrapper -->
 
-      <div class="project-wrapper animate-3">
+      <div class="project-wrapper animate-3 reveal">
         <div class="desc">
           <h2>RTID by Ludo</h2>
           <p>This is a webshop that I've been helping developing on</p>
@@ -164,7 +164,7 @@
       </div>
       <!-- project-wrapper -->
 
-      <div class="project-wrapper">
+      <div class="project-wrapper reveal">
         <div class="project">
           <a href="https://www.lifeline.sej.one"
             ><img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics"
@@ -186,7 +186,7 @@
       </div>
       <!-- project-wrapper -->
 
-      <div class="project-wrapper">
+      <div class="project-wrapper reveal">
         <div class="desc">
           <h2>Webdock - bachelor project</h2>
           <p>This is a website for my bachelor project</p>
@@ -237,31 +237,6 @@
           </p>
         </div>
       </main>
-
-      <!-- <main class="about-grid-wrapper">
-  <div class="about-grid-item">
-    <div class="about-div-img">
-      <img :src="currentImage" @click="changeImage" alt="Stefan Emil Jespersen">
-    </div>
-  </div>
-
-  <div class="about-grid-item">
-    <div class="about-textbox">
-    <h3>Resumé</h3>
-    <p>I'm 24 years old
-      and I just recently graduated at UCL (University College Lillebælt)
-      where I studied the Web-developer line.<br>
-      The thing that I like about Web-devloping,
-      is that not only do you learn about essential editing programs
-      like the Adobe packs, but also coding and various analyses methods
-      that are currently being used in the professional environment.</p>
-
-      <p>My past working experiences have made me more aware
-      of how the working environment, and how to tackle certain things
-      like keeping focus etc. </p>
-  </div>
-  </div>
-</main> -->
     </section>
     <!-- About -->
 
@@ -364,15 +339,15 @@ export default {
     const keyword = ref(null);
     const project1 = ref(null);
 
-    const handleIntersect = (entries, observer) => {
-      entries.forEach((entry) => {
-        // console.log('entry: ', entry)
-        if (entry.isIntersecting) {
-          entry.target.classList.add("animate");
-          observer.unobserve(entry.target);
-        }
-      });
-    };
+    // const handleIntersect = (entries, observer) => {
+    //   entries.forEach((entry) => {
+    //     // console.log('entry: ', entry)
+    //     if (entry.isIntersecting) {
+    //       entry.target.classList.add("animate");
+    //       observer.unobserve(entry.target);
+    //     }
+    //   });
+    // };
 
     onMounted(() => {
       const options = {
@@ -381,8 +356,8 @@ export default {
         threshold: 0.2,
       };
 
-      const observer = new IntersectionObserver(handleIntersect, options);
-      observer.observe(keyword.value);
+      // const observer = new IntersectionObserver(handleIntersect, options);
+      // observer.observe(keyword.value);
     });
 
     return { keyword };
@@ -421,14 +396,14 @@ export default {
   },
 
   methods: {
-    handleScroll() {
+    /*handleScroll() {
       if(this.scTimer) return;
       this.scTimer = setTimeout(() => {
         this.scY = window.scrollY;
         clearTimeout(this.scTimer);
         this.scTimer = 0;
       }, 100);
-    },
+    },*/
 
     typeText() {
       if (
@@ -470,4 +445,25 @@ export default {
     },
   },
 };
+
+window.addEventListener('scroll', reveal);
+
+function reveal() {
+  var reveals = document.querySelectorAll('.reveal');
+
+  for(var i = 0; i < reveals.length; i++) {
+
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 150;
+
+    if(revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add('active');
+    }
+    // else {
+    //   reveals[i].classList.remove('active');
+    // }
+
+  }
+}
 </script>

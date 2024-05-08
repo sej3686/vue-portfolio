@@ -89,89 +89,15 @@ $darkGreenColor: #228a30;
     }
   }
 
-  // .project-grid-wrapper {
-  //     background-color: #2196F3;
-  //     display: grid;
-  //     grid-template-columns: auto auto;
-  //     grid-template-rows: 100px 100vh;
-  //     // height: 60%;
-  //     margin: 0 auto;
-  //     width: 100%;
-
-  //     .project {
-  //         background-color: red;
-  //     }
-
-  //     .desc {
-  //         background-color: #FFFFFF;
-  //     }
-
-  //     // .project-grid-item {
-  //     //     // background-color: rgba(255, 255, 255, 0.8);
-  //     //     // border: 1px solid rgba(0, 0, 0, 0.8);
-  //     //     //border-radius: 10px;
-  //     //     font-size: 30px;
-  //     //     position: relative;
-  //     //     // width: 90%;
-
-  //     //     img {
-  //     //         width: 100%;
-  //     //     }
-
-  //     //     .project-grid-item-titlebox {
-  //     //         background-color: #212222;
-  //     //         bottom: 0.27em;
-  //     //         display: none;
-  //     //         height: 50px;
-  //     //         position: absolute;
-  //     //         width: 100%;
-
-  //     //         h4 {
-  //     //             color: #FFFFFF;
-  //     //             font-size: 18px;
-  //     //             margin-top: 5px;
-  //     //             text-align: center;
-  //     //         }
-  //     //     }
-  //     // }
-
-  //     // .project-grid-item:hover {
-  //     //     //background-color: red;
-
-  //     //     .project-grid-item-titlebox {
-  //     //         display: block;
-  //     //         opacity: 0.92;
-  //     //     }
-  //     // }
+  // .reveal {
+  //   position: relative;
+  //   transform: scale(0px);
+  //   opacity: 0;
+  //   transition: all 1s ease;
+  // }
+  
+  // .reveal.active {
+  //   transform: scale(500px);
+  //   opacity: 1;
   // }
 }
-
-// .animate-2 {
-//     animation: slideRight 0.8s forwards;
-// }
-
-// @keyframes slideRight {
-//     from {
-//         opacity: 0;
-//         transform: translateX(-100%);
-//     }
-//     to {
-//         opacity: 1;
-//         transform: translateX(0);
-//     }
-// }
-
-// .animate-3 {
-//     animation: slideLeft 0.8s forwards;
-// }
-
-// @keyframes slideLeft {
-//     from {
-//         opacity: 0;
-//         transform: translateX(100%);
-//     }
-//     to {
-//         opacity: 1;
-//         transform: translateX(0);
-//     }
-// }
