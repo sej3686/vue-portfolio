@@ -90,7 +90,8 @@
           <img class="img-1" src="../assets/img/code.png" alt="code icon" />
           <h3>Coder</h3>
           <p>
-            What I do when I'm not busy doing other things, is coding for fun.
+            What I do when I'm not busy doing other things, is coding for fun. I've been doing
+            various projects
           </p>
         </div>
         <div class="keyword-grid-item">
@@ -213,7 +214,7 @@
     <section id="about">
       <h2 class="sec-title">About Me</h2>
 
-      <main class="about-wrapper">
+      <main class="about-wrapper reveal">
         <div class="about-img">
           <img
             :src="currentImage"
@@ -243,7 +244,7 @@
     <section id="contact">
       <h2 class="sec-title">Let's get in Touch!</h2>
 
-      <main class="contact-container">
+      <main class="contact-container reveal">
         <!-- <h3>Send me an Email</h3> -->
         <form
           action="https://formspree.io/f/mnqybnwq"
