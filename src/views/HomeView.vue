@@ -2,7 +2,25 @@
   <div class="container">
     <!-- <div ref="scrollTopButton" class="scrollToTop">&uarr;</div> -->
     <header>
+
+
       <nav>
+        <div class="off-screen-menu">
+        <ul>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+      </div>
+
+      <div id="navv">
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="header-wrapper">
         <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
         <ul class="main-menu">
           <li class="hover-underline-animation">
@@ -16,7 +34,6 @@
         <!-- Main Menu -->
 
         <ul class="main-menu-2">
-          <!--<a href=""><li class="hover-underline-animation" >Home</li></a>-->
           <a href="#projects"><li>Projects</li></a>
           <a href="#about"><li>About</li></a>
           <a href="#contact"><li>Contact</li></a>
@@ -36,10 +53,15 @@
           </li>
           <!-- <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li> -->
         </ul>
+      </div><!-- Header Wrapper -->
       </nav>
 
       <section class="header-box-wrapper">
-        <img class="profile-pic" src="../assets/img/profil2.jpg" alt="Profile Picture"/>
+        <img
+          class="profile-pic"
+          src="../assets/img/profil2.jpg"
+          alt="Profile Picture"
+        />
 
         <h2>
           Hi &#128075;
@@ -90,8 +112,8 @@
           <img class="img-1" src="../assets/img/code.png" alt="code icon" />
           <h3>Coder</h3>
           <p>
-            What I do when I'm not busy doing other things, is coding for fun. I've been doing
-            various projects
+            What I do when I'm not busy doing other things, is coding for fun.
+            I've been doing various projects
           </p>
         </div>
         <div class="keyword-grid-item">
@@ -324,7 +346,6 @@
   </div>
 </template>
 
-
 <script>
 import { ref, onMounted } from "vue";
 import image1 from "@/assets/img/profil1.jpg";
@@ -447,24 +468,34 @@ export default {
   },
 };
 
-window.addEventListener('scroll', reveal);
+window.addEventListener("scroll", reveal);
 
 function reveal() {
-  var reveals = document.querySelectorAll('.reveal');
+  var reveals = document.querySelectorAll(".reveal");
 
-  for(var i = 0; i < reveals.length; i++) {
-
+  for (var i = 0; i < reveals.length; i++) {
     var windowheight = window.innerHeight;
     var revealtop = reveals[i].getBoundingClientRect().top;
     var revealpoint = 150;
 
-    if(revealtop < windowheight - revealpoint) {
-      reveals[i].classList.add('active');
+    if (revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add("active");
     }
     // else {
     //   reveals[i].classList.remove('active');
     // }
-
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamMenu = document.querySelector(".ham-menu");
+
+  const offScreenMenu = document.querySelector(".off-screen-menu");
+
+  // console.log(hamMenu);
+  hamMenu.addEventListener("click", () => {
+    hamMenu.classList.toggle("activee");
+    offScreenMenu.classList.toggle("activee");
+  });
+});
 </script>

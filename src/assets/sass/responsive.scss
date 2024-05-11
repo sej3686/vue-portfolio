@@ -119,17 +119,99 @@ $darkGreenColor: #228a30;
   //Header
   nav {
     // background-color: green;
-    flex-direction: column;
-    justify-content: center !important;
-    padding-top: 12em;
+    // flex-direction: column;
+    // justify-content: center !important;
+    // padding-top: 12em;
+    display: block !important;
 
-    .main-menu {
-      display: none !important;
+
+    .off-screen-menu {
+      align-items: center;
+      background-color: #212222;
+      display: flex !important;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      max-width: 450px;
+      position: fixed;
+      right: -450px;
+      text-align: center;
+      transition: .3s ease;
+      top: 0;
+      width: 100%;
+      z-index: 9;
+  
+      a {
+        text-decoration: none;
+        
+        li {
+          color: $lightGreenColor;
+          font-size: 30px;
+          list-style-type: none;
+          padding: 10px;
+        }
+      }
+    }
+  
+    .off-screen-menu.activee {
+      right: 0;
+    }
+  
+    #navv {
+      display: flex !important;
+      right: -10px;
+      position: fixed;
+      padding: 1rem;
+      z-index: 10;
+  
+      .ham-menu {
+        height: 50px;
+        margin-left: auto;
+        position: relative;
+        width: 50px;
+  
+        span {
+          background-color: $lightGreenColor;
+          border-radius: 25px;
+          display: block;
+          height: 5px;
+          left: 50%;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          transition: .3s ease;
+          width: 100%;
+        }
+  
+        span:nth-child(1) {
+          top: 25%;
+        }
+  
+        span:nth-child(3) {
+          top: 75%;
+        }
+      }
+  
+      .ham-menu.activee span:nth-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+  
+      .ham-menu.activee span:nth-child(2) {
+        opacity: 0;
+      }
+  
+      .ham-menu.activee span:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg);
+      }
     }
 
+
+
+
     .main-menu-2 {
-      display: block !important;
-      position: sticky;
+      // display: block !important;
       width: 100%;
 
       a {
@@ -145,20 +227,21 @@ $darkGreenColor: #228a30;
       }
     }
 
-    // .main-menu {
-    //     flex-direction: column;
-    //     width: 100%;
+    .header-wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center;
 
-    //     li {
-    //         border: 3px solid $lightGreenColor;
-    //         margin-left: 0 !important;
-    //         margin-top: 0.2em;
-    //         padding: 5px;
-    //     }
-    // }
-    .some-menu {
-      margin-top: 1em;
+      .main-menu {
+        display: none !important;
+      }
+
+      .some-menu {
+        margin-top: 1em;
+      }
     }
+
   }
 
   .sec-title {
@@ -186,29 +269,33 @@ $darkGreenColor: #228a30;
   //Keyword
   #keyword {
     margin-top: 40em;
+    flex-direction: column;
+    justify-content: center;
 
     .keyword-grid-wrapper {
       // grid-template-columns: auto !important;
-      align-items: center;
       flex-direction: column;
-      height: 700px;
-      justify-content: center;
+      height: 800px;
+      margin: 0 auto;
+      width: 80%;
 
       .keyword-grid-item {
-        height: 300px;
-        width: 100%;
+        box-sizing: border-box;
+        width: 100% !important;
       }
     }
   }
 
   //Projects
   #projects {
-    margin-top: 30em;
+    margin-top: 40em;
 
     .project-wrapper {
-      border: 3px solid #ffffff;
+      border: 3px dotted $darkGreenColor;
       flex-direction: column;
-      width: 99%;
+      margin: 0 auto;
+      margin-top: 2em;
+      width: 80%;
 
       .project {
         width: 100%;
@@ -217,6 +304,10 @@ $darkGreenColor: #228a30;
       .desc {
         width: 100%;
       }
+    }
+
+    .project-wrapper:nth-child(3), .project-wrapper:nth-child(5) {
+      flex-direction: column-reverse !important;
     }
   }
 
@@ -239,7 +330,7 @@ $darkGreenColor: #228a30;
       .about-text {
         margin-top: 5em;
         text-align: center;
-        width: 100% !important;
+        width: 80% !important;
       }
     }
   }
