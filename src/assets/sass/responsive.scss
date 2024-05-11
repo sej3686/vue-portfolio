@@ -164,16 +164,16 @@ $darkGreenColor: #228a30;
       z-index: 10;
 
       .ham-menu {
-        height: 50px;
+        height: 30px;
         margin-left: auto;
         position: relative;
-        width: 50px;
+        width: 30px;
 
         span {
           background-color: $lightGreenColor;
           border-radius: 25px;
           display: block;
-          height: 5px;
+          height: 3px;
           left: 50%;
           position: absolute;
           top: 50%;
