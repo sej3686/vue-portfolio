@@ -2,58 +2,59 @@
   <div class="container">
     <!-- <div ref="scrollTopButton" class="scrollToTop">&uarr;</div> -->
     <header>
-
-
       <nav>
         <div class="off-screen-menu">
-        <ul>
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#about"><li>About</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </ul>
-      </div>
-
-      <div id="navv">
-        <div class="ham-menu">
-          <span></span>
-          <span></span>
-          <span></span>
+          <ul>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
         </div>
-      </div>
-      <div class="header-wrapper">
-        <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
-        <ul class="main-menu">
-          <li class="hover-underline-animation">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="hover-underline-animation"><a href="#about">About</a></li>
-          <li class="hover-underline-animation">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-        <!-- Main Menu -->
 
-        <ul class="main-menu-2">
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#about"><li>About</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </ul>
-        <!-- Main Menu 2 -->
+        <div id="navv">
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="header-wrapper">
+          <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
+          <ul class="main-menu">
+            <li class="hover-underline-animation">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="hover-underline-animation">
+              <a href="#about">About</a>
+            </li>
+            <li class="hover-underline-animation">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- Main Menu -->
 
-        <ul class="some-menu">
-          <li>
-            <a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
-              ><img src="./../components/icons/linkedin.png" alt="LinkedIn"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/FisterMedister"
-              ><img src="./../components/icons/github.png" alt="Github"
-            /></a>
-          </li>
-          <!-- <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li> -->
-        </ul>
-      </div><!-- Header Wrapper -->
+          <ul class="main-menu-2">
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+          <!-- Main Menu 2 -->
+
+          <ul class="some-menu">
+            <li>
+              <a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
+                ><img src="./../components/icons/linkedin.png" alt="LinkedIn"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/FisterMedister"
+                ><img src="./../components/icons/github.png" alt="Github"
+              /></a>
+            </li>
+            <!-- <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li> -->
+          </ul>
+        </div>
+        <!-- Header Wrapper -->
       </nav>
 
       <section class="header-box-wrapper">
@@ -76,7 +77,7 @@
         </div>
 
         <h4>
-          I'm a newly graduated Web Developer <br />
+          I'm a Junior Web Developer <br />
           with various experiences in
           <br />
           both web-design and multi-media
