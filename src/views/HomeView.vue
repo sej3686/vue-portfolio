@@ -77,8 +77,8 @@
         </div>
 
         <h4>
-          I'm a Junior Web Developer <br />
-          <!-- with various experiences in
+          <!-- I'm a Junior Web Developer <br />
+          with various experiences in
           <br />
           both web-design and multi-media -->
         </h4>
