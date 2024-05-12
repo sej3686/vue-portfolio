@@ -1,27 +1,17 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import PageLoader from './components/PageLoader.vue';
-
+import { RouterLink, RouterView } from "vue-router";
+import PageLoader from "./components/PageLoader.vue";
 </script>
 
-
 <template>
-
-      
-      <!--<nav>
+  <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/project">Project</RouterLink>
-      </nav>-->
-  
+      </nav> -->
+
   <PageLoader />
-  <!--<ImageSwitch />-->
   <RouterView />
-
-  
-
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,31 +1,17 @@
-$darkGreenColor: #228A30;
+$darkGreenColor: #228a30;
 $darkColor: #212222;
 
 footer {
-    background-color: transparent;
-    border-top: 3px solid #FFFFFF;
-    display: flex;
-    height: 8vh;
-    width: 100%;
+  background-color: transparent;
+  // border-top: 3px solid #FFFFFF;
+  display: flex;
+  height: 8vh;
+  justify-content: space-evenly;
+  width: 100%;
 
-    p:nth-child(1) {
-        color: #FFFFFF;
-        font-size: 20px;
-        text-align: left;
-        margin-left: 8%;
-        margin-top: 1.2em;
-    }
-
-    img {
-        margin-left: 30%;
-        width: 11%;
-    }
-
-    p:nth-child(3) {
-        color: #FFFFFF;
-        font-size: 20px;
-        text-align: left;
-        margin-left: 12%;
-        margin-top: 1.2em;
-    }
+  p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 1.2em;
+  }
 }
