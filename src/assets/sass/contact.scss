@@ -75,8 +75,8 @@ $all: all 0.5s ease;
       }
 
       button {
-        background-color: $lightBlue;
-        border: 3px solid $lightGreenColor;
+        background-color: $lightGreenColor;
+        border: 3px solid #FFFFFF;
         border-radius: 30px;
         color: #ffffff;
         font-size: 1.1rem;
@@ -88,180 +88,11 @@ $all: all 0.5s ease;
       }
 
       button:hover {
-        background-color: #ffffff;
+        background-color: #FFFFFF;
+        border-color: $lightGreenColor;
         color: #000000;
         cursor: pointer;
       }
     }
   }
-
-  // .contact-container {
-  //     background-color: #FFFFFF;
-  //     border-radius: 10px;
-  //     box-shadow: 0px 0px 5px 0px rgba(255,255,255);
-  //     height: 32em;
-  //     margin: 0 auto;
-  //     width: 750px;
-  //     padding: 10px;
-
-  //     h3 {
-  //         font-size: 40px;
-  //         text-align: center;
-  //     }
-
-  //     .form-box {
-  //         margin-top: 10px;
-  //         display: block;
-
-  //         .row {
-  //             //background-color: #39B54A;
-  //             display: flex;
-  //             flex-direction: row;
-  //             width: 100%;
-
-  //             .row-first {
-  //                 //background-color: red;
-  //                 //border: 1px solid black;
-  //                 display: block;
-  //                 height: 80px;
-  //                 margin-top: 10px;
-
-  //                 label {
-  //                     color: #000000;
-  //                     font-size: 14px;
-  //                     font-weight: bold;
-  //                 }
-
-  //                 input {
-  //                     border: 0;
-  //                     border-bottom: 1px solid $lightGreenColor;
-  //                     font-size: 16px;
-  //                     height: 45px;
-  //                     margin-top: 10px;
-  //                     width: 350px;
-  //                 }
-
-  //                 input:focus {
-  //                     outline: none;
-  //                     border-bottom: 1px solid $darkGreenColor;
-  //                 }
-  //             }
-
-  //             .row-mid {
-  //                 //border: 1px solid black;
-  //                 display: block;
-  //                 // height: 80px;
-  //                 margin-top: 30px;
-
-  //                 label {
-  //                     color: #000000;
-  //                     font-weight: bold;
-  //                     font-size: 14px;
-  //                 }
-
-  //                 input {
-  //                     border: 0;
-  //                     border-bottom: 1px solid $lightGreenColor;
-  //                     color: #000000;
-  //                     font-size: 16px;
-  //                     height: 45px;
-  //                     margin-top: 10px;
-  //                     width: 725px;
-  //                 }
-
-  //                 input:focus {
-  //                     outline: none;
-  //                     border-bottom: 1px solid $darkGreenColor;
-  //                 }
-
-  //                 textarea {
-  //                     border: 0;
-  //                     border-bottom: 1px solid $lightGreenColor;
-  //                     color: #000000;
-  //                     font-size: 16px;
-  //                     margin-top: 10px;
-  //                     resize: none;
-  //                     width: 725px;
-  //                 }
-
-  //                 textarea:focus {
-  //                     outline: none;
-  //                     border-bottom: 1px solid $darkGreenColor;
-  //                 }
-  //             }
-
-  //             .row-last {
-  //                 //background-color: red;
-  //                 display: block;
-  //                 justify-content: center;
-  //                 margin-top: 50px;
-  //                 width: 300px;
-
-  //                     input {
-  //                         background-color: $lightGreenColor;
-  //                         border: 0;
-  //                         border-radius: 10px;
-  //                         color: #FFFFFF;
-  //                         font-size: 16px;
-  //                         height: 50px;
-  //                         width: 100%;
-  //                     }
-
-  //                     input:hover {
-  //                         background-color: $darkGreenColor;
-  //                         cursor: pointer;
-  //                     }
-  //                 }
-  //             }
-  //         }
-  //     }
 }
-
-/*
-    h2 {
-        color: #FFFFFF;
-        font-size: 45px;
-        padding-left: 2em;
-        padding-top: 1em;
-    }
-
-    .contact-grid-wrapper {
-        //background-color: #2196F3;
-        //column-gap: 40px;
-        display: grid;
-        grid-template-columns: auto auto;
-        height: 80%;
-        margin: 0 auto;
-        margin-top: 1em;
-        padding: 10px;
-        width: 95vw;
-
-
-        .contact-grid-item {
-            //background-color: rgba(255, 255, 255, 0.8);
-            border: 1px solid rgba(0, 0, 0, 0.8);
-            font-size: 30px;
-
-            .contact-grid-item-left {
-                //background-color: red;
-                height: 24em;
-                margin-left: 1.5em;
-                width: 80%;
-
-                h3 {
-                    color: #FFFFFF;
-                }
-            }
-
-            .contact-grid-item-right {
-                //background-color: red;
-                height: 24em;
-                width: 80%;
-
-                input {
-                    float: left;
-                    margin-left: 2em;
-                }
-            }
-        }
-    }*/

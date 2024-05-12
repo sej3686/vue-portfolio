@@ -74,6 +74,21 @@ $darkGreenColor: #228a30;
     margin-left: 0;
   }
 
+  #keyword {
+    height: 130vh;
+
+    .keyword-grid-wrapper {
+      flex-direction: row !important;
+      
+      .keyword-grid-item {
+        height: 280px !important;
+        width: 90vw !important;
+      }
+    }
+  }
+
+
+
   #projects .project-wrapper .desc p:nth-child(3) {
     padding: 0;
   }
@@ -246,7 +261,7 @@ $darkGreenColor: #228a30;
 
   //Keyword
   #keyword {
-    margin-top: 40em;
+    margin-top: 20em;
     flex-direction: column;
     justify-content: center;
 
@@ -266,7 +281,7 @@ $darkGreenColor: #228a30;
 
   //Projects
   #projects {
-    margin-top: 40em;
+    margin-top: 10em;
 
     .project-wrapper {
       border: 3px dotted $darkGreenColor;
@@ -355,12 +370,12 @@ $darkGreenColor: #228a30;
 
   //keywords
   #keyword {
-    margin-top: 52em;
+    margin-top: 22em;
   }
 
   //Projects
   #projects {
-    margin-top: 35em;
+    margin-top: 15em;
 
     .project {
       height: 300px !important;

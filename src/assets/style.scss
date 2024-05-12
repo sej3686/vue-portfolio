@@ -129,8 +129,6 @@ header {
       display: none;
     }
 
-
-
     .main-menu-2 {
       // background-color: red;
       list-style-type: none;
@@ -154,13 +152,13 @@ header {
         list-style-type: none;
         display: flex;
         padding: 0;
-  
+
         li {
           color: #ffffff;
           font-family: $textFont;
           margin-left: 3em;
           position: relative;
-  
+
           a {
             color: #ffffff;
             text-decoration: none;
@@ -168,17 +166,17 @@ header {
             font-family: $textFont;
             width: 0;
           }
-  
+
           a:hover {
             color: #ccc;
           }
         }
-  
+
         li:hover {
           cursor: pointer;
         }
       }
-  
+
       #logo {
         max-width: 150px;
       }
@@ -190,14 +188,14 @@ header {
         list-style-type: none;
         justify-content: flex-end;
         // width: 40%;
-  
+
         li {
           a {
             img {
               width: 40%;
             }
           }
-  
+
           a:hover {
             opacity: 0.8;
           }
@@ -205,14 +203,10 @@ header {
       }
     }
 
-
-
     // #logo:hover {
     //     cursor: pointer;
     //     opacity: 0.8;
     // }
-
-
   } //nav
 
   .header-box-wrapper {
@@ -222,7 +216,7 @@ header {
     margin-top: 3em;
 
     .profile-pic {
-      border: 2px solid #FFFFFF;
+      border: 2px solid #ffffff;
       border-radius: 100%;
       width: 200px;
     }
@@ -249,7 +243,7 @@ header {
         font-weight: bold;
         font-size: 2.2rem;
         text-decoration: underline;
-        }
+      }
     }
 
     h4 {
@@ -273,12 +267,34 @@ header {
       margin-top: 1em;
 
       img {
-       margin-top: 0.2em;
-       transition: 0.2s;
+        margin-top: 0.2em;
+        transition: 0.2s;
       }
 
       img:hover {
         opacity: 0.8;
+      }
+    }
+
+    .call-to-action {
+      margin-top: 3em;
+      button {
+        background-color: $lightGreenColor;
+        border: 3px solid #FFFFFF;
+        border-radius: 30px;
+        color: #FFFFFF;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 40px;
+        transition: 0.2s;
+        width: 220px;
+      }
+
+      button:hover {
+        background-color: #FFFFFF;
+        border-color: $lightGreenColor;
+        color: #000000;
+        cursor: pointer;
       }
     }
   }
