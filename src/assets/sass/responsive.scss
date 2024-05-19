@@ -10,11 +10,11 @@ $darkGreenColor: #228a30;
   }
 
   #about {
-    height: 50vh;
+    max-height: 50vh;
   }
 
   #contact {
-    height: 55vh;
+    max-height: 55vh;
   }
 }
 
@@ -146,9 +146,9 @@ $darkGreenColor: #228a30;
       flex-direction: column;
       height: 100vh;
       justify-content: center;
-      max-width: 450px;
+      max-width: 100vw;
       position: fixed;
-      right: -450px;
+      left: -650px;
       text-align: center;
       transition: 0.3s ease;
       top: 0;
@@ -168,12 +168,12 @@ $darkGreenColor: #228a30;
     }
 
     .off-screen-menu.activee {
-      right: 0;
+      left: 0;
     }
 
     #navv {
       display: flex !important;
-      right: -10px;
+      left: -18px;
       position: fixed;
       padding: 1rem;
       z-index: 10;
@@ -189,7 +189,7 @@ $darkGreenColor: #228a30;
           border-radius: 25px;
           display: block;
           height: 3px;
-          left: 50%;
+          left: 80%;
           position: absolute;
           top: 50%;
           transform: translate(-50%, -50%);
@@ -207,11 +207,13 @@ $darkGreenColor: #228a30;
       }
 
       .ham-menu.activee span:nth-child(1) {
+        right: 0;
         top: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
       }
 
       .ham-menu.activee span:nth-child(2) {
+        right: 0;
         opacity: 0;
       }
 
