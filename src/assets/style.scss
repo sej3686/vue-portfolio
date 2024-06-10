@@ -92,6 +92,7 @@ html, body {
   // background-color: $darkColor;
   // background-image: url("../assets/img/background.jpg");
   background: url("../assets/img/background.jpg") no-repeat center center fixed;
+  height: 572lvh;
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-attachment: fixed;
@@ -99,8 +100,6 @@ html, body {
 
 .container {
   // background-color: purple;
-  
-  height: 572lvh;
   margin-left: auto;
   margin-right: auto;
   width: 2000px;
