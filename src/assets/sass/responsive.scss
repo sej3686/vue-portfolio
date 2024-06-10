@@ -90,7 +90,6 @@ $darkGreenColor: #228a30;
   }
 
   #keyword {
-    height: 130vh;
 
     .keyword-grid-wrapper {
 
@@ -141,7 +140,7 @@ $darkGreenColor: #228a30;
   }
 
   #projects {
-    margin-top: 8em;
+    margin-top: 0;
   }
 
   .animate {
@@ -293,6 +292,7 @@ $darkGreenColor: #228a30;
 
   //Keyword
   #keyword {
+    height: 100vh;
     margin-top: 20em;
 
     .keyword-grid-wrapper {
@@ -328,7 +328,7 @@ $darkGreenColor: #228a30;
 
   //Projects
   #projects {
-    margin-top: 10em;
+    margin-top: 0;
 
     .project-wrapper {
       border: 3px dotted $darkGreenColor;
@@ -424,7 +424,7 @@ $darkGreenColor: #228a30;
       .keyword-grid-item {
         height: 520px;
         padding: 20px !important;
-        width: 80%;
+        width: 82%;
 
         img {
           display: none;
@@ -439,7 +439,7 @@ $darkGreenColor: #228a30;
 
   //Projects
   #projects {
-    margin-top: 15em;
+    margin-top: 0em;
 
     .project {
       height: 300px !important;
