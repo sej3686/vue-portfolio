@@ -48,6 +48,21 @@ $darkGreenColor: #228a30;
 @media (max-width: 1280px) {
   #keyword {
     margin-top: 15em;
+
+    .keyword-grid-wrapper {
+
+      .keyword-grid-item {
+        padding: 0;
+
+        img {
+          top: -95%
+        }
+
+        img:nth-child(1) {
+          left: 96%
+        }
+      }
+    }
   }
 
   #projects {
@@ -78,13 +93,28 @@ $darkGreenColor: #228a30;
     height: 130vh;
 
     .keyword-grid-wrapper {
-      flex-direction: row !important;
-      
+
       .keyword-grid-item {
-        height: 280px !important;
-        width: 90vw !important;
+        height: 350px;
+
+        img {
+          left: -5%;
+        }
+
+        img:nth-child(1) {
+          left: 94%
+        }
       }
     }
+
+    // .keyword-grid-wrapper {
+    //   flex-direction: row !important;
+      
+    //   .keyword-grid-item {
+    //     height: 280px !important;
+    //     width: 90vw !important;
+    //   }
+    // }
   }
 
 
@@ -264,21 +294,36 @@ $darkGreenColor: #228a30;
   //Keyword
   #keyword {
     margin-top: 20em;
-    flex-direction: column;
-    justify-content: center;
 
     .keyword-grid-wrapper {
-      // grid-template-columns: auto !important;
-      flex-direction: column;
-      height: 800px;
-      margin: 0 auto;
-      width: 80%;
 
       .keyword-grid-item {
-        box-sizing: border-box;
-        width: 100% !important;
+        height: 400px;
+
+        img {
+          left: -4%;
+          top: -92%;
+          width: 60px;
+        }
+
+        img:nth-child(1) {
+          left: 90%
+        }
       }
     }
+
+    // .keyword-grid-wrapper {
+    //   // grid-template-columns: auto !important;
+    //   flex-direction: column;
+    //   height: 800px;
+    //   margin: 0 auto;
+    //   width: 80%;
+
+    //   .keyword-grid-item {
+    //     box-sizing: border-box;
+    //     width: 100% !important;
+    //   }
+    // }
   }
 
   //Projects
@@ -373,6 +418,23 @@ $darkGreenColor: #228a30;
   //keywords
   #keyword {
     margin-top: 22em;
+
+    .keyword-grid-wrapper {
+
+      .keyword-grid-item {
+        height: 520px;
+        padding: 20px !important;
+        width: 80%;
+
+        img {
+          display: none;
+        }
+
+        p {
+          font-size: 5vw;
+        }
+      }
+    }
   }
 
   //Projects
