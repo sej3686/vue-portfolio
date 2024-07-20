@@ -32,7 +32,7 @@
     h1 {
       animation: fadeIn 0.75s forwards;
       color: #ffffff;
-      font-size: 50px;
+      font-size: 40px;
       text-align: center;
     }
   }
@@ -78,7 +78,7 @@
       font-size: 0px;
     }
     100% {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
 
