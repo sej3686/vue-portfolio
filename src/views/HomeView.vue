@@ -102,9 +102,9 @@
           <img src="../assets/img/icons/sql.png" alt="sql logo" />
           <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
         </div>
-        <a class="call-to-action" href="#projects"
+        <!-- <a class="call-to-action" href="#projects"
           ><button>Check out my website!</button></a
-        >
+        > -->
       </section>
     </header>
 
