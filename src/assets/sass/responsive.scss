@@ -50,16 +50,15 @@ $darkGreenColor: #228a30;
     margin-top: 15em;
 
     .keyword-grid-wrapper {
-
       .keyword-grid-item {
         padding: 0;
 
         img {
-          top: -95%
+          top: -95%;
         }
 
         img:nth-child(1) {
-          left: 96%
+          left: 96%;
         }
       }
     }
@@ -90,9 +89,7 @@ $darkGreenColor: #228a30;
   }
 
   #keyword {
-
     .keyword-grid-wrapper {
-
       .keyword-grid-item {
         height: 350px;
 
@@ -101,22 +98,20 @@ $darkGreenColor: #228a30;
         }
 
         img:nth-child(1) {
-          left: 94%
+          left: 94%;
         }
       }
     }
 
     // .keyword-grid-wrapper {
     //   flex-direction: row !important;
-      
+
     //   .keyword-grid-item {
     //     height: 280px !important;
     //     width: 90vw !important;
     //   }
     // }
   }
-
-
 
   #projects .project-wrapper .desc p:nth-child(3) {
     padding: 0;
@@ -140,7 +135,7 @@ $darkGreenColor: #228a30;
   }
 
   #projects {
-    margin-top: 0;
+    margin-top: 200px;
   }
 
   .animate {
@@ -296,7 +291,6 @@ $darkGreenColor: #228a30;
     margin-top: 20em;
 
     .keyword-grid-wrapper {
-
       .keyword-grid-item {
         height: 400px;
 
@@ -307,7 +301,7 @@ $darkGreenColor: #228a30;
         }
 
         img:nth-child(1) {
-          left: 90%
+          left: 90%;
         }
       }
     }
@@ -328,7 +322,7 @@ $darkGreenColor: #228a30;
 
   //Projects
   #projects {
-    margin-top: 0;
+    margin-top: 20em;
 
     .project-wrapper {
       border: 3px dotted $darkGreenColor;
@@ -409,6 +403,15 @@ $darkGreenColor: #228a30;
       justify-content: center;
     }
 
+    .header-box-wrapper {
+      .skills {
+
+        img {
+          width: 13.1%;
+        }
+      }
+    }
+
     .header-div-right-img {
       transform: none !important;
       animation: none !important;
@@ -420,7 +423,6 @@ $darkGreenColor: #228a30;
     margin-top: 22em;
 
     .keyword-grid-wrapper {
-
       .keyword-grid-item {
         height: 520px;
         padding: 20px !important;
@@ -439,22 +441,18 @@ $darkGreenColor: #228a30;
 
   //Projects
   #projects {
-    margin-top: 0em;
+    margin-top: 16em;
 
     .project {
       height: 300px !important;
       a {
-
         img {
           height: 300px !important;
         }
       }
     }
 
-
-
     .desc {
-
       p {
         width: 90%;
       }
