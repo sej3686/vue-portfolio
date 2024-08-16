@@ -171,7 +171,7 @@
 
       <div ref="project1" class="project-wrapper animate-2 reveal">
         <div class="project">
-          <a href="https://github.com/FrederikLandtved/UCLStudievejleder"
+          <a href="https://github.com/FrederikLandtved/UCLStudievejleder" target="_blank"
             ><img src="../assets//img/UCL-case.jpg" alt=""
           /></a>
         </div>
@@ -185,7 +185,7 @@
             <br />The application is made with HTML, CSS, C# and JavaScript
           </p>
           <p>Note: this website is not up at the moment</p>
-          <a href="https://github.com/FrederikLandtved/UCLStudievejleder"
+          <a href="https://github.com/FrederikLandtved/UCLStudievejleder" target="_blank"
             ><button class="visit-button">Visit Git repo</button></a
           >
         </div>
@@ -203,13 +203,13 @@
             helping the local population <br />
             The webshop is made in WordPress
           </p>
-          <a href="https://www.rtidbyludo.com/"
+          <a href="https://www.rtidbyludo.com/" target="_blank"
             ><button class="visit-button">Visit Website</button></a
           >
         </div>
 
         <div class="project">
-          <a href="https://www.rtidbyludo.com/"
+          <a href="https://www.rtidbyludo.com/" target="_blank"
             ><img src="../assets/img/rtid-2.jpg" alt="RTID by Ludo"
           /></a>
         </div>
@@ -218,7 +218,7 @@
 
       <div class="project-wrapper reveal">
         <div class="project">
-          <a href="https://www.lifeline.sej.one"
+          <a href="https://www.lifeline.sej.one" target="_blank"
             ><img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics"
           /></a>
         </div>
@@ -231,7 +231,7 @@
             <br />Due to time constraints it was never finished. <br />The
             website is made in WordPress
           </p>
-          <a href="https://www.lifeline.sej.one"
+          <a href="https://www.lifeline.sej.one" target="_blank"
             ><button class="visit-button">Visit Website</button></a
           >
         </div>
@@ -248,13 +248,13 @@
             way as possible. 
             <br /> The project was made in Vue3.
           </p>
-          <a href="http://www.bachelor.sej.one"
+          <a href="http://www.bachelor.sej.one" target="_blank"
             ><button class="visit-button">Visit Website</button></a
           >
         </div>
 
         <div class="project">
-          <a href="http://www.bachelor.sej.one"
+          <a href="http://www.bachelor.sej.one" target="_blank"
             ><img src="../assets/img/webdock-2.jpg" alt="Bachelor project"
           /></a>
         </div>
@@ -276,7 +276,7 @@
         </div>
         <div class="about-text">
           <p>
-            I'm 24 years old and I'm a graduate at UCL (University
+            I'm 25 years old and I'm a graduate at UCL (University
             College Lillebælt) where I studied the Web-developer and Multimedia Designer line.<br />
             The thing that I like about Web-devloping, is that not only do you
             learn about essential editing programs like the Adobe packs, but
