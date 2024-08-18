@@ -17,7 +17,7 @@ $titleFont: "Roboto", sans-serif;
 $textFont: "Open Sans", sans-serif;
 
 $headerColor: #333333;
-$darkColor: #212222;
+$darkColor: #121111;
 $lightGreenColor: #39b54a;
 $darkGreenColor: #228a30;
 $lightBlue: #203c98;
@@ -89,8 +89,8 @@ textarea {
 }
 
 html, body {
-  // background-color: $darkColor;
-  background-image: url("../assets/img/background.jpg");
+  background-color: $darkColor;
+  // background-image: url("../assets/img/background.jpg");
   // background: url("../assets/img/background.jpg") no-repeat center cover fixed;
   // height: 470lvh;
   background-position: center;
