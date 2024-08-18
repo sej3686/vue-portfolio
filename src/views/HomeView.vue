@@ -423,7 +423,7 @@ export default {
       displayTextArray: [
         "Web Developer",
         "Multimedia Designer",
-        "Graphics Designer",
+        "Graphic Designer",
       ],
       typingSpeed: 100,
       erasingSpeed: 50,
