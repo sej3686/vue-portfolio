@@ -13,7 +13,7 @@
   animation: moveWrapper 0.01s forwards;
   // animation-duration: 2s;
   animation-duration: 2s;
-  background-color: #333333;
+  background-color: #121111;
   height: 100vh;
   position: fixed;
   width: 100vw;
