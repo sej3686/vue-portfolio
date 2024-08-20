@@ -9,6 +9,10 @@ $darkGreenColor: #228a30;
     max-width: 1920px;
   }
 
+  #projects {
+    margin-top: -15vh;
+  }
+
   #about {
     max-height: 50vh;
   }
@@ -22,6 +26,10 @@ $darkGreenColor: #228a30;
 @media (max-width: 1920px) {
   .container {
     max-width: 1280px;
+  }
+
+  #projects {
+    margin-top: 0vh;
   }
 
   #about {
@@ -490,5 +498,16 @@ $darkGreenColor: #228a30;
         }
       }
     }
+  }
+}
+
+@media (max-width: 350px) {
+  .typed-text {
+    font-size: 2rem !important;
+  }
+
+  .project-wrapper {
+    border: 0 !important;
+    width: 100% !important;
   }
 }

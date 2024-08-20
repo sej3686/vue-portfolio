@@ -75,8 +75,8 @@ $all: all 0.5s ease;
       }
 
       button {
-        background-color: $lightGreenColor;
-        border: 3px solid #FFFFFF;
+        background-color: transparent;
+        border: 3px solid $lightGreenColor;
         border-radius: 30px;
         color: #ffffff;
         font-size: 1.1rem;

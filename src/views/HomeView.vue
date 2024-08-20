@@ -276,17 +276,17 @@
         </div>
         <div class="about-text">
           <p>
-            I'm 25 years old and I'm a graduate at UCL (University
-            College Lillebælt) where I studied the Web-developer and Multimedia Designer line.<br />
-            The thing that I like about Web-devloping, is that not only do you
-            learn about essential editing programs like the Adobe packs, but
-            also coding and various analyses methods that are currently being
-            used in the professional environment.
+            I am a graduate of University College Lillebælt (UCL),
+             holding a degree in Web Development and Multimedia Design. 
+             My academic background has provided me with a solid foundation in both creative and technical disciplines,
+             including proficiency in industry-standard tools such as Adobe Creative Suite, 
+             as well as coding and various evaluation techniques that are essential in today's professional landscape.
           </p>
           <p>
-            My past working experiences have made me more aware of the working
-            environment, and how to tackle certain things like keeping focus
-            etc.
+            Through my work experience, 
+            I have developed a strong understanding of the professional environment, 
+            honing my ability to maintain focus, adapt to challenges, 
+            and deliver results effectively.
           </p>
         </div>
       </main>
