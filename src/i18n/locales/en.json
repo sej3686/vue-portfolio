@@ -1,0 +1,49 @@
+{
+    "locale": {
+        "en": "English",
+        "da": "Danish"
+    },
+    "nav": {
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "header": {
+        "intro": "Hi",
+        "iam": "I'm",
+        "name": "Stefan",
+        "experience": "I have experience in:"
+    },
+    "projects": {
+        "header": "Featured Projects",
+        "ucl_desc1": "This is a website made for an exam",
+        "ucl_desc2": "The website is for the school of UCL's 'study guide' teachers of whom helps students with all sorts of problems they may encounter. The application is made with HTML, CSS, C# and JavaScript",
+        "ucl_desc3": "Note: this website is not up at the moment",
+        "rtid_desc1": "This is a webshop that I've been helping developing on",
+        "rtid_desc2": "The website is for a company called 'RTID by Ludo'. The company in question is a shop where people buy clothing and other materials from Northern Thailand and where by buying said items, you're helping the local population",
+        "rtid_desc3": "The webshop is made in WordPress",
+        "lr_desc1": "This is a website from when I was an intern",
+        "lr_desc2": "When I was an intern at Lifeline Robotics which is a startup company focused on creating an automatic swab robot, my task was to create a website. The website was made to be their new offical website. Due to time constraints it was never finished.",
+        "lr_desc3": "The website is made in WordPress",
+        "wbd_desc1": "This is a website for my bachelor project",
+        "wbd_desc2": "A bachelor project where me and a friend had Webdock as a client to create an easy and userfriendly buying-flow",
+        "wbd_desc3": "The project was made in Vue 3, JSON and Scss",
+        "visit_web": "Visit Website",
+        "git_btn": "Visit GIT repo"
+    },
+    "about": {
+        "title": "About me",
+        "desc1": "I am a graduate of University College Lillebælt (UCL), holding a degree in Web Development and Multimedia Design. My academic background has provided me with a solid foundation in both creative and technical disciplines, including proficiency in industry-standard tools such as Adobe Creative Suite, as well as coding and various evaluation techniques that are essential in today's professional landscape.",
+        "desc2": "Through my work experience, I have developed a strong understanding of the professional environment, honing my ability to maintain focus, adapt to challenges, and deliver results effectively."
+    },
+    "contact": {
+        "title": "Let's get in Touch!",
+        "name": "name",
+        "email": "Email",
+        "message": "Message",
+        "send_btn": "Send message"
+    },
+    "footer": {
+        "made_by": "Made personally by Stefan E. J."
+    }
+}

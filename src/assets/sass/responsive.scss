@@ -509,6 +509,19 @@ $darkGreenColor: #228a30;
 
 @media (max-width: 350px) {
   .typed-text {
-    font-size: 2rem !important;
+    font-size: 1.75rem !important;
+  }
+
+  #about {
+
+    .about-wrapper {
+
+      .about-text {
+        width: 90% !important;
+      }
+    }
+  }
+  #contact {
+    margin-top: 40em;
   }
 }

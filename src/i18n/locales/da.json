@@ -1,0 +1,49 @@
+{
+    "locale": {
+        "en": "Engelsk",
+        "da": "Dansk"
+    },
+    "nav": {
+        "projects": "Projekter",
+        "about": "Om mig",
+        "contact": "Kontakt"
+    },
+    "header": {
+        "intro": "Hej",
+        "iam": "Jeg er",
+        "name": "Stefan",
+        "experience": "Jeg har erfaring med:"
+    },
+    "projects": {
+        "header": "Udvalgte Projekter",
+        "ucl_desc1": "Dette er en hjemmeside lavet på baggrund af en eksamen",
+        "ucl_desc2": "Hjemmesiden er lavet for UCL's studievejledere, der skal hjælpe til med at gøre deres system mere simpelt og så derfor at kunne hjælpe eleverne med deres problemer yderligere. Applikationen er lavet med HTML, CSS, C# og JavaScript",
+        "ucl_desc3": "Note: Hjemmesiden er ikke oppe",
+        "rtid_desc1": "Dette er en Webshop som jeg har hjulpet med at udvikle",
+        "rtid_desc2": "Hjemmesiden er lavet for firmaet 'RTID by Ludo'. Firmaet fungere som en butik hvor folk kan købe tøj og andre materialer fra Nord Thailand og hvor, at når du køber tingene, støtter man lokalbefolkningen",
+        "rtid_desc3": "Webshoppen er lavet i WordPress",
+        "lr_desc1": "Hjemmesiden er lavet da jeg var praktikant",
+        "lr_desc2": "Da jeg var praktikant hos Lifeline Robotics, som er en medicinsk startup virksomhed med udgangspunkt i at udvikle en robot der kan automere podnings-processen, fik jeg til opgave at lave dem en hjemmeside",
+        "lr_desc3": "Hjemmesiden er lavet i WordPress",
+        "wbd_desc1": "Dette er en hjemmeside lavet for mit bachelorprojekt",
+        "wbd_desc2": "Et bachelorprojekt hvor at min ven og jeg skulle lave en så nem og brugervenlig købsside til valg af servere som overhovdet muligt. Klienten var Webdock, et firma der tilbyder hosting af servere.",
+        "wbd_desc3": "Projektet er lavet i Vue 3, JSON og Scss",
+        "visit_web": "Besøg Hjemmesiden",
+        "git_btn": "Se GIT repo"
+    },
+    "about": {
+        "title": "Om mig",
+        "desc1": "Jeg er uddannet fra University College Lillebælt (UCL) med en grad i Webudvikling og Multimediedesign. Min akademiske baggrund har givet mig en solid forståelse af både kreative og tekniske discipliner, herunder kompetence i branche-standard værktøjer som Adobe Creative Suite samt kodning og forskellige evalueringsmetoder, der er essentielle i nutidens professionelle landskab.",
+        "desc2": "Gennem min erhvervserfaring har jeg udviklet en stærk forståelse af det professionelle miljø, hvilket har skærpet mine evner til at bevare fokus, tilpasse mig udfordringer og levere effektive resultater."
+    },
+    "contact": {
+        "title": "Send mig en besked!",
+        "name": "Navn",
+        "email": "E-mail",
+        "message": "Besked",
+        "send_btn": "Send besked"
+    },
+    "footer": {
+        "made_by": "Personligt lavet af Stefan E. J."
+    }
+}
