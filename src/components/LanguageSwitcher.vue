@@ -47,7 +47,7 @@
 
 <script>
 import { useI18n } from "vue-i18n";
-import { useRouter } from "vue-router";
+// import { useRouter } from "vue-router";
 import Tr from "@/i18n/translation";
 
 export default {
@@ -56,18 +56,18 @@ export default {
 
     const supportedLocales = Tr.supportedLocales;
 
-    const router = useRouter();
+    // const router = useRouter();
 
     const switchLanguage = async (event) => {
       const newLocale = event.target.value;
       await Tr.switchLanguage(newLocale);
 
-      try {
-        await router.replace({ params: { locale: newLocale } });
-      } catch (e) {
-        console.log(e);
-        router.push("/");
-      }
+      // try {
+      //   await router.replace({ params: { locale: newLocale } });
+      // } catch (e) {
+      //   console.log(e);
+      //   router.push("/");
+      // }
     };
 
     return { t, locale, supportedLocales, switchLanguage };
