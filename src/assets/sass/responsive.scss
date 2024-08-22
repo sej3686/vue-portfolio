@@ -283,7 +283,8 @@ $darkGreenColor: #228a30;
       }
 
       .some-menu {
-        margin-top: 1em;
+        margin-left: 2em;
+        margin-top: 2em;
       }
     }
   }
@@ -451,15 +452,20 @@ $darkGreenColor: #228a30;
   #projects {
     margin-top: 16em;
 
-    .project {
-      height: 300px !important;
-      a {
-        img {
-          height: 300px !important;
+    .project-wrapper {
+      border: 0;
+      width: 100%;
+
+      .project {
+        height: 300px;
+  
+        a {
+          img {
+            height: 300px;
+          }
         }
       }
     }
-
     .desc {
       p {
         width: 90%;
@@ -504,10 +510,5 @@ $darkGreenColor: #228a30;
 @media (max-width: 350px) {
   .typed-text {
     font-size: 2rem !important;
-  }
-
-  .project-wrapper {
-    border: 0 !important;
-    width: 100% !important;
   }
 }
