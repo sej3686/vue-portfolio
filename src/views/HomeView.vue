@@ -23,7 +23,10 @@
             <span></span>
           </div>
         </div>
-
+        <div class="mobile-header">
+          <img id="mlogo" src="../assets/img/logo-new-white.png" alt="logo" />
+        </div>
+        <div class="spacing"></div>
         <div class="header-wrapper">
           <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
           <ul class="main-menu">

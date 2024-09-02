@@ -124,6 +124,10 @@ header {
     justify-content: space-between;
     padding: 0;
 
+    .mobile-header {
+      display: none;
+    }
+
     .off-screen-menu {
       display: none;
     }

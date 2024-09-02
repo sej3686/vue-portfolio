@@ -31,7 +31,10 @@
     font-size: 1.15;
     margin-right: 2em;
     margin-top: 1em;
+    right: 0;
     padding: 0.5em;
+    position: absolute;
+    z-index: 12;
     width: 10%;
   }
 }
@@ -39,6 +42,7 @@
 @media (max-width: 640px) {
 .custom-select {
   select {
+    position: fixed;
     width: 20%;
   }
 }

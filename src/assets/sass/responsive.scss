@@ -164,12 +164,43 @@ $darkGreenColor: #228a30;
   }
 
   //Header
+
+  nav {
+    padding-top: 20px;
+  }
+
+  header {
+    .spacing {
+      height: 50px;
+    }
+
+    .mobile-header {
+      background-color: #1f1e1e;
+      display: flex !important;
+      height: 60px;
+      justify-content: center;
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+  
+      #mlogo {
+        width: 150px;
+      }
+    }
+  }
+
+
+
   nav {
     // background-color: green;
     // flex-direction: column;
     // justify-content: center !important;
     // padding-top: 12em;
     display: block !important;
+
+    #logo {
+      display: none;
+    }
 
     .off-screen-menu {
       align-items: center;
@@ -185,7 +216,7 @@ $darkGreenColor: #228a30;
       transition: 0.3s ease;
       top: 0;
       width: 100%;
-      z-index: 9;
+      z-index: 13;
 
       a {
         text-decoration: none;
@@ -194,7 +225,7 @@ $darkGreenColor: #228a30;
           color: $lightGreenColor;
           font-size: 30px;
           list-style-type: none;
-          padding: 10px;
+          padding: 20px;
         }
       }
     }
@@ -205,10 +236,10 @@ $darkGreenColor: #228a30;
 
     #navv {
       display: flex !important;
-      left: -18px;
+      left: -5px;
       position: fixed;
       padding: 1rem;
-      z-index: 10;
+      z-index: 14;
 
       .ham-menu {
         height: 30px;
@@ -227,6 +258,7 @@ $darkGreenColor: #228a30;
           transform: translate(-50%, -50%);
           transition: 0.3s ease;
           width: 100%;
+          z-index: 13;
         }
 
         span:nth-child(1) {
