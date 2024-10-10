@@ -59,6 +59,7 @@ $darkGreenColor: #228a30;
 
       p {
         font-size: 1.1rem;
+        padding-left: 1em;
         padding-top: 1em;
       }
 
@@ -78,7 +79,7 @@ $darkGreenColor: #228a30;
         height: 40px;
         margin-top: 50px;
         transition: 0.2s;
-        width: 220px;
+        min-width: 220px;
       }
 
       .visit-button:hover {

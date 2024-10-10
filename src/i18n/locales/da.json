@@ -1,7 +1,8 @@
 {
     "locale": {
         "en": "Engelsk",
-        "da": "Dansk"
+        "da": "Dansk",
+        "ja": "Japansk"
     },
     "nav": {
         "projects": "Projekter",
