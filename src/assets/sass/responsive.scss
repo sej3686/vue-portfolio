@@ -60,7 +60,6 @@ $darkGreenColor: #228a30;
 
 /* xl */
 @media (max-width: 1280px) {
-
   .container {
     max-width: 768px;
   }
@@ -86,8 +85,6 @@ $darkGreenColor: #228a30;
   #projects {
     margin-top: 7em;
   }
-
-
 
   #about {
     .about-wrapper {
@@ -119,15 +116,6 @@ $darkGreenColor: #228a30;
         }
       }
     }
-
-    // .keyword-grid-wrapper {
-    //   flex-direction: row !important;
-
-    //   .keyword-grid-item {
-    //     height: 280px !important;
-    //     width: 90vw !important;
-    //   }
-    // }
   }
 
   #projects .project-wrapper .desc p:nth-child(3) {
@@ -191,14 +179,12 @@ $darkGreenColor: #228a30;
       position: fixed;
       width: 100%;
       z-index: 10;
-  
+
       #mlogo {
         width: 150px;
       }
     }
   }
-
-
 
   nav {
     // background-color: green;
@@ -355,19 +341,6 @@ $darkGreenColor: #228a30;
         }
       }
     }
-
-    // .keyword-grid-wrapper {
-    //   // grid-template-columns: auto !important;
-    //   flex-direction: column;
-    //   height: 800px;
-    //   margin: 0 auto;
-    //   width: 80%;
-
-    //   .keyword-grid-item {
-    //     box-sizing: border-box;
-    //     width: 100% !important;
-    //   }
-    // }
   }
 
   //Projects
@@ -455,7 +428,6 @@ $darkGreenColor: #228a30;
 
     .header-box-wrapper {
       .skills {
-
         img {
           width: 13.1%;
         }
@@ -499,7 +471,7 @@ $darkGreenColor: #228a30;
 
       .project {
         height: 300px;
-  
+
         a {
           img {
             height: 300px;
@@ -554,9 +526,7 @@ $darkGreenColor: #228a30;
   }
 
   #about {
-
     .about-wrapper {
-
       .about-text {
         width: 90% !important;
       }

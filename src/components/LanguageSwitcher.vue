@@ -17,10 +17,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .custom-select {
-
   select {
     appearance: none;
-    background-color: #FFF;
+    background-color: #fff;
     border: 2px solid #39b54a;
     border-radius: 0.25rem;
     color: #000;
@@ -40,18 +39,17 @@
 }
 
 @media (max-width: 640px) {
-.custom-select {
-  select {
-    position: fixed;
-    width: 20%;
+  .custom-select {
+    select {
+      position: fixed;
+      width: 20%;
+    }
   }
-}
 }
 </style>
 
 <script>
 import { useI18n } from "vue-i18n";
-// import { useRouter } from "vue-router";
 import Tr from "@/i18n/translation";
 
 export default {
@@ -65,13 +63,6 @@ export default {
     const switchLanguage = async (event) => {
       const newLocale = event.target.value;
       await Tr.switchLanguage(newLocale);
-
-      // try {
-      //   await router.replace({ params: { locale: newLocale } });
-      // } catch (e) {
-      //   console.log(e);
-      //   router.push("/");
-      // }
     };
 
     return { t, locale, supportedLocales, switchLanguage };

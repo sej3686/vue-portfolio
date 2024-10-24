@@ -24,45 +24,42 @@
           </div>
         </div>
         <div class="mobile-header">
-          <a href=""></a><img id="mlogo" src="../assets/img/logo-new-white.png" alt="logo" />
+          <a href=""></a
+          ><img id="mlogo" src="../assets/img/logo-new-white.png" alt="logo" />
         </div>
         <div class="spacing"></div>
         <div class="header-wrapper">
           <img id="logo" src="../assets/img/logo-new-white.png" alt="logo" />
           <ul class="main-menu">
             <li class="hover-underline-animation">
-              <a href="#projects" aria-label="projects">{{ $t("nav.projects") }}</a>
+              <a href="#projects" aria-label="projects">{{
+                $t("nav.projects")
+              }}</a>
             </li>
             <li class="hover-underline-animation">
               <a href="#about" aria-label="About me">{{ $t("nav.about") }}</a>
             </li>
             <li class="hover-underline-animation">
-              <a href="#contact" aria-label="Contact">{{ $t("nav.contact") }}</a>
+              <a href="#contact" aria-label="Contact">{{
+                $t("nav.contact")
+              }}</a>
             </li>
           </ul>
           <!-- Main Menu -->
 
-          <!-- <ul class="main-menu-2">
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#about"><li>About</li></a>
-            <a href="#contact"><li>Contact</li></a>
-          </ul> -->
-          <!-- Main Menu 2 -->
-
           <ul class="some-menu">
             <li>
-              <a href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
-              aria-label="My linkedIn profile"
+              <a
+                href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
+                aria-label="My linkedIn profile"
                 ><img src="./../components/icons/linkedin.png" alt="LinkedIn"
               /></a>
             </li>
             <li>
-              <a href="https://github.com/FisterMedister"
-              aria-label="My Github"
+              <a href="https://github.com/FisterMedister" aria-label="My Github"
                 ><img src="./../components/icons/github.png" alt="Github"
               /></a>
             </li>
-            <!-- <li><a href="https://sej.one/old-portfolio/"><img src="./../components/icons/wordpress.png" alt="Wordpress"></a></li> -->
           </ul>
         </div>
         <!-- Header Wrapper -->
@@ -77,20 +74,17 @@
 
         <h2>{{ $t("header.intro") }} &#128075;</h2>
 
-        <h2>{{ $t("header.iam") }} <span>{{ $t("header.name") }}</span></h2>
+        <h2>
+          {{ $t("header.iam") }} <span>{{ $t("header.name") }}</span>
+        </h2>
 
-        <div class="typeing">
+        <div class="typing">
           <span class="typed-text">{{ typeValue }}</span>
           <span class="blinking-cursor">|</span>
           <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
         </div>
 
-        <h4>
-          <!-- I'm a Junior Web Developer <br />
-          with various experiences in
-          <br />
-          both web-design and multi-media -->
-        </h4>
+        <h4></h4>
 
         <h5>{{ $t("header.experience") }}</h5>
 
@@ -111,9 +105,6 @@
           <img src="../assets/img/icons/sql.png" alt="sql logo" />
           <img src="../assets/img/icons/c-sharp.png" alt="c sharp logo" />
         </div>
-        <!-- <a class="call-to-action" href="#projects"
-          ><button>Check out my website!</button></a
-        > -->
       </section>
     </header>
 
@@ -133,14 +124,16 @@
         <div class="desc">
           <h2>UCL Studievejleder</h2>
           <p>{{ $t("projects.ucl_desc1") }}</p>
-          <br>
+          <br />
           <p>{{ $t("projects.ucl_desc2") }}</p>
           <p>{{ $t("projects.ucl_desc3") }}</p>
           <a
             href="https://github.com/FrederikLandtved/UCLStudievejleder"
             target="_blank"
             aria-label="Link to my first project"
-            ><button class="visit-button">{{ $t("projects.git_btn") }}</button></a
+            ><button class="visit-button">
+              {{ $t("projects.git_btn") }}
+            </button></a
           >
         </div>
       </div>
@@ -151,19 +144,24 @@
           <h2>RTID by Ludo</h2>
           <p>{{ $t("projects.rtid_desc1") }}</p>
           <p>{{ $t("projects.rtid_desc2") }}</p>
-          <br>
+          <br />
           <p>{{ $t("projects.rtid_desc3") }}</p>
-            
-          
-          <a href="https://www.rtidbyludo.com/" target="_blank"
-          aria-label="Link to my second project"
-            ><button class="visit-button">{{ $t("projects.visit_web") }}</button></a
+
+          <a
+            href="https://www.rtidbyludo.com/"
+            target="_blank"
+            aria-label="Link to my second project"
+            ><button class="visit-button">
+              {{ $t("projects.visit_web") }}
+            </button></a
           >
         </div>
 
         <div class="project">
-          <a href="https://www.rtidbyludo.com/" target="_blank"
-          aria-label="Link to my first project"
+          <a
+            href="https://www.rtidbyludo.com/"
+            target="_blank"
+            aria-label="Link to my first project"
             ><img src="../assets/img/rtid-2.jpg" alt="RTID by Ludo"
           /></a>
         </div>
@@ -172,8 +170,10 @@
 
       <div class="project-wrapper reveal">
         <div class="project">
-          <a href="https://www.lifeline.sej.one" target="_blank"
-          aria-label="Link to my third project"
+          <a
+            href="https://www.lifeline.sej.one"
+            target="_blank"
+            aria-label="Link to my third project"
             ><img src="../assets/img/llr-2.jpg" alt="Lifeline Robotics"
           /></a>
         </div>
@@ -182,12 +182,16 @@
           <h2>Lifeline Robotics</h2>
           <p>{{ $t("projects.lr_desc1") }}</p>
           <p>{{ $t("projects.lr_desc2") }}</p>
-          <br>
+          <br />
           <p>{{ $t("projects.lr_desc3") }}</p>
-          
-          <a href="https://www.lifeline.sej.one" target="_blank"
-          aria-label="Link to my third project"
-            ><button class="visit-button">{{ $t("projects.visit_web") }}</button></a
+
+          <a
+            href="https://www.lifeline.sej.one"
+            target="_blank"
+            aria-label="Link to my third project"
+            ><button class="visit-button">
+              {{ $t("projects.visit_web") }}
+            </button></a
           >
         </div>
       </div>
@@ -198,17 +202,23 @@
           <h2>Webdock</h2>
           <p>{{ $t("projects.wbd_desc1") }}</p>
           <p>{{ $t("projects.wbd_desc2") }}</p>
-          <br>
+          <br />
           <p>{{ $t("projects.wbd_desc3") }}</p>
-          <a href="http://www.bachelor.sej.one" target="_blank"
-          aria-label="Link to my fourth project"
-            ><button class="visit-button">{{ $t("projects.visit_web") }}</button></a
+          <a
+            href="http://www.bachelor.sej.one"
+            target="_blank"
+            aria-label="Link to my fourth project"
+            ><button class="visit-button">
+              {{ $t("projects.visit_web") }}
+            </button></a
           >
         </div>
 
         <div class="project">
-          <a href="http://www.bachelor.sej.one" target="_blank"
-          aria-label="Link to my fourth project"
+          <a
+            href="http://www.bachelor.sej.one"
+            target="_blank"
+            aria-label="Link to my fourth project"
             ><img src="../assets/img/webdock-2.jpg" alt="Bachelor project"
           /></a>
         </div>
@@ -230,7 +240,7 @@
         </div>
         <div class="about-text">
           <p>{{ $t("about.desc1") }}</p>
-          <br>
+          <br />
           <p>{{ $t("about.desc2") }}</p>
         </div>
       </main>
@@ -241,7 +251,6 @@
       <h2 class="sec-title">{{ $t("contact.title") }}</h2>
 
       <main class="contact-container reveal">
-        <!-- <h3>Send me an Email</h3> -->
         <form
           action="https://formspree.io/f/mnqybnwq"
           method="post"
@@ -295,8 +304,6 @@
               placeholder="type here"
             ></textarea>
           </div>
-
-          <!-- <input name="submit" value="Send" type="submit" > -->
           <button name="submit" value="Send" type="submit">
             {{ $t("contact.send_btn") }}
           </button>
@@ -327,21 +334,7 @@ import image7 from "@/assets/img/profil-fun5.jpg";
 
 export default {
   setup() {
-    // const { t } = useI18n()
-
-    // return { t }
-    // const keyword = ref(null);
     const project1 = ref(null);
-
-    // const handleIntersect = (entries, observer) => {
-    //   entries.forEach((entry) => {
-    //     // console.log('entry: ', entry)
-    //     if (entry.isIntersecting) {
-    //       entry.target.classList.add("animate");
-    //       observer.unobserve(entry.target);
-    //     }
-    //   });
-    // };
 
     onMounted(() => {
       const options = {
@@ -349,12 +342,7 @@ export default {
         rootMargin: "0px",
         threshold: 0.2,
       };
-
-      // const observer = new IntersectionObserver(handleIntersect, options);
-      // observer.observe(keyword.value);
     });
-
-    // return { keyword };
   },
 
   name: "typeWiriter",
@@ -390,15 +378,6 @@ export default {
   },
 
   methods: {
-    /*handleScroll() {
-      if(this.scTimer) return;
-      this.scTimer = setTimeout(() => {
-        this.scY = window.scrollY;
-        clearTimeout(this.scTimer);
-        this.scTimer = 0;
-      }, 100);
-    },*/
-
     typeText() {
       if (
         this.charIndex <
@@ -453,9 +432,6 @@ function reveal() {
     if (revealtop < windowheight - revealpoint) {
       reveals[i].classList.add("active");
     }
-    // else {
-    //   reveals[i].classList.remove('active');
-    // }
   }
 }
 
@@ -463,8 +439,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamMenu = document.querySelector(".ham-menu");
 
   const offScreenMenu = document.querySelector(".off-screen-menu");
-
-  // console.log(hamMenu);
   hamMenu.addEventListener("click", () => {
     hamMenu.classList.toggle("activee");
     offScreenMenu.classList.toggle("activee");

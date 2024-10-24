@@ -28,15 +28,6 @@ const Trans = {
         return null
       }
     },
-
-    // async routeMiddleware(to, _from, next) {
-    //   const paramLocale = to.params.locale
-    //   if(!Trans.isLocaleSupported(paramLocale)) {
-    //     return next(Trans.guessDefaultLocale())
-    //   }
-    //   await Trans.switchLanguage(paramLocale)
-    //   return next()
-    // },
   
     get supportedLocales() {
       return import.meta.env.VITE_SUPPORTED_LOCALES.split(",")

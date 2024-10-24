@@ -2,7 +2,6 @@
 @use "sass/type-animation.scss";
 @use "sass/underline-animation.scss";
 @use "sass/project.scss";
-// @use "sass/keyword.scss";
 @use "sass/about.scss";
 @use "sass/contact.scss";
 @use "sass/footer.scss";
@@ -41,25 +40,6 @@ textarea {
   font-family: $titleFont;
 }
 
-// .scrollToTop {
-//   border: 2px solid #FFFFFF;
-//   border-radius: 100%;
-//   bottom: 1em;
-//   color: #FFFFFF;
-//   font-size: 2.4rem;
-//   height: 50px;
-//   position: fixed;
-//   right: 3em;
-//   text-align: center;
-//   transition: 0.2s;
-//   width: 50px;
-// }
-
-// .scrollToTop:hover {
-//   background-color: $lightGreenColor;
-//   cursor: pointer;
-// }
-
 .sec-title {
   color: #ffffff;
   font-size: 2.2rem;
@@ -88,11 +68,9 @@ textarea {
   background: $darkGreenColor;
 }
 
-html, body {
+html,
+body {
   background-color: $darkColor;
-  // background-image: url("../assets/img/background.jpg");
-  // background: url("../assets/img/background.jpg") no-repeat center cover fixed;
-  // height: 470lvh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +78,6 @@ html, body {
 }
 
 .container {
-  // background-color: purple;
   margin-left: auto;
   margin-right: auto;
   width: 2000px;
@@ -109,17 +86,11 @@ html, body {
 }
 
 header {
-  // background-color: $headerColor;
-  // background-color: $darkColor;
-
   height: 100vh;
 
   nav {
     align-items: center;
-    // background-color: red;
     box-sizing: border-box;
-    // border-bottom: 3px dashed $darkGreenColor;
-    // min-height: 8vh;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -137,7 +108,6 @@ header {
     }
 
     .main-menu-2 {
-      // background-color: red;
       list-style-type: none;
       display: none;
       align-items: baseline;
@@ -155,7 +125,6 @@ header {
       width: 100%;
 
       .main-menu {
-        // background-color: #212222;
         list-style-type: none;
         display: flex;
         padding: 0;
@@ -194,7 +163,6 @@ header {
         flex-direction: row;
         list-style-type: none;
         justify-content: flex-end;
-        // width: 40%;
 
         li {
           a {
@@ -209,11 +177,6 @@ header {
         }
       }
     }
-
-    // #logo:hover {
-    //     cursor: pointer;
-    //     opacity: 0.8;
-    // }
   } //nav
 
   .header-box-wrapper {
@@ -241,7 +204,7 @@ header {
       }
     }
 
-    .typeing {
+    .typing {
       margin-top: 2em;
 
       .typed-text {
@@ -287,9 +250,9 @@ header {
       margin-top: 3em;
       button {
         background-color: $lightGreenColor;
-        border: 3px solid #FFFFFF;
+        border: 3px solid #ffffff;
         border-radius: 30px;
-        color: #FFFFFF;
+        color: #ffffff;
         font-size: 1.1rem;
         font-weight: bold;
         height: 40px;
@@ -298,7 +261,7 @@ header {
       }
 
       button:hover {
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         border-color: $lightGreenColor;
         color: #000000;
         cursor: pointer;

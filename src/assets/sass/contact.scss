@@ -11,20 +11,16 @@ $all: all 0.5s ease;
 }
 
 #contact {
-  // background-color: #228A30;
   max-height: 75vh !important;
-  // padding-top: 4rem;
   width: 100%;
 
   .contact-container {
-    // background-color: #FFFFFF;
     height: 500px;
     margin: 0 auto;
     width: 50%;
 
     .form-box {
       align-items: center;
-      // background-color: lightblue;
       display: flex;
       flex-flow: column wrap;
       height: 500px;
@@ -33,7 +29,6 @@ $all: all 0.5s ease;
       margin: 0 auto;
 
       .field {
-        // background-color: red;
         font-size: 1.2rem;
         margin-top: 0.5em;
         padding-bottom: 10px;

@@ -11,7 +11,6 @@
 <style lang="scss" scoped>
 .load-wrapper {
   animation: moveWrapper 0.01s forwards;
-  // animation-duration: 2s;
   animation-duration: 2s;
   background-color: #121111;
   height: 100vh;
@@ -113,18 +112,4 @@
     }
   }
 }
-
-// @media only screen and (max-width: 675px) {
-
-//  .load-wrapper {
-//    .vertical-div {
-
-//      h1 {
-//        font-size: 40px !important;
-//      }
-//    }
-
-//  }
-
-// }
 </style>
