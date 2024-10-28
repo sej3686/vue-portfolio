@@ -2,6 +2,36 @@
   <section id="projects" ref="comp">
     <h2 class="sec-title">{{ $t("projects.header") }}</h2>
 
+    <div class="project-wrapper animate-3 reveal">
+      <div class="desc">
+        <h2>SEJ's Pizza</h2>
+        <p>{{ $t("projects.sejs_pizza1") }}</p>
+        <p>{{ $t("projects.sejs_pizza2") }}</p>
+        <br />
+        <p>{{ $t("projects.sejs_pizza3") }}</p>
+
+        <a
+          href="https://comfy-gecko-177088.netlify.app/"
+          target="_blank"
+          aria-label="Link to my second project"
+          ><button class="visit-button">
+            {{ $t("projects.visit_web") }}
+          </button></a
+        >
+      </div>
+
+      <div class="project">
+        <a
+          href="https://comfy-gecko-177088.netlify.app/"
+          target="_blank"
+          aria-label="Link to my first project"
+          ><img src="../../assets/img/sejs-pizza.jpg" alt="RTID by Ludo"
+        /></a>
+      </div>
+    </div>
+
+    <hr />
+
     <div ref="project1" class="project-wrapper animate-2 reveal">
       <div class="project">
         <a
@@ -29,6 +59,8 @@
       </div>
     </div>
     <!-- project-wrapper -->
+
+    <hr />
 
     <div class="project-wrapper animate-3 reveal">
       <div class="desc">
@@ -59,6 +91,8 @@
     </div>
     <!-- project-wrapper -->
 
+    <hr />
+
     <div class="project-wrapper reveal">
       <div class="project">
         <a
@@ -87,6 +121,8 @@
       </div>
     </div>
     <!-- project-wrapper -->
+
+    <hr />
 
     <div class="project-wrapper reveal">
       <div class="desc">
@@ -137,6 +173,13 @@ $darkGreenColor: #228a30;
   margin-top: 2em;
   width: 100%;
 
+  hr {
+    background-color: #ffffff;
+    border: none;
+    height: 2px;
+    margin-top: 2em;
+  }
+
   .project-wrapper {
     display: flex;
     flex-direction: row;
@@ -152,7 +195,7 @@ $darkGreenColor: #228a30;
         img {
           height: 500px;
           opacity: 0.8;
-          transition: 0.2s ease-out;
+          transition: 0.2s;
           width: 100%;
         }
 

@@ -17,6 +17,9 @@
     },
     "projects": {
         "header": "Featured Projects",
+        "sejs_pizza1": "A website I made from the ground up",
+        "sejs_pizza2": "The website is an ordering site that aims to create a good user experience for customers who want to order pizza or anything else",
+        "sejs_pizza3": "The website is made with React.js",
         "ucl_desc1": "This is a website made for an exam",
         "ucl_desc2": "The website is for the school of UCL's study guide teachers of whom helps students with all sorts of problems they may encounter. The application is made with HTML, CSS, C# and JavaScript",
         "ucl_desc3": "Note: this website is not up at the moment",

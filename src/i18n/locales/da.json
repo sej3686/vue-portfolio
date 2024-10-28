@@ -17,6 +17,9 @@
     },
     "projects": {
         "header": "Udvalgte Projekter",
+        "sejs_pizza1": "En hjemmeside som jeg har lavet fra bunden af.",
+        "sejs_pizza2": "Hjemmesiden er en bestillingsside, der er til formål at skabe en god brugeroplevelse for kunder der gerne vil bestille pizza eller andet",
+        "sejs_pizza3": "Hjemmesiden er lavet i React.js",
         "ucl_desc1": "Dette er en hjemmeside lavet på baggrund af en eksamen",
         "ucl_desc2": "Hjemmesiden er lavet for UCL's studievejledere, der skal hjælpe til med at gøre deres system mere simpelt og så derfor at kunne hjælpe eleverne med deres problemer yderligere. Applikationen er lavet med HTML, CSS, C# og JavaScript",
         "ucl_desc3": "Note: Hjemmesiden er ikke oppe",
