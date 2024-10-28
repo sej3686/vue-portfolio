@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <hr />
+    <hr class="reveal"/>
 
     <div ref="project1" class="project-wrapper animate-2 reveal">
       <div class="project">
@@ -60,7 +60,7 @@
     </div>
     <!-- project-wrapper -->
 
-    <hr />
+    <hr class="reveal"/>
 
     <div class="project-wrapper animate-3 reveal">
       <div class="desc">
@@ -91,7 +91,7 @@
     </div>
     <!-- project-wrapper -->
 
-    <hr />
+    <hr class="reveal"/>
 
     <div class="project-wrapper reveal">
       <div class="project">
@@ -122,7 +122,7 @@
     </div>
     <!-- project-wrapper -->
 
-    <hr />
+    <hr class="reveal"/>
 
     <div class="project-wrapper reveal">
       <div class="desc">
