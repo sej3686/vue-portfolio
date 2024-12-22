@@ -53,7 +53,7 @@
             /></a>
           </li>
           <li>
-            <a href="https://github.com/FisterMedister" aria-label="My Github"
+            <a href="https://github.com/sej3686" aria-label="My Github"
               ><img src="../../components/icons/github.png" alt="Github"
             /></a>
           </li>
