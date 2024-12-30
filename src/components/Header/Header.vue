@@ -49,12 +49,12 @@
             <a
               href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
               aria-label="My linkedIn profile"
-              ><img src="../../components/icons/linkedin.png" alt="LinkedIn"
+              ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
             /></a>
           </li>
           <li>
             <a href="https://github.com/sej3686" aria-label="My Github"
-              ><img src="../../components/icons/github.png" alt="Github"
+              ><img src="../../assets/img/icons/github.png" alt="Github"
             /></a>
           </li>
         </ul>

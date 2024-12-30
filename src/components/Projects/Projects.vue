@@ -2,6 +2,36 @@
   <section id="projects" ref="comp">
     <h2 class="sec-title">{{ $t("projects.header") }}</h2>
 
+    <div ref="project1" class="project-wrapper animate-2 reveal">
+      <div class="project">
+        <a
+          href="#"
+          target="_blank"
+          aria-label="Link to my first project"
+          ><img src="../../assets/img/projectreCraft.jpg" alt=""
+        /></a>
+      </div>
+
+      <div class="desc">
+        <h2>ReCraft</h2>
+        <p>{{ $t("projects.recraft1") }}</p>
+        <br />
+        <p>{{ $t("projects.recraft2") }}</p>
+        <p>{{ $t("projects.recraft3") }}</p>
+        <a
+          href="#"
+          target="_blank"
+          aria-label="Link to my first project"
+          ><button class="visit-button">
+            {{ $t("projects.view_prototype") }}
+          </button></a
+        >
+      </div>
+    </div>
+    <!-- project-wrapper -->
+
+    <hr class="reveal"/>
+
     <div class="project-wrapper animate-3 reveal">
       <div class="desc">
         <h2>SEJ's Pizza</h2>
@@ -19,6 +49,7 @@
           </button></a
         >
       </div>
+      <!-- project-wrapper -->
 
       <div class="project">
         <a

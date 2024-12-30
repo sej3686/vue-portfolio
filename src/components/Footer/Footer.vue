@@ -26,7 +26,8 @@ footer {
   }
 
   img {
-    max-width: 150px;
+    // max-width: 150px;
+    max-width: 40%;
   }
 }
 @import "@/assets/sass/responsive.scss";
