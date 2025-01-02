@@ -27,6 +27,7 @@
         ><img id="mlogo" src="../../assets/img/logo-new-white.png" alt="logo" />
       </div>
       <div class="spacing"></div>
+
       <div class="header-wrapper">
         <img id="logo" src="../../assets/img/logo-new-white.png" alt="logo" />
         <ul class="main-menu">
@@ -251,16 +252,15 @@ header {
       display: flex;
       flex-direction: row;
       height: 5em;
-      justify-content: space-around;
+      justify-content: center;
       margin-top: 5em;
       position: fixed;
-      width: 100%;
+      width: 80%;
       z-index: 95;
 
       .main-menu {
         list-style-type: none;
         display: flex;
-        padding: 0;
 
         li {
           color: #ffffff;
