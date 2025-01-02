@@ -43,26 +43,11 @@
           </li>
         </ul>
         <!-- Main Menu -->
-
-        <ul class="some-menu">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
-              aria-label="My linkedIn profile"
-              ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/sej3686" aria-label="My Github"
-              ><img src="../../assets/img/icons/github.png" alt="Github"
-            /></a>
-          </li>
-        </ul>
       </div>
       <!-- Header Wrapper -->
     </nav>
 
-    <section class="header-box-wrapper">
+    <section class="intro">
       <img
         class="profile-pic"
         src="../../assets/img/profil2.jpg"
@@ -81,7 +66,16 @@
         <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
       </div>
 
-      <h4></h4>
+      <div class="some-menu">
+            <a
+              href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
+              aria-label="My linkedIn profile"
+              ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/sej3686" aria-label="My Github"
+              ><img src="../../assets/img/icons/github.png" alt="Github"
+            /></a>
+        </div>
 
       <h5>{{ $t("header.experience") }}</h5>
 
@@ -102,6 +96,7 @@
         <img src="../../assets/img/icons/sql.png" alt="sql logo" />
         <img src="../../assets/img/icons/c-sharp.png" alt="c sharp logo" />
       </div>
+      <a href="#projects"><div class="arrow"></div></a>
     </section>
   </header>
 </template>
@@ -109,7 +104,7 @@
 import { ref, onMounted } from "vue";
 
 export default {
-    setup() {
+  setup() {
     const project1 = ref(null);
 
     onMounted(() => {
@@ -139,8 +134,7 @@ export default {
     };
   },
 
-  computed: {
-  },
+  computed: {},
 
   props: {},
   created() {
@@ -227,8 +221,7 @@ header {
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: center;
 
     .mobile-header {
       display: none;
@@ -254,10 +247,15 @@ header {
 
     .header-wrapper {
       align-items: center;
+      background-color: $darkColor;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      height: 5em;
+      justify-content: space-around;
+      margin-top: 5em;
+      position: fixed;
       width: 100%;
+      z-index: 95;
 
       .main-menu {
         list-style-type: none;
@@ -291,34 +289,15 @@ header {
       #logo {
         max-width: 150px;
       }
-
-      .some-menu {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        list-style-type: none;
-        justify-content: flex-end;
-
-        li {
-          a {
-            img {
-              width: 40%;
-            }
-          }
-
-          a:hover {
-            opacity: 0.8;
-          }
-        }
-      }
     }
   }
+}
 
-  .header-box-wrapper {
+.intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 7.5em;
 
     .profile-pic {
       border: 2px solid #ffffff;
@@ -358,6 +337,23 @@ header {
       line-height: 2.8rem;
       margin-top: 1em;
       text-align: center;
+    }
+
+    .some-menu {
+        display: flex;
+        margin-top: 2em;
+
+      a {
+          margin: 0 20px 0 20px;
+
+          img {
+          width: 50px;
+        }
+      }
+        
+      a:hover {
+        opacity: 0.8;
+      }
     }
 
     h5 {
@@ -402,8 +398,53 @@ header {
         cursor: pointer;
       }
     }
+
+    .arrow {
+      height: 2vmin;
+      left: 49.6%;
+      position: absolute;
+      top: 90%;
+      transform: rotate(135deg);
+      width: 2vmin;
+
+      &::before {
+        border-color: #fafafa;
+        border-style: solid;
+        border-width: 0.8vmin 0.8vmin 0 0;
+        content: "";
+        display: block;
+        height: 100%;
+        transform-origin: 100% 0;
+        transition: 0.2s ease;
+        width: 100%;
+      }
+
+      &:after {
+        border-color: #fafafa;
+        border-style: solid;
+        border-width: 0 0.8vmin 0 0;
+        content: "";
+        float: left;
+        position: relative;
+        height: 100%;
+        top: -100%;
+        transform-origin: 100% 0;
+        transition: 0.2s ease;
+        width: 100%;
+      }
+
+      &:hover::after {
+        border-color: $lightGreenColor;
+        height: 120%;
+        right: 8%;
+        transform: rotate(45deg);
+      }
+      &:hover::before {
+        border-color: $lightGreenColor;
+        transform: scale(0.8);
+      }
+    }
   }
-}
 @import "@/assets/sass/responsive.scss";
 @import "@/assets/sass/reset.scss";
 </style>

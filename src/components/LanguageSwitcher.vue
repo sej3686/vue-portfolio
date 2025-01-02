@@ -29,11 +29,11 @@
     font-weight: bold;
     font-size: 1.15;
     margin-right: 2em;
-    margin-top: 1em;
+    margin-top: 1.8em;
     right: 0;
     padding: 0.5em;
-    position: absolute;
-    z-index: 12;
+    position: fixed;
+    z-index: 97;
     width: 10%;
   }
 }
@@ -41,6 +41,7 @@
 @media (max-width: 640px) {
   .custom-select {
     select {
+      margin-top: 12px;
       position: fixed;
       width: 20%;
     }

@@ -5,6 +5,10 @@ $darkGreenColor: #228a30;
 
 /* 2k */
 @media (max-width: 2700px) {
+  header {
+    height: 115vh;
+  }
+
   .container {
     max-width: 1920px;
   }
@@ -26,6 +30,16 @@ $darkGreenColor: #228a30;
 @media (max-width: 1920px) {
   .container {
     max-width: 1280px;
+  }
+
+  .intro {
+    .arrow {
+      top: 95%;
+
+      &:hover::after {
+        right: 2px;
+      }
+    }
   }
 
   #projects {
@@ -102,6 +116,10 @@ $darkGreenColor: #228a30;
     margin-left: 0;
   }
 
+  .header-wrapper {
+    justify-content: center !important;
+  }
+
   #keyword {
     .keyword-grid-wrapper {
       .keyword-grid-item {
@@ -171,11 +189,23 @@ $darkGreenColor: #228a30;
       height: 50px;
     }
 
+    .header-wrapper {
+      display: none !important;
+    }
+
+    .intro {
+      margin-top: 10px;
+
+      .arrow {
+        display: none;
+      }
+    }
+
     .mobile-header {
       background-color: #1f1e1e;
       display: flex !important;
-      height: 60px;
       justify-content: center;
+      margin-top: -20px;
       position: fixed;
       width: 100%;
       z-index: 10;
@@ -211,7 +241,7 @@ $darkGreenColor: #228a30;
       transition: 0.3s ease;
       top: 0;
       width: 100%;
-      z-index: 13;
+      z-index: 99;
 
       a {
         text-decoration: none;
@@ -232,9 +262,10 @@ $darkGreenColor: #228a30;
     #navv {
       display: flex !important;
       left: -5px;
+      margin-top: -20px;
       position: fixed;
       padding: 1rem;
-      z-index: 14;
+      z-index: 100;
 
       .ham-menu {
         height: 30px;
@@ -388,6 +419,10 @@ $darkGreenColor: #228a30;
         margin-top: 5em;
         text-align: center;
         width: 80% !important;
+
+        p {
+          font-size: 1.2rem;
+        }
       }
     }
   }

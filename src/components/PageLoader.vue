@@ -16,7 +16,7 @@
   height: 100vh;
   position: fixed;
   width: 100vw;
-  z-index: 99;
+  z-index: 101;
   transition: 1s ease;
   transform: translateY(-100%);
 

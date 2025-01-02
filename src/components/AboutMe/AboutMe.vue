@@ -72,8 +72,8 @@ $orangeColor: #e08814;
         border-radius: 100%;
         cursor: pointer;
         transition: 0.2s;
-        height: 300px;
-        margin-top: 10%;
+        height: 250px;
+        margin-top: 20%;
         max-width: 400px;
       }
 
@@ -91,7 +91,7 @@ $orangeColor: #e08814;
 
       p {
         color: #ffffff;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 35px;
       }
     }
