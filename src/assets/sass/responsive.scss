@@ -234,7 +234,6 @@ $darkGreenColor: #228a30;
           a {
             color: $lightGreenColor;
             font-size: 30px;
-            display: block;
             text-decoration: none;
             padding: 20px;
           }
@@ -354,16 +353,6 @@ $darkGreenColor: #228a30;
 
       .project {
         min-height: 600px;
-
-        .project-info {
-
-          .project-info-button-wrapper {
-            
-            a {
-              display: block;
-            }
-          }
-        }
       }
     }
   }
@@ -413,10 +402,12 @@ $darkGreenColor: #228a30;
     img {
       width: 40%;
     }
+
+    a {
+      display: none;
+    }
   }
-  a {
-    display: none;
-  }
+
 }
 
 /* xs */
