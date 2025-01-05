@@ -490,7 +490,7 @@ $darkGreenColor: #228a30;
           }
 
           .span-api {
-            background-color: #21749bcc;
+            background-color: #21759B;
             color: #ffffff;
           }
 

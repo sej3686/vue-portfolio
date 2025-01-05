@@ -351,6 +351,20 @@ $darkGreenColor: #228a30;
       margin: 0 auto;
       margin-top: 2em;
       width: 80%;
+
+      .project {
+        min-height: 600px;
+
+        .project-info {
+
+          .project-info-button-wrapper {
+            
+            a {
+              display: block;
+            }
+          }
+        }
+      }
     }
   }
 
