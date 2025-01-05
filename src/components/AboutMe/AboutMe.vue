@@ -12,7 +12,6 @@
       </div>
       <div class="about-text">
         <p>{{ $t("about.desc1") }}</p>
-        <br />
         <p>{{ $t("about.desc2") }}</p>
       </div>
     </main>
@@ -53,11 +52,12 @@ export default {
 
 <style lang="scss" scoped>
 $darkGreenColor: #228a30;
+$lightGreenColor: #39b54a;
 $orangeColor: #e08814;
 
 #about {
   background-color: transparent;
-  max-height: 80vh !important;
+  margin-bottom: 5em;
   width: 95%;
 
   .about-wrapper {
@@ -69,12 +69,12 @@ $orangeColor: #e08814;
       width: 35%;
 
       img {
+        border: 3px solid $lightGreenColor;
         border-radius: 100%;
         cursor: pointer;
         transition: 0.2s;
-        height: 250px;
-        margin-top: 20%;
-        max-width: 400px;
+        height: 180px;
+        max-width: 320px;
       }
 
       img:hover {
@@ -85,14 +85,14 @@ $orangeColor: #e08814;
     .about-text {
       display: flex;
       flex-direction: column;
-      height: 400px;
+      height: 200px;
       justify-content: space-evenly;
       width: 65%;
 
       p {
         color: #ffffff;
         font-size: 1rem;
-        line-height: 35px;
+        line-height: 25px;
       }
     }
   }

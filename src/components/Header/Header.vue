@@ -1,17 +1,11 @@
 <template>
-  <header>
+  <header id="header">
     <nav>
       <div class="off-screen-menu">
         <ul>
-          <a href="#projects" aria-label="Projects"
-            ><li>{{ $t("nav.projects") }}</li></a
-          >
-          <a href="#about" aria-label="About me"
-            ><li>{{ $t("nav.about") }}</li></a
-          >
-          <a href="#contact" aria-label="Contact"
-            ><li>{{ $t("nav.contact") }}</li></a
-          >
+          <li class="off-screen-menu-text"><a href="#projects" aria-label="Projects">{{ $t("nav.projects") }}</a></li>
+          <li class="off-screen-menu-text"><a href="#about" aria-label="About me">{{ $t("nav.about") }}</a></li>
+          <li class="off-screen-menu-text"><a href="#contact" aria-label="Contact">{{ $t("nav.contact") }}</a></li>
         </ul>
       </div>
 
@@ -29,7 +23,7 @@
       <div class="spacing"></div>
 
       <div class="header-wrapper">
-        <img id="logo" src="../../assets/img/logo-new-white.png" alt="logo" />
+        <a href="#header"><img id="logo" src="../../assets/img/logo-new-white.png" alt="logo" /></a>
         <ul class="main-menu">
           <li class="hover-underline-animation">
             <a href="#projects" aria-label="projects">{{
@@ -96,6 +90,7 @@
         <img src="../../assets/img/icons/php.png" alt="php logo" />
         <img src="../../assets/img/icons/sql.png" alt="sql logo" />
         <img src="../../assets/img/icons/c-sharp.png" alt="c sharp logo" />
+        <img src="../../assets/img/icons/figma.png" alt="figma logo" />
       </div>
       <a href="#projects"><div class="arrow"></div></a>
     </section>
@@ -197,12 +192,20 @@ function reveal() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamMenu = document.querySelector(".ham-menu");
+  const offScreenTexts = document.querySelectorAll(".off-screen-menu-text");
 
   const offScreenMenu = document.querySelector(".off-screen-menu");
   hamMenu.addEventListener("click", () => {
     hamMenu.classList.toggle("activee");
     offScreenMenu.classList.toggle("activee");
   });
+
+  offScreenTexts.forEach((offScreenText) => {
+    offScreenText.addEventListener("click", () => {
+      hamMenu.classList.toggle("activee");
+      offScreenMenu.classList.toggle("activee");
+    });
+  })
 });
 </script>
 <style lang="scss">
@@ -229,7 +232,19 @@ header {
     }
 
     .off-screen-menu {
+      align-items: center;
+      background-color: #1f1e1e;
       display: none;
+      flex-direction: column;
+      height: 30vh;
+      justify-content: center;
+      max-width: 100vw;
+      position: fixed;
+      top: -250px;
+      text-align: center;
+      transition: 0.3s ease;
+      width: 100%;
+      z-index: 5;
     }
 
     #navv {
@@ -284,6 +299,10 @@ header {
         li:hover {
           cursor: pointer;
         }
+      }
+
+      a:hover {
+        opacity: 0.8;
       }
 
       #logo {
@@ -436,7 +455,7 @@ header {
       &:hover::after {
         border-color: $lightGreenColor;
         height: 120%;
-        right: 8%;
+        right: 10%;
         transform: rotate(45deg);
       }
       &:hover::before {

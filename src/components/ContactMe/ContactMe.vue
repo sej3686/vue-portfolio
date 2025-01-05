@@ -79,7 +79,7 @@ $all: all 0.5s ease;
 }
 
 #contact {
-  max-height: 75vh !important;
+  max-height: 85vh !important;
   width: 100%;
 
   .contact-container {
