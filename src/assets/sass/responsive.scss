@@ -229,13 +229,18 @@ $darkGreenColor: #228a30;
         li {
           border-bottom: 1px solid #ffffff;
           list-style-type: none;
+          position: relative;
+          display: flex;
           
   
           a {
             color: $lightGreenColor;
+            display: block;
             font-size: 30px;
             text-decoration: none;
+            text-align: center;
             padding: 20px;
+            width: 100%;
           }
         }
       }

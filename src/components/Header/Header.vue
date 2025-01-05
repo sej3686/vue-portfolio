@@ -192,7 +192,7 @@ function reveal() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamMenu = document.querySelector(".ham-menu");
-  const offScreenTexts = document.querySelectorAll(".off-screen-menu-text");
+  const offScreenTexts = document.querySelectorAll(".off-screen-menu-text a");
 
   const offScreenMenu = document.querySelector(".off-screen-menu");
   hamMenu.addEventListener("click", () => {
@@ -236,7 +236,6 @@ header {
       background-color: #1f1e1e;
       display: none;
       flex-direction: column;
-      height: 30vh;
       justify-content: center;
       max-width: 100vw;
       position: fixed;
