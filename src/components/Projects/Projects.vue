@@ -58,11 +58,11 @@
             <span class="span-ReactJS">ReactJS</span>
             <span class="span-javaScript">JavaScript</span>
           </div>
-          <p class="project-info-text">A web app for a shopping site where customers can select their orders, and then buy them. My goal is to create a simple yet easy to use shopping site. I'm working on creating the backend so it actually functions, but for now I've only done the front-end. The app is build in React.js and JavaScript</p>
+          <p class="project-info-text">{{ $t("projects.sejs_pizza") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -94,11 +94,11 @@
           <div class="project-info-coding-lang">
             <span class="span-figma">Figma</span> 
           </div>
-          <p class="project-info-text">This is a project which I've been working on for about 4 weeks at my work for ReCraft. The prototype is for a re-design of their old (current) app. I've been shown the hi-fi designs in Canvas, and my job was to implement a functioning prototype in Figma. This prototype includes almost every page which will be implemented</p>
+          <p class="project-info-text">{{ $t("projects.recraft_mobile") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -155,11 +155,11 @@
             <span class="span-wordpress">WordPress</span>
             <span class="span-php">php</span> 
           </div>
-          <p class="project-info-text">RTID by LUDO is a shopping site in which people can buy Scarfs and other items created and made by people in need in Thailand. I've been working on both the .com and the .asia sites. The aim was to show/display the items in a way that catches customers attention while also show them RTID by LUDO's misson.</p>
+          <p class="project-info-text">{{ $t("projects.rtid") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -216,11 +216,11 @@
             <span class="span-wordpress">WordPress</span>
             <span class="span-php">php</span> 
           </div>
-          <p class="project-info-text">A re-design website for Lifeline Roboitcs. They were unsatisfied with their current website so me and a colleague was tasked to re-design it. As the time was limited and it was an internship it was never finished fully, that's why the website is not perfect. We worked in WordPress and PHP.</p>
+          <p class="project-info-text">{{ $t("projects.llr") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -283,11 +283,11 @@
             <span class="span-json">JSON</span>
             <span class="span-api">API</span>
           </div>
-          <p class="project-info-text">An application for a buying flow. This was for a bachelor project where the client was the Danish company, Webdock. Webdock is a company which sells servers to their customers. The goal for the app was to make the it as easy as possible for customers to buy servers part, while also help them teach things, if they didn't understand everything.</p>
+          <p class="project-info-text">{{ $t("projects.wbd") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -319,11 +319,11 @@
           <div class="project-info-coding-lang">
             <span class="span-figma">Figma</span> 
           </div>
-          <p class="project-info-text">A lo-fi wireframe for a re-design of ReCraft's current website. I've been studying and taking inspirations from various other websites when creating this prototype. The main goal was to a sort of "call-to-action" for people to download their app, which is where the ReCraft got their marketplace.</p>
+          <p class="project-info-text">{{ $t("projects.recraft_website") }}</p>
           <div class="project-info-button-wrapper">
             <a href="">
               <button>
-                Read more
+                {{ $t("projects.read_more") }}
               </button>
             </a>
           </div>
@@ -334,7 +334,9 @@
 
     <div class="see-all-projects">
       <RouterLink to="/projects">
-        <button>View All</button>
+        <button>
+          {{ $t("projects.see_all") }}
+        </button>
       </RouterLink>
     </div>
     
@@ -374,8 +376,8 @@ $darkGreenColor: #228a30;
       background-color: transparent;
       border: 2px solid $lightGreenColor;
       border-radius: 10px;
-      height: 600px;
-      max-width: 335px;
+      min-height: 600px;
+      width: 335px;
 
       .image-container {
         img {
