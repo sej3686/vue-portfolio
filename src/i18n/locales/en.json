@@ -4,19 +4,33 @@
         "da": "Danish",
         "ja": "Japanese"
     },
+
     "nav": {
+        "skills": "Skills",
         "projects": "Projects",
         "about": "About me",
         "contact": "Contact"
     },
+
     "header": {
+        "sej": "Syntax Error Jedi",
+        "desc":"I can offer SEJ Syntax Error Jedi specializing in frontend and Figma and it's fitting that my name is Stefan Emil Jespersen",
         "intro": "Hi",
         "iam": "I'm",
         "name": "Stefan",
         "experience": "I have experience in:"
     },
+
+    "skills": {
+        "title": "Skills",
+        "c_language": "Languages",
+        "frameworks": "Frameworks",
+        "databases": "Databases",
+        "o_tools": "Other tools"
+    },
+
     "projects": {
-        "header": "Featured Projects",
+        "title": "Featured Projects",
         "sejs_pizza": "A web app for a shopping site where customers can select their orders, and then buy them. My goal is to create a simple yet easy to use shopping site. I'm working on creating the backend so it actually functions, but for now I've only done the front-end. The app is build in React.js and JavaScript.",
         "recraft_mobile": "This is a project which I've been working on for about 4 weeks at my work for ReCraft. The prototype is for a re-design of their old (current) app. I've been shown the hi-fi designs in Canvas, and my job was to implement a functioning prototype in Figma. This prototype includes almost every page which will be implemented.",
         "rtid": "RTID by LUDO is a shopping site in which people can buy Scarfs and other items created and made by people in need in Thailand. I've been working on both the .com and the .asia sites. The aim was to show/display the items in a way that catches customers attention while also show them RTID by LUDO's misson.",
@@ -30,11 +44,17 @@
         "visit_web": "Visit Website",
         "git_btn": "Visit GIT repo"
     },
+
     "about": {
         "title": "About me",
-        "desc1": "I am a graduate of University College Lillebælt (UCL), holding a degree in Web Development and Multimedia Design. My academic background has provided me with a solid foundation in both creative and technical disciplines, including proficiency in industry-standard tools such as Adobe Creative Suite, as well as coding and various evaluation techniques that are essential in today's professional landscape.",
-        "desc2": "Through my work experience, I have developed a strong understanding of the professional environment, honing my ability to maintain focus, adapt to challenges, and deliver results effectively."
+        "undertitle": "One man's dream - the dream of going out there and make a difference",
+        "motivation": "I have always dreamed of go out and work together with a bunch of amazing people and make exciting projects together!",
+        "desc1": "As you already know by now I'm Stefan and I'm currently looking for a place to work to utilize my experience.",
+        "desc2": "I have a Bachelor Degree in Web Development and a Academy Profession (AP) Degree in Multimedia Design, both at UCL University College Lillebælt.",
+        "desc3": "I am currently working on this portfolio, a pizza delivery website and other minor projects.",
+        "desc4": "I'm experienced in fullstack development - I dabble with Vue, ReactJS and TypeScript as frontend. With backend it's Google firebase, Azure SQL and MongoDB."
     },
+
     "contact": {
         "title": "Let's get in Touch!",
         "name": "name",
@@ -42,7 +62,13 @@
         "message": "Message",
         "send_btn": "Send message"
     },
+
     "footer": {
         "made_by": "Made personally by Stefan E. J."
+    },
+
+    "project_vue": {
+        "title": "Work in Progress",
+        "back": "Go Back"
     }
 }

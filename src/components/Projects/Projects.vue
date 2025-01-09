@@ -1,6 +1,6 @@
 <template>
   <section id="projects" ref="comp">
-    <h2 class="sec-title">{{ $t("projects.header") }}</h2>
+    <h2 class="sec-title">{{ $t("projects.title") }}</h2>
 
     <div class="project-wrapper">
       
@@ -60,11 +60,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.sejs_pizza") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -96,11 +96,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.recraft_mobile") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -157,11 +157,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.rtid") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -218,11 +218,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.llr") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -285,11 +285,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.wbd") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -321,11 +321,11 @@
           </div>
           <p class="project-info-text">{{ $t("projects.recraft_website") }}</p>
           <div class="project-info-button-wrapper">
-            <a href="">
+            <RouterLink to="/projects">
               <button>
                 {{ $t("projects.read_more") }}
               </button>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -340,8 +340,6 @@
       </RouterLink>
     </div>
     
-
-
   </section>
 </template>
 
@@ -359,8 +357,6 @@ $lightGreenColor: #39b54a;
 $darkGreenColor: #228a30;
 
 #projects {
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-top: 2em;
   width: 100%;
 

@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -6,7 +7,10 @@
 .container {
   margin-left: auto;
   margin-right: auto;
+  min-height: 100vh;
   width: 2000px;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+}
+
+.container > *:not(Footer) {
+  flex: 1;
 }

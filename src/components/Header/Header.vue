@@ -1,15 +1,38 @@
 <template>
   <header id="header">
+    <div class="custom-select">
+      <select @change="switchLanguage" aria-label="Switch Language">
+        <option
+          v-for="sLocale in supportedLocales"
+          :key="`locale-${sLocale}`"
+          :value="sLocale"
+          :selected="locale === sLocale"
+        >
+          {{ t(`locale.${sLocale}`) }}
+        </option>
+      </select>
+    </div>
     <nav>
       <div class="off-screen-menu">
         <ul>
-          <li class="off-screen-menu-text"><a href="#projects" aria-label="Projects">{{ $t("nav.projects") }}</a></li>
-          <li class="off-screen-menu-text"><a href="#about" aria-label="About me">{{ $t("nav.about") }}</a></li>
-          <li class="off-screen-menu-text"><a href="#contact" aria-label="Contact">{{ $t("nav.contact") }}</a></li>
+          <li class="off-screen-menu-text">
+            <a href="#skills" aria-label="Skills">{{ $t("nav.skills") }}</a>
+          </li>
+          <li class="off-screen-menu-text">
+            <a href="#projects" aria-label="Projects">{{
+              $t("nav.projects")
+            }}</a>
+          </li>
+          <li class="off-screen-menu-text">
+            <a href="#about" aria-label="About me">{{ $t("nav.about") }}</a>
+          </li>
+          <li class="off-screen-menu-text">
+            <a href="#contact" aria-label="Contact">{{ $t("nav.contact") }}</a>
+          </li>
         </ul>
       </div>
 
-      <div id="navv">
+      <div id="nav2">
         <div class="ham-menu">
           <span></span>
           <span></span>
@@ -20,11 +43,15 @@
         <a href=""></a
         ><img id="mlogo" src="../../assets/img/logo-new-white.png" alt="logo" />
       </div>
-      <div class="spacing"></div>
 
       <div class="header-wrapper">
-        <a href="#header"><img id="logo" src="../../assets/img/logo-new-white.png" alt="logo" /></a>
+        <a href="#header"
+          ><img id="logo" src="../../assets/img/logo-new-white.png" alt="logo"
+        /></a>
         <ul class="main-menu">
+          <li class="hover-underline-animation">
+            <a href="#skills" aria-label="skills">{{ $t("nav.skills") }}</a>
+          </li>
           <li class="hover-underline-animation">
             <a href="#projects" aria-label="projects">{{
               $t("nav.projects")
@@ -38,69 +65,77 @@
           </li>
         </ul>
         <!-- Main Menu -->
-      </div>
-      <!-- Header Wrapper -->
-    </nav>
 
-    <section class="intro">
+        <select @change="switchLanguage" aria-label="Switch Language">
+          <option
+            v-for="sLocale in supportedLocales"
+            :key="`locale-${sLocale}`"
+            :value="sLocale"
+            :selected="locale === sLocale"
+          >
+            {{ t(`locale.${sLocale}`) }}
+          </option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <div class="intro-box-text">
+      <div class="title-box">
+        <h1>SEJ {{ $t("header.sej") }}</h1>
+
+        <div class="typing">
+          <span class="typed-text">{{ typeValue }}</span>
+          <span class="blinking-cursor">|</span>
+          <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+        </div>
+      </div>
+
+      <p>{{ $t("header.desc") }}</p>
+
+      <div class="some-menu">
+        <a
+          href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
+          aria-label="My linkedIn profile"
+          ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
+        /></a>
+        <a href="https://github.com/sej3686" aria-label="My Github"
+          ><img src="../../assets/img/icons/github.png" alt="Github"
+        /></a>
+        <a href="mailto:sej.webudvikling.com">
+          <img src="../../assets/img/icons/mail-white.png" alt="My email" />
+        </a>
+      </div>
+    </div>
+    <div class="intro-box-image">
       <img
         class="profile-pic"
         src="../../assets/img/profil2.jpg"
         alt="Profile Picture"
       />
-
-      <h2>{{ $t("header.intro") }} &#128075;</h2>
-
-      <h2>
-        {{ $t("header.iam") }} <span>{{ $t("header.name") }}</span>
-      </h2>
-
-      <div class="typing">
-        <span class="typed-text">{{ typeValue }}</span>
-        <span class="blinking-cursor">|</span>
-        <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-      </div>
-
-      <div class="some-menu">
-            <a
-              href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
-              aria-label="My linkedIn profile"
-              ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
-            /></a>
-            <a href="https://github.com/sej3686" aria-label="My Github"
-              ><img src="../../assets/img/icons/github.png" alt="Github"
-            /></a>
-        </div>
-
-      <h5>{{ $t("header.experience") }}</h5>
-
-      <div class="skills">
-        <img src="../../assets/img/icons/html.png" alt="html logo" />
-        <img src="../../assets/img/icons/css.png" alt="css logo" />
-        <img src="../../assets/img/icons/sass.png" alt="sass logo" />
-        <img src="../../assets/img/icons/js.png" alt="javascript logo" />
-        <img src="../../assets/img/icons/ts.png" alt="typescript logo" />
-        <img src="../../assets/img/icons/vue.png" alt="vue logo" />
-        <img src="../../assets/img/icons/react.png" alt="react logo" />
-      </div>
-      <div class="skills">
-        <img src="../../assets/img/icons/angular.png" alt="angular logo" />
-        <img src="../../assets/img/icons/git.png" alt="git logo" />
-        <img src="../../assets/img/icons/adobe.png" alt="adobe logo" />
-        <img src="../../assets/img/icons/php.png" alt="php logo" />
-        <img src="../../assets/img/icons/sql.png" alt="sql logo" />
-        <img src="../../assets/img/icons/c-sharp.png" alt="c sharp logo" />
-        <img src="../../assets/img/icons/figma.png" alt="figma logo" />
-      </div>
-      <a href="#projects"><div class="arrow"></div></a>
-    </section>
-  </header>
+    </div>
+  </section>
+  <a href="#skills"><div class="arrow"></div></a>
 </template>
 <script>
 import { ref, onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import Tr from "@/i18n/translation";
 
 export default {
   setup() {
+    const { t, locale } = useI18n();
+
+    const supportedLocales = Tr.supportedLocales;
+
+    const switchLanguage = async (event) => {
+      const newLocale = event.target.value;
+      await Tr.switchLanguage(newLocale);
+    };
+
+    return { t, locale, supportedLocales, switchLanguage };
+
     const project1 = ref(null);
 
     onMounted(() => {
@@ -205,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hamMenu.classList.toggle("activee");
       offScreenMenu.classList.toggle("activee");
     });
-  })
+  });
 });
 </script>
 <style lang="scss">
@@ -219,7 +254,30 @@ $darkGreenColor: #228a30;
 $lightBlue: #203c98;
 
 header {
-  height: 100vh;
+  height: 10vh;
+
+  .custom-select {
+    select {
+      appearance: none;
+      background-color: #fff;
+      border: 2px solid #39b54a;
+      border-radius: 0.25rem;
+      color: #000;
+      cursor: pointer;
+      display: none;
+      float: right;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 1.15;
+      margin-right: 2em;
+      margin-top: 1.2em;
+      right: 0;
+      padding: 0.5em;
+      position: fixed;
+      z-index: 97;
+      width: 15%;
+    }
+  }
 
   nav {
     align-items: center;
@@ -239,14 +297,14 @@ header {
       justify-content: center;
       max-width: 100vw;
       position: fixed;
-      top: -250px;
+      top: -300px;
       text-align: center;
       transition: 0.3s ease;
       width: 100%;
       z-index: 5;
     }
 
-    #navv {
+    #nav2 {
       display: none;
     }
 
@@ -307,68 +365,95 @@ header {
       #logo {
         max-width: 150px;
       }
+
+      select {
+        appearance: none;
+        background-color: #fff;
+        border: 2px solid #39b54a;
+        border-radius: 0.25rem;
+        color: #000;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        height: 30px;
+        margin-left: 100px;
+        padding-left: 5px;
+        width: 100px;
+        z-index: 97;
+      }
     }
   }
 }
 
 .intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+  margin-bottom: 20vh;
+
+  .intro-box-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 7.5em;
+    height: 100%;
+    justify-content: center;
+    padding: 10px;
+    width: 55%;
 
-    .profile-pic {
-      border: 2px solid #ffffff;
-      border-radius: 100%;
-      width: 220px;
-    }
+    .title-box {
+      display: flex;
+      flex-direction: column;
+      // margin-top: 5em;
+      width: 100%;
 
-    h2 {
-      color: #ffffff;
-      font-family: $titleFont;
-      font-size: 2.2rem;
-      line-height: 2.8rem;
-      margin-top: 0.5em;
-      text-align: center;
-
-      span {
+      h1 {
         color: $lightGreenColor;
+        font-family: $titleFont;
+        font-size: 3rem;
+        line-height: 3.8rem;
+        margin-top: 0.5em;
+
+        span {
+          color: $lightGreenColor;
+        }
+      }
+
+      .typing {
+        width: 100%;
+
+        .typed-text {
+          color: $lightGreenColor;
+          font-family: $textFont;
+          font-weight: bold;
+          font-size: 2rem;
+          text-decoration: underline;
+        }
       }
     }
 
-    .typing {
+    p {
+      color: #ffffff;
+      font-size: 1.4rem;
       margin-top: 2em;
-
-      .typed-text {
-        color: $lightGreenColor;
-        font-family: $textFont;
-        font-weight: bold;
-        font-size: 2.2rem;
-        text-decoration: underline;
-      }
-    }
-
-    h4 {
-      color: #ffffff;
-      font-family: $titleFont;
-      font-size: 1.9rem;
-      line-height: 2.8rem;
-      margin-top: 1em;
-      text-align: center;
     }
 
     .some-menu {
-        display: flex;
-        margin-top: 2em;
+      display: flex;
+      margin-top: 2em;
 
       a {
-          margin: 0 20px 0 20px;
-
-          img {
-          width: 50px;
+        img {
+          width: 40px;
         }
       }
-        
+
+      a:nth-child(2),
+      a:nth-child(3) {
+        margin-left: 2em;
+      }
+
       a:hover {
         opacity: 0.8;
       }
@@ -378,21 +463,6 @@ header {
       color: #ffffff;
       font-size: 2rem;
       margin-top: 1em;
-    }
-
-    .skills {
-      display: flex;
-      justify-content: center;
-      margin-top: 1em;
-
-      img {
-        margin-top: 0.2em;
-        transition: 0.2s;
-      }
-
-      img:hover {
-        opacity: 0.8;
-      }
     }
 
     .call-to-action {
@@ -408,61 +478,63 @@ header {
         transition: 0.2s;
         width: 220px;
       }
-
-      button:hover {
-        background-color: #ffffff;
-        border-color: $lightGreenColor;
-        color: #000000;
-        cursor: pointer;
-      }
-    }
-
-    .arrow {
-      height: 2vmin;
-      left: 49.6%;
-      position: absolute;
-      top: 90%;
-      transform: rotate(135deg);
-      width: 2vmin;
-
-      &::before {
-        border-color: #fafafa;
-        border-style: solid;
-        border-width: 0.8vmin 0.8vmin 0 0;
-        content: "";
-        display: block;
-        height: 100%;
-        transform-origin: 100% 0;
-        transition: 0.2s ease;
-        width: 100%;
-      }
-
-      &:after {
-        border-color: #fafafa;
-        border-style: solid;
-        border-width: 0 0.8vmin 0 0;
-        content: "";
-        float: left;
-        position: relative;
-        height: 100%;
-        top: -100%;
-        transform-origin: 100% 0;
-        transition: 0.2s ease;
-        width: 100%;
-      }
-
-      &:hover::after {
-        border-color: $lightGreenColor;
-        height: 120%;
-        right: 10%;
-        transform: rotate(45deg);
-      }
-      &:hover::before {
-        border-color: $lightGreenColor;
-        transform: scale(0.8);
-      }
     }
   }
+
+  .intro-box-image {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    width: 45%;
+  }
+}
+
+.arrow {
+  height: 2vmin;
+  left: 49.6%;
+  position: absolute;
+  top: 90%;
+  transform: rotate(135deg);
+  width: 2vmin;
+
+  &::before {
+    border-color: #fafafa;
+    border-style: solid;
+    border-width: 0.8vmin 0.8vmin 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    transform-origin: 100% 0;
+    transition: 0.2s ease;
+    width: 100%;
+  }
+
+  &:after {
+    border-color: #fafafa;
+    border-style: solid;
+    border-width: 0 0.8vmin 0 0;
+    content: "";
+    float: left;
+    position: relative;
+    height: 100%;
+    top: -100%;
+    transform-origin: 100% 0;
+    transition: 0.2s ease;
+    width: 100%;
+  }
+
+  &:hover::after {
+    border-color: $lightGreenColor;
+    height: 120%;
+    right: 10%;
+    transform: rotate(45deg);
+  }
+  &:hover::before {
+    border-color: $lightGreenColor;
+    transform: scale(0.8);
+  }
+}
 @import "@/assets/sass/responsive.scss";
 @import "@/assets/sass/reset.scss";
 </style>

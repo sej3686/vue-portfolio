@@ -4,25 +4,39 @@
         "da": "Dansk",
         "ja": "Japansk"
     },
+
     "nav": {
+        "skills": "Færdigheder",
         "projects": "Projekter",
         "about": "Om mig",
         "contact": "Kontakt"
     },
+
     "header": {
+        "sej": "webudvikling",
+        "desc":"Hos mig får du SEJ webudvikling med speciale i frontend og Figma og så passer det med, at jeg hedder Stefan Emil Jespersen",
         "intro": "Hej",
         "iam": "Jeg er",
         "name": "Stefan",
         "experience": "Jeg har erfaring med:"
     },
+
+    "skills": {
+        "title": "Færdigheder",
+        "c_language": "Kode sprog",
+        "frameworks": "Frameworks",
+        "databases": "Databaser",
+        "o_tools": "Andre"
+    },
+
     "projects": {
-        "header": "Udvalgte Projekter",
-        "sejs_pizza": "En webapp til et indkøbssted, hvor kunderne kan vælge deres ordrer og derefter købe dem. Mit mål er at skabe et enkelt, men brugervenligt indkøbssted. Jeg arbejder på at skabe backend, så det rent faktisk fungerer, men indtil videre har jeg kun lavet frontend. Appen er bygget i React.js og JavaScript.",
-        "recraft_mobile": "Dette er et projekt, som jeg har arbejdet på i ca. 4 uger på mit arbejde for ReCraft. Prototypen er til et re-design af deres gamle (nuværende) app. Jeg har fået vist hi-fi-designs i Canvas, og mit job var at implementere en fungerende prototype i Figma. Denne prototype indeholder næsten alle de sider, der vil blive implementeret.",
+        "title": "Udvalgte Projekter",
+        "sejs_pizza": "En webapp til et indkøbssted, hvor kunderne kan vælge deres ordrer og derefter købe dem. Mit mål er at skabe et enkelt, men brugervenligt indkøbshjemmeside. Jeg arbejder på at skabe backend, så det rent faktisk fungerer, men indtil videre har jeg kun lavet frontend. Appen er bygget i React.js og JavaScript.",
+        "recraft_mobile": "Dette er et projekt, som jeg har arbejdet på i ca. 4 uger på mit arbejde for ReCraft. Prototypen er til et re-design af deres gamle (nuværende) app. Jeg har fået vist hi-fi-designs i Canvas og mit job var at implementere en fungerende prototype i Figma. Denne prototype indeholder næsten alle de sider, der vil blive implementeret.",
         "rtid": "RTID by LUDO er et shoppingsite, hvor folk kan købe tørklæder og andre ting, der er skabt og fremstillet af mennesker i nød i Thailand. Jeg har arbejdet på både .com- og .asia-siderne. Målet var at vise varerne på en måde, der fanger kundernes opmærksomhed, og samtidig vise dem RTID by LUDO's formål.",
-        "llr": "Et re-design af hjemmesiden for Lifeline Roboitcs. De var utilfredse med deres nuværende hjemmeside, så jeg og en kollega fik til opgave at redesigne den. Da tiden var begrænset, og det var et praktikophold, blev det aldrig helt færdigt, og derfor er hjemmesiden ikke perfekt. Vi arbejdede i WordPress og PHP.",
+        "llr": "Et re-design af hjemmesiden for Lifeline Roboitcs. De var utilfredse med deres nuværende hjemmeside, så jeg og en kollega fik til opgave at redesigne den. Da tiden var begrænset og det var et praktikophold, blev det aldrig helt færdigt, og derfor er hjemmesiden ikke perfekt. Vi arbejdede i WordPress og PHP.",
         "wbd": "En applikation til et købsflow. Det var til et bachelorprojekt, hvor kunden var den danske virksomhed Webdock. Webdock er en virksomhed, der sælger servere til deres kunder. Målet med appen var at gøre det så nemt som muligt for kunderne at købe en del af serverne og samtidig hjælpe dem med at lære tingene, hvis de ikke forstod det hele.",
-        "recraft_website": "En lo-fi wireframe til et re-design af ReCrafts nuværende hjemmeside. Jeg har studeret og ladet mig inspirere af forskellige andre hjemmesider, da jeg skabte denne prototype. Hovedformålet var at skabe en slags »opfordring til handling« for at få folk til at downloade deres app, som er der, hvor ReCraft fik deres markedsplads.",
+        "recraft_website": "En lo-fi wireframe til et re-design af ReCrafts nuværende hjemmeside. Jeg har studeret og ladet mig inspirere af forskellige andre hjemmesider, da jeg skabte denne prototype. Hovedformålet var at skabe en slags »opfordring til handling« for at få folk til at downloade deres app, som er der, hvor ReCraft har deres markedsplads.",
         "ucl": "This is a website made for an exam.",
         "read_more": "Læs mere",
         "see_all": "Se Alle",
@@ -30,11 +44,17 @@
         "visit_web": "Besøg Hjemmesiden",
         "git_btn": "Se GIT repo"
     },
+
     "about": {
         "title": "Om mig",
-        "desc1": "Jeg er uddannet fra University College Lillebælt (UCL) med en grad i Webudvikling og Multimediedesign. Min akademiske baggrund har givet mig en solid forståelse af både kreative og tekniske discipliner, herunder kompetence i branche-standard værktøjer som Adobe Creative Suite samt kodning og forskellige evalueringsmetoder, der er essentielle i nutidens professionelle landskab.",
-        "desc2": "Gennem min erhvervserfaring har jeg udviklet en stærk forståelse af det professionelle miljø, hvilket har skærpet mine evner til at bevare fokus, tilpasse mig udfordringer og levere effektive resultater."
+        "undertitle": "One man’s dream - drømmen om at komme der ud og gøre en forskel",
+        "motivation": "Jeg har altid haft en drøm om at kunne komme ud og arbejde for en masse skønne mennesker og lave spændende cases sammen!",
+        "desc1": "Som du nok allerede ved er jeg Stefan og jeg leder lige nu efter et arbejde, hvor jeg kan udøve mine færdigheder.",
+        "desc2": "Jeg har en bachelor i Webudvikling og en Erhvervsakademisk uddannelse inden for Multimediedeisgn, begge steder fra UCL (University College Lillebælt)",
+        "desc3": "Her for tiden arbejder på min portfolio samt er i gang med at lave en pizza leverings/shopping hjemmeside. Derudover arbejder også med andre små projekter her og der.",
+        "desc4": "Jeg har erfaring inden for fullstack udvikling - jeg leger med Vue, ReactJS og TypeScript som frontend. Backend er det Google firebase, Azure SQL og MongoDB."
     },
+
     "contact": {
         "title": "Send mig en besked!",
         "name": "Navn",
@@ -42,7 +62,13 @@
         "message": "Besked",
         "send_btn": "Send besked"
     },
+
     "footer": {
         "made_by": "Personligt lavet af Stefan E. J."
+    },
+
+    "project_vue": {
+        "title": "Igangværende arbejde",
+        "back": "Gå tilbage"
     }
 }

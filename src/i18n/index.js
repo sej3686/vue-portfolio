@@ -1,6 +1,6 @@
 import { createI18n } from "vue-i18n";
 import pluralRules from "./rules/pluralization"
-import en from "./locales/en.json"
+import da from "./locales/da.json"
 
 const messages = {}
 
@@ -10,6 +10,6 @@ export default createI18n({
   fallbackLocale: import.meta.env.VITE_FALLBACK_LOCALE,
   legacy: false,
   globalInjection: true,
-  messages: { en },
+  messages: { da },
   pluralRules
 })

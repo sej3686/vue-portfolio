@@ -1,20 +1,37 @@
 <template>
   <section id="about">
     <h2 class="sec-title">{{ $t("about.title") }}</h2>
+    <h3>{{ $t("about.undertitle") }}</h3>
+    <p class="about-desc">{{ $t("about.motivation") }}</p>
 
-    <main class="about-wrapper reveal">
-      <div class="about-img">
-        <img
+    <div class="about-wrapper">
+      <img           
           :src="currentImage"
           @click="changeImage"
-          alt="Stefan Emil Jespersen"
-        />
+          alt="Stefan Emil Jespersen">
+      <div class="about-list-wrapper">
+          
+          <div class="about-list-item">
+          <div class="emoji">👋🏻</div>
+          <p>{{ $t("about.desc1") }}</p>
+        </div>
+
+        <div class="about-list-item">
+          <div class="emoji">🎓</div>
+          <p>{{ $t("about.desc2") }}</p>
+        </div>
+
+        <div class="about-list-item">
+          <div class="emoji">👨🏻‍💻</div>
+          <p>{{ $t("about.desc3") }}</p>
+        </div>
+
+        <div class="about-list-item">
+          <div class="emoji">🚀</div>
+          <p>{{ $t("about.desc4") }}</p>
+        </div>
       </div>
-      <div class="about-text">
-        <p>{{ $t("about.desc1") }}</p>
-        <p>{{ $t("about.desc2") }}</p>
-      </div>
-    </main>
+    </div>
   </section>
 </template>
 
@@ -57,56 +74,54 @@ $orangeColor: #e08814;
 
 #about {
   background-color: transparent;
-  margin-bottom: 5em;
-  width: 95%;
+  margin-bottom: 15em;
+  width: 100%;
+
+  h3 {
+    color: #ffffff;
+    font-size: 1.4rem
+  }
+
+  .about-desc {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 1em;
+  }
 
   .about-wrapper {
+    align-items: center;
     display: flex;
-
-    .about-img {
-      display: flex;
-      justify-content: center;
-      width: 35%;
-
-      img {
-        border: 3px solid $lightGreenColor;
-        border-radius: 100%;
-        cursor: pointer;
-        transition: 0.2s;
-        height: 180px;
-        max-width: 320px;
-      }
-
-      img:hover {
-        opacity: 0.8;
-      }
-    }
-
-    .about-text {
-      display: flex;
-      flex-direction: column;
-      height: 200px;
-      justify-content: space-evenly;
-      width: 65%;
-
-      p {
-        color: #ffffff;
-        font-size: 1rem;
-        line-height: 25px;
-      }
-    }
-  }
-
-  .reveal {
+    justify-content: center;
+    margin-top: 2em;
     position: relative;
-    transform: translateX(-150px);
-    opacity: 0;
-    transition: all 1s ease;
-  }
 
-  .reveal.active {
-    transform: translateY(0px);
-    opacity: 1;
+    img {
+      border: 2px solid $lightGreenColor;
+      border-radius: 100%;
+      height: 150px;
+      width: 150px;
+    }
+
+    .about-list-wrapper {
+
+      .about-list-item {
+        display: flex;
+        margin-left: 2em;
+        margin-top: 2em;
+
+        .emoji {
+          align-items: center;
+          display: flex;
+          justify-content: center
+        }
+
+        p {
+          color: #ffffff;
+          margin-left: 2em;
+          margin-top: 0;
+        }
+      }
+    }
   }
 }
 @import "@/assets/sass/responsive.scss";

@@ -5,7 +5,9 @@
     <img src="../../assets/img/logo-new-white.png" alt="logo" />
 
     <p>{{ $t("footer.made_by") }}</p>
-    <a href="#header"><button>↑</button></a>
+    <a href="#header"
+      ><button><div class="arrow-footer"></div></button
+    ></a>
   </footer>
 </template>
 
@@ -18,6 +20,7 @@ footer {
   display: flex;
   height: 8vh;
   justify-content: space-evenly;
+  margin-top: 4em;
   width: 100%;
 
   p {
@@ -31,7 +34,6 @@ footer {
   }
 
   a {
-
     button {
       background: transparent;
       border: 3px solid $lightGreenColor;
@@ -44,6 +46,14 @@ footer {
       right: 5em;
       transition: 0.2s;
       width: 35px;
+
+      .arrow-footer {
+        border: solid $lightGreenColor;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-135deg);
+      }
     }
 
     button:hover {
@@ -51,7 +61,7 @@ footer {
       border-color: $lightGreenColor;
       color: #000000;
       cursor: pointer;
-      }
+    }
   }
 }
 @import "@/assets/sass/responsive.scss";

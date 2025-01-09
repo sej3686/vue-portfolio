@@ -1,7 +1,7 @@
 <template>
   <div class="projects">
-    <h1>Work in Progress</h1>
-    <RouterLink to="/"><button>Go Back</button></RouterLink>
+    <h1>{{ $t("project_vue.title") }}</h1>
+    <RouterLink to="/"><button>{{ $t("project_vue.back") }}</button></RouterLink>
   </div>
 </template>
 
@@ -18,6 +18,7 @@
   h1 {
     color: #39b54a;
     font-size: 5rem;
+    margin-bottom: 0.5em;
   }
 
   button {
@@ -28,7 +29,6 @@
     font-weight: 700;
     font-size: 1.1rem;
     height: 40px;
-    margin-top: 2em;
     min-width: 220px;
     transition: 0.2s;
   }
