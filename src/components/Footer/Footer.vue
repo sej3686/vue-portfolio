@@ -18,9 +18,9 @@ $darkColor: #212222;
 
 footer {
   display: flex;
-  height: 8vh;
+  min-height: 8vh;
   justify-content: space-evenly;
-  margin-top: 12em;
+  margin-top: 5em;
   width: 100%;
 
   p {
@@ -30,7 +30,7 @@ footer {
   }
 
   img {
-    max-width: 40%;
+    max-width: 15%;
   }
 
   a {

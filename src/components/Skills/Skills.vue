@@ -132,7 +132,7 @@ $darkGreenColor: #228a30;
     max-width: 100%;
 
     .skills-box {
-      align-items: center;
+      align-items: start;
       border: 2px solid $lightGreenColor;
       border-radius: 10px;
       display: flex;
@@ -149,7 +149,6 @@ $darkGreenColor: #228a30;
         .skills-box-content-list {
           display: flex;
           flex-direction: column;
-          width: 35%;
 
           h4 {
             color: #ffffff;

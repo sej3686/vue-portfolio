@@ -8,30 +8,6 @@ $darkGreenColor: #228a30;
   .container {
     max-width: 1920px;
   }
-
-  // .title-box {
-  //   margin-top: 10em;
-  // }
-
-  .intro-box-text {
-    height: 600px;
-  }
-
-  .profile-pic {
-    max-width: 80%;
-  }
-
-  #projects {
-    margin-top: -15vh;
-  }
-
-  #about {
-    max-height: 50vh;
-  }
-
-  #contact {
-    max-height: 55vh;
-  }
 }
 
 /* 2xl */
@@ -50,10 +26,6 @@ $darkGreenColor: #228a30;
     &:hover::after {
       right: 2.5px;
     }
-  }
-
-  #projects {
-    margin-top: 0vh;
   }
 
   #about {
@@ -81,10 +53,6 @@ $darkGreenColor: #228a30;
     max-width: 1024px;
   }
 
-  .intro-box-text {
-    max-height: 700px;
-  }
-
   .profile-pic {
     max-width: 100%;
   }
@@ -96,33 +64,8 @@ $darkGreenColor: #228a30;
     max-width: 768px;
   }
 
-  .intro-box-text {
-    .title-box {
-      h1 {
-      }
-    }
-  }
-
-  #keyword {
-    margin-top: 15em;
-
-    .keyword-grid-wrapper {
-      .keyword-grid-item {
-        padding: 0;
-
-        img {
-          top: -95%;
-        }
-
-        img:nth-child(1) {
-          left: 96%;
-        }
-      }
-    }
-  }
-
   #projects {
-    margin-top: 7em;
+    // margin-top: 7em;
   }
 
   #about {
@@ -132,35 +75,18 @@ $darkGreenColor: #228a30;
       }
     }
   }
+
+  #contact {
+    // margin-top: 20em;
+  }
+
+  footer {
+    // margin-top: 14em;
+  }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-  .header-div-right-img {
-    max-width: 320px;
-    margin-left: 0;
-  }
-
-  #keyword {
-    .keyword-grid-wrapper {
-      .keyword-grid-item {
-        height: 350px;
-
-        img {
-          left: -5%;
-        }
-
-        img:nth-child(1) {
-          left: 94%;
-        }
-      }
-    }
-  }
-
-  #projects .project-wrapper .desc p:nth-child(3) {
-    padding: 0;
-  }
-
   .container {
     max-width: 768px;
   }
@@ -181,7 +107,7 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-    height: 80vh;
+    // height: 80vh;
 
     .skills-wrapper {
       align-items: center;
@@ -191,17 +117,12 @@ $darkGreenColor: #228a30;
     }
   }
 
-  #projects {
-    margin-top: 200px;
-  }
-
-  .animate {
-    animation: none;
-  }
+  // #projects {
+  //   margin-top: 200px;
+  // }
 
   .container {
     max-width: 100%;
-    // max-width: 640px;
   }
 }
 
@@ -244,12 +165,13 @@ $darkGreenColor: #228a30;
     flex-direction: column-reverse;
 
     .intro-box-text {
+      align-items: center;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      height: 20%;
       justify-content: center;
       text-align: center;
-      width: 100%;
+      width: 70%;
 
       .title-box {
         h1 {
@@ -444,7 +366,7 @@ $darkGreenColor: #228a30;
   //About
 
   #about {
-    margin-top: 10em;
+    // margin-top: 10em;
 
     h3 {
       text-align: center;
@@ -462,15 +384,9 @@ $darkGreenColor: #228a30;
 
   //Contact
   #contact {
-    margin-top: 30em;
 
     .contact-container {
       width: 100%;
-
-      .form-box {
-        .field {
-        }
-      }
     }
   }
 
@@ -478,7 +394,6 @@ $darkGreenColor: #228a30;
   footer {
     align-items: center;
     flex-direction: column !important;
-    margin-top: 8em;
 
     img {
       width: 40%;
@@ -505,18 +420,22 @@ $darkGreenColor: #228a30;
 
   .intro {
     flex-direction: column-reverse;
-    margin-top: 0;
 
     .intro-box-text {
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
+      width: 80%;
 
       .title-box {
-        margin-top: 8em;
+  
+        h1 {
+        }
+  
+        .typing {
+          width: 100%;
+  
+          .typed-text {
+            font-size: 1.6rem;
+          }
+        }
       }
 
       p {
@@ -531,20 +450,18 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-    height: 130vh;
 
     .skills-wrapper {
       margin-top: 2em;
 
       .skills-box {
-        width: 380px;
+        width: 350px;
       }
     }
   }
 
   //Contact
   #contact {
-    margin-top: 45em;
 
     .contact-container {
       .form-box {
@@ -571,7 +488,6 @@ $darkGreenColor: #228a30;
 @media (max-width: 350px) {
   .intro {
     flex-direction: column-reverse;
-    margin-top: 0;
 
     .intro-box-text {
       display: flex;
@@ -582,7 +498,6 @@ $darkGreenColor: #228a30;
       width: 100%;
 
       .title-box {
-        margin-top: 10em;
 
         .typing {
 
@@ -603,7 +518,6 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-    height: 130vh;
 
     .skills-wrapper {
       margin-top: 2em;
@@ -627,18 +541,11 @@ $darkGreenColor: #228a30;
     }
   }
 
-  #projects {
-    margin-top: 22em;
-  }
-
   #about {
     .about-wrapper {
       .about-text {
         width: 90% !important;
       }
     }
-  }
-  #contact {
-    margin-top: 50em;
   }
 }

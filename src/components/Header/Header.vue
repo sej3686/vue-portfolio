@@ -254,7 +254,7 @@ $darkGreenColor: #228a30;
 $lightBlue: #203c98;
 
 header {
-  height: 10vh;
+  min-height: 10vh;
 
   .custom-select {
     select {
@@ -323,7 +323,7 @@ header {
       background-color: $darkColor;
       display: flex;
       flex-direction: row;
-      height: 5em;
+      min-height: 5em;
       justify-content: center;
       margin-top: 5em;
       position: fixed;
@@ -390,14 +390,14 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 70vh;
+  min-height: 70vh;
   justify-content: center;
   margin-bottom: 20vh;
 
   .intro-box-text {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     justify-content: center;
     padding: 10px;
     width: 55%;
@@ -405,7 +405,6 @@ header {
     .title-box {
       display: flex;
       flex-direction: column;
-      // margin-top: 5em;
       width: 100%;
 
       h1 {
@@ -484,7 +483,7 @@ header {
   .intro-box-image {
     align-items: center;
     display: flex;
-    height: 100%;
+    min-height: 100%;
     padding: 10px;
     width: 45%;
   }
