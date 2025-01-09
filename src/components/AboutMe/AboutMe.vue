@@ -74,7 +74,7 @@ $orangeColor: #e08814;
 
 #about {
   background-color: transparent;
-  margin-bottom: 15em;
+  margin-top: 15em;
   width: 100%;
 
   h3 {

@@ -518,24 +518,11 @@ $darkGreenColor: #228a30;
         margin-top: 3em;
 
         h1 {
-          font-size: 7vw;
-        }
-
-        .typing {
-          font-size: 5vw;
-
-          .blinking-cursor {
-            font-size: 5vw;
-          }
-
-          .typed-text {
-            font-size: 5vw;
-          }
+          font-size: 2.5rem;
         }
       }
 
       p {
-        font-size: 3.5vw;
         text-align: center;
       }
     }
@@ -546,9 +533,21 @@ $darkGreenColor: #228a30;
     }
   }
 
+  #skills {
+    height: 130vh;
+
+    .skills-wrapper {
+      margin-top: 2em;
+
+      .skills-box {
+        width: 380px;
+      }
+    }
+  }
+
   //Contact
   #contact {
-    margin-top: 35em;
+    margin-top: 45em;
 
     .contact-container {
       .form-box {
@@ -636,6 +635,10 @@ $darkGreenColor: #228a30;
         }
       }
     }
+  }
+
+  #projects {
+    margin-top: 22em;
   }
 
   #about {
