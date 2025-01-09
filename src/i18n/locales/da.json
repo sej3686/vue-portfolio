@@ -47,12 +47,12 @@
 
     "about": {
         "title": "Om mig",
-        "undertitle": "One man’s dream - drømmen om at komme der ud og gøre en forskel",
-        "motivation": "Jeg har altid haft en drøm om at kunne komme ud og arbejde for en masse skønne mennesker og lave spændende cases sammen!",
+        "undertitle": "One man’s dream - drømmen om at komme der ud og gøre en forskel!",
+        "motivation": "Jeg har altid haft en drøm om at kunne komme ud og arbejde for en masse skønne mennesker og lave spændende cases sammen.",
         "desc1": "Som du nok allerede ved er jeg Stefan og jeg leder lige nu efter et arbejde, hvor jeg kan udøve mine færdigheder.",
         "desc2": "Jeg har en bachelor i Webudvikling og en Erhvervsakademisk uddannelse inden for Multimediedeisgn, begge steder fra UCL (University College Lillebælt)",
-        "desc3": "Her for tiden arbejder jeg på min portfolio samt er i gang med at lave en pizza leverings/shopping hjemmeside. Derudover arbejder også med andre små projekter her og der.",
-        "desc4": "Jeg har erfaring inden for fullstack udvikling - jeg leger med Vue, ReactJS og TypeScript som frontend. Backend er det Google firebase, Azure SQL og MongoDB."
+        "desc3": "Her for tiden arbejder jeg på mit portfolio, samt er i gang med at lave en pizza leverings/shopping hjemmeside. Derudover arbejder jeg også med andre små projekter her og der.",
+        "desc4": "Jeg har erfaring inden for fullstack udvikling - jeg leger runjdt med Vue, ReactJS og TypeScript som frontend. Backend er det Google firebase, Azure SQL og MongoDB."
     },
 
     "contact": {
