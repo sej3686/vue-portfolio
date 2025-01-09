@@ -279,6 +279,7 @@ $darkGreenColor: #228a30;
       width: 40%;
 
       img {
+        border: 2px solid $lightGreenColor;
         border-radius: 100%;
       }
     }
@@ -525,7 +526,7 @@ $darkGreenColor: #228a30;
 
     .intro-box-image {
       height: 45%;
-      width: 50%;
+      width: 60%;
     }
   }
 

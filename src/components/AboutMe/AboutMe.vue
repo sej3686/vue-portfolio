@@ -79,7 +79,8 @@ $orangeColor: #e08814;
 
   h3 {
     color: #ffffff;
-    font-size: 1.4rem
+    font-size: 1.4rem;
+    margin-top: 1.2em;
   }
 
   .about-desc {
