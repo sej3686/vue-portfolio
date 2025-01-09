@@ -372,6 +372,7 @@ $darkGreenColor: #228a30;
       background-color: transparent;
       border: 2px solid $lightGreenColor;
       border-radius: 10px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       min-height: 600px;
       width: 335px;
 

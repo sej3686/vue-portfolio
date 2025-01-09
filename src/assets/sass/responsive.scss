@@ -419,24 +419,10 @@ $darkGreenColor: #228a30;
   }
 
   .intro {
-    flex-direction: column-reverse;
 
     .intro-box-text {
-      width: 80%;
-
-      .title-box {
-  
-        h1 {
-        }
-  
-        .typing {
-          width: 100%;
-  
-          .typed-text {
-            font-size: 1.6rem;
-          }
-        }
-      }
+      height: 50%;
+      width: 100%;
 
       p {
         text-align: center;
@@ -455,7 +441,7 @@ $darkGreenColor: #228a30;
       margin-top: 2em;
 
       .skills-box {
-        width: 350px;
+        width: 380px;
       }
     }
   }

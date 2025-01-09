@@ -94,7 +94,7 @@ $all: all 0.5s ease;
       flex-flow: column wrap;
       height: 500px;
       justify-content: center;
-      width: 480px;
+      width: 450px;
       margin: 0 auto;
 
       .field {
@@ -147,7 +147,7 @@ $all: all 0.5s ease;
         font-size: 1.1rem;
         font-weight: bold;
         height: 40px;
-        margin-top: 10px;
+        margin-top: 2em;
         transition: 0.2s;
         width: 200px;
       }

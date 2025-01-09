@@ -486,6 +486,10 @@ header {
     min-height: 100%;
     padding: 10px;
     width: 45%;
+
+    img {
+      box-shadow: rgba(80, 80, 80, 0.35) 0px 5px 15px;
+    }
   }
 }
 

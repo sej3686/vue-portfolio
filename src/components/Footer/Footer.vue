@@ -30,7 +30,7 @@ footer {
   }
 
   img {
-    max-width: 15%;
+    max-width: 180px;
   }
 
   a {
