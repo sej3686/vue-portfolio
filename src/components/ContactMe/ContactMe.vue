@@ -79,7 +79,8 @@ $all: all 0.5s ease;
 }
 
 #contact {
-  max-height: 85vh !important;
+  max-height: 85vh;
+  margin-top: 12em;
   width: 100%;
 
   .contact-container {

@@ -20,7 +20,7 @@ footer {
   display: flex;
   height: 8vh;
   justify-content: space-evenly;
-  margin-top: 4em;
+  margin-top: 12em;
   width: 100%;
 
   p {

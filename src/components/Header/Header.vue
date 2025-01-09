@@ -275,7 +275,7 @@ header {
       padding: 0.5em;
       position: fixed;
       z-index: 97;
-      width: 15%;
+      width: 18%;
     }
   }
 

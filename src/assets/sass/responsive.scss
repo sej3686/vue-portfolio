@@ -260,11 +260,11 @@ $darkGreenColor: #228a30;
           font-size: 2rem;
 
           .blinking-cursor {
-            font-size: 5vw;
+            font-size: 2rem;
           }
 
           .typed-text {
-            font-size: 5vw;
+            font-size: 2rem;
           }
         }
       }
@@ -516,10 +516,6 @@ $darkGreenColor: #228a30;
 
       .title-box {
         margin-top: 3em;
-
-        h1 {
-          font-size: 2.5rem;
-        }
       }
 
       p {
@@ -585,9 +581,7 @@ $darkGreenColor: #228a30;
       width: 100%;
 
       .title-box {
-        h1 {
-          font-size: 35px;
-        }
+        margin-top: 10em;
 
         .typing {
 
@@ -599,11 +593,6 @@ $darkGreenColor: #228a30;
             font-size: 26px;
           }
         }
-      }
-
-      p {
-        font-size: 3.8vw;
-        text-align: center;
       }
     }
 
