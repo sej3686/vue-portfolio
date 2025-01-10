@@ -5,7 +5,7 @@
     <img src="../../assets/img/logo-new-white.png" alt="logo" />
 
     <p>{{ $t("footer.made_by") }}</p>
-    <a href="#header"
+    <a href="#top"
       ><button><div class="arrow-footer"></div></button
     ></a>
   </footer>

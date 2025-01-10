@@ -469,6 +469,20 @@ $darkGreenColor: #228a30;
       }
     }
   }
+
+  #about {
+
+    h3 {
+      width: 90%;
+    }
+
+    .about-wrapper {
+      .about-list-wrapper {
+        width: 90%;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -523,14 +537,6 @@ $darkGreenColor: #228a30;
             width: 200px;
           }
         }
-      }
-    }
-  }
-
-  #about {
-    .about-wrapper {
-      .about-text {
-        width: 90% !important;
       }
     }
   }

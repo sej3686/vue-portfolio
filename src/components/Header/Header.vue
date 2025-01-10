@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <header id="header top">
     <div class="custom-select">
       <select @change="switchLanguage" aria-label="Switch Language">
         <option
@@ -126,7 +126,6 @@ import Tr from "@/i18n/translation";
 export default {
   setup() {
     const { t, locale } = useI18n();
-
     const supportedLocales = Tr.supportedLocales;
 
     const switchLanguage = async (event) => {
@@ -135,16 +134,6 @@ export default {
     };
 
     return { t, locale, supportedLocales, switchLanguage };
-
-    const project1 = ref(null);
-
-    onMounted(() => {
-      const options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.2,
-      };
-    });
   },
 
   name: "typeWriter",
@@ -165,25 +154,48 @@ export default {
     };
   },
 
-  computed: {},
-
-  props: {},
   created() {
     setTimeout(this.typeText, this.newTextDelay + 200);
   },
 
+  name: "MyHamburgerMenu",
   methods: {
+    initializeMenu() {
+      const hamMenu = document.querySelector(".ham-menu");
+      const offScreenMenu = document.querySelector(".off-screen-menu");
+
+      if (hamMenu && offScreenMenu) {
+        hamMenu.classList.remove("activee");
+        offScreenMenu.classList.remove("activee");
+
+        hamMenu.addEventListener("click", () => {
+          hamMenu.classList.toggle("activee");
+          offScreenMenu.classList.toggle("activee");
+        });
+
+        const offScreenTexts = document.querySelectorAll(
+          ".off-screen-menu-text a"
+        );
+        offScreenTexts.forEach((offScreenText) => {
+          offScreenText.addEventListener("click", () => {
+            hamMenu.classList.remove("activee");
+            offScreenMenu.classList.remove("activee");
+          });
+        });
+      }
+    },
+
     typeText() {
       if (
         this.charIndex <
         this.displayTextArray[this.displayTextArrayIndex].length
       ) {
-        if (!this.typeStatus) this.typeStatus = true;
-        this.typeValue += this.displayTextArray[
-          this.displayTextArrayIndex
-        ].charAt(this.charIndex);
-        this.charIndex += 1;
-        setTimeout(this.typeText, this.typingSpeed);
+     if (!this.typeStatus) this.typeStatus = true;
+     this.typeValue += this.displayTextArray[
+       this.displayTextArrayIndex
+     ].charAt(this.charIndex);
+     this.charIndex += 1;
+     setTimeout(this.typeText, this.typingSpeed);
       } else {
         this.typeStatus = false;
         setTimeout(this.eraseText, this.newTextDelay);
@@ -206,42 +218,17 @@ export default {
         setTimeout(this.typeText, this.typingSpeed + 1000);
       }
     },
+
+  },
+  beforeRouteEnter(to, from, next) {
+    next((vm) => {
+      vm.initializeMenu();
+    });
+  },
+  mounted() {
+    this.initializeMenu();
   },
 };
-
-window.addEventListener("scroll", reveal);
-
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowheight = window.innerHeight;
-    var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 150;
-
-    if (revealtop < windowheight - revealpoint) {
-      reveals[i].classList.add("active");
-    }
-  }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  const hamMenu = document.querySelector(".ham-menu");
-  const offScreenTexts = document.querySelectorAll(".off-screen-menu-text a");
-
-  const offScreenMenu = document.querySelector(".off-screen-menu");
-  hamMenu.addEventListener("click", () => {
-    hamMenu.classList.toggle("activee");
-    offScreenMenu.classList.toggle("activee");
-  });
-
-  offScreenTexts.forEach((offScreenText) => {
-    offScreenText.addEventListener("click", () => {
-      hamMenu.classList.toggle("activee");
-      offScreenMenu.classList.toggle("activee");
-    });
-  });
-});
 </script>
 <style lang="scss">
 $titleFont: "Roboto", sans-serif;
@@ -324,7 +311,7 @@ header {
       display: flex;
       flex-direction: row;
       min-height: 5em;
-      justify-content: center;
+      justify-content: space-around;
       margin-top: 5em;
       position: fixed;
       width: 80%;

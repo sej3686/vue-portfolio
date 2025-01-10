@@ -31,6 +31,7 @@
 
     "projects": {
         "title": "Featured Projects",
+        "all_title": "All Projects",
         "sejs_pizza": "A web app for a shopping site where customers can select their orders, and then buy them. My goal is to create a simple yet easy to use shopping site. I'm working on creating the backend so it actually functions, but for now I've only done the front-end. The app is build in React.js and JavaScript.",
         "recraft_mobile": "This is a project which I've been working on for about 4 weeks at my work for ReCraft. The prototype is for a re-design of their old (current) app. I've been shown the hi-fi designs in Canvas, and my job was to implement a functioning prototype in Figma. This prototype includes almost every page which will be implemented.",
         "rtid": "RTID by LUDO is a shopping site in which people can buy Scarfs and other items created and made by people in need in Thailand. I've been working on both the .com and the .asia sites. The aim was to show/display the items in a way that catches customers attention while also show them RTID by LUDO's misson.",

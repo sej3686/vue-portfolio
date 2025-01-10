@@ -19,5 +19,7 @@ import Skills from "../components/Skills/Skills.vue";
 </template>
 
 <script>
-export default {}
+
+export default {
+}
 </script>

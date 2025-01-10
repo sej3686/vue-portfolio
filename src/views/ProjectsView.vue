@@ -1,51 +1,20 @@
+<script setup>
+import AllProjects from "../components/AllProjects/AllProjects.vue";
+import Footer from "../components/Footer/Footer.vue";
+import ProjectHeader from "../components/ProjectHeader/ProjectHeader.vue";
+</script>
+
 <template>
-  <div class="projects">
-    <h1>{{ $t("project_vue.title") }}</h1>
-    <RouterLink to="/"><button>{{ $t("project_vue.back") }}</button></RouterLink>
+  <ProjectHeader />
+
+  <div class="container">
+    <AllProjects />
+    <Footer />
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .projects {
-  align-items: center;
-  justify-items: center;
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-
-  h1 {
-    color: #39b54a;
-    font-size: 5rem;
-    margin-bottom: 0.5em;
-  }
-
-  button {
-    background-color: transparent;
-    border: 3px solid #39b54a;
-    border-radius: 30px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1.1rem;
-    height: 40px;
-    min-width: 220px;
-    transition: 0.2s;
-  }
-
-  button:hover {
-    background-color: #ffffff;
-    color: #000000;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 640px) {
-  .projects {
-    h1 {
-    font-size: 2.5rem;
-  }
-  }
-
+  padding-top: 5em;
 }
 </style>

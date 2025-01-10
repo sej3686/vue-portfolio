@@ -31,6 +31,7 @@
 
     "projects": {
         "title": "Udvalgte Projekter",
+        "all_title": "Alle Projekter",
         "sejs_pizza": "En webapp til et indkøbssted, hvor kunderne kan vælge deres ordrer og derefter købe dem. Mit mål er at skabe et enkelt, men brugervenligt indkøbshjemmeside. Jeg arbejder på at skabe backend, så det rent faktisk fungerer, men indtil videre har jeg kun lavet frontend. Appen er bygget i React.js og JavaScript.",
         "recraft_mobile": "Dette er et projekt, som jeg har arbejdet på i ca. 4 uger på mit arbejde for ReCraft. Prototypen er til et re-design af deres gamle (nuværende) app. Jeg har fået vist hi-fi-designs i Canvas og mit job var at implementere en fungerende prototype i Figma. Denne prototype indeholder næsten alle de sider, der vil blive implementeret.",
         "rtid": "RTID by LUDO er et shoppingsite, hvor folk kan købe tørklæder og andre ting, der er skabt og fremstillet af mennesker i nød i Thailand. Jeg har arbejdet på både .com- og .asia-siderne. Målet var at vise varerne på en måde, der fanger kundernes opmærksomhed, og samtidig vise dem RTID by LUDO's formål.",
