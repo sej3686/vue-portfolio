@@ -111,7 +111,7 @@
     <div class="intro-box-image">
       <img
         class="profile-pic"
-        src="../../assets/img/profil2.jpg"
+        src="../../assets/img/profil0.jpg"
         alt="Profile Picture"
       />
     </div>

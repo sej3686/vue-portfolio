@@ -334,7 +334,7 @@
 
       <div class="project">
         <div class="image-container">
-          <img src="../../assets/img/recraft-website.jpg" alt="Project Recraft Website">
+          <img src="../../assets/img/nordbo-robotics.jpg" alt="Project Recraft Website">
         </div>
         <div class="project-info">
           <p class="project-category">WEB APP</p>

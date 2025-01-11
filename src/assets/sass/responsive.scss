@@ -446,6 +446,15 @@ $darkGreenColor: #228a30;
     }
   }
 
+  #about {
+
+    .about-wrapper {
+      .about-list-wrapper {
+        width: 90%;
+      }
+    }
+  }
+
   //Contact
   #contact {
 
@@ -466,19 +475,6 @@ $darkGreenColor: #228a30;
             width: 90%;
           }
         }
-      }
-    }
-  }
-
-  #about {
-
-    h3 {
-      width: 90%;
-    }
-
-    .about-wrapper {
-      .about-list-wrapper {
-        width: 90%;
       }
     }
   }
