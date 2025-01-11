@@ -371,7 +371,7 @@
 
       <div class="project">
         <div class="image-container">
-          <img src="../../assets/img/ucl-case.jpg" alt="Project UCL">
+          <img src="../../assets/img/uclc.jpg" alt="Project UCL">
         </div>
         <div class="project-info">
           <p class="project-category">WEB APP</p>
