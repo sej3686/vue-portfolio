@@ -56,7 +56,7 @@
           </div>
           <div class="project-info-coding-lang">
             <span class="span-ReactJS">ReactJS</span>
-            <span class="span-javaScript">JavaScript</span>
+            <span class="span-javascript">JavaScript</span>
           </div>
           <p class="project-info-text">{{ $t("projects.sejs_pizza") }}</p>
           <div class="project-info-button-wrapper">
@@ -280,7 +280,7 @@
           </div>
           <div class="project-info-coding-lang">
             <span class="span-vue">Vue</span>
-            <span class="span-javaScript">JavaScript</span>
+            <span class="span-javascript">JavaScript</span>
             <span class="span-json">JSON</span>
             <span class="span-api">API</span>
           </div>
@@ -469,7 +469,7 @@ $darkGreenColor: #228a30;
             color: #66DBFB;
           }
 
-          .span-javaScript {
+          .span-javascript {
             background-color: #f0dd4ec7;
             color: #2E302C;
           }
@@ -502,6 +502,16 @@ $darkGreenColor: #228a30;
           .span-php {
             background-color: #8D96C0;
             color: #2A2C37;
+          }
+
+          .span-firebase {
+            background-color: #DD2C00;
+            color: #FFC400;
+          }
+
+          .span-csharp {
+            background-color: #942C86;
+            color: #FFFFFF;
           }
         }
 

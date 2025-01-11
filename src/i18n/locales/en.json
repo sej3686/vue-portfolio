@@ -38,12 +38,10 @@
         "llr": "A re-design website for Lifeline Roboitcs. They were unsatisfied with their current website so me and a colleague was tasked to re-design it. As the time was limited and it was an internship it was never finished fully, that's why the website is not perfect. We worked in WordPress and PHP.",
         "wbd": "An application for a buying flow. This was for a bachelor project where the client was the Danish company, Webdock. Webdock is a company which sells servers to their customers. The goal for the app was to make the it as easy as possible for customers to buy servers part, while also help them teach things, if they didn't understand everything.",
         "recraft_website": "A lo-fi wireframe for a re-design of ReCraft's current website. I've been studying and taking inspirations from various other websites when creating this prototype. The main goal was to a sort of 'call-to-action' for people to download their app, which is where the ReCraft got their marketplace.",
-        "ucl": "This is a website made for an exam.",
+        "nordbo_robotics": "An exam project that my group and I did for the client 'Nordbo Robotics'. The idea was to find out how to teach customers how to use the robots in the best possible way. Our idea was to create a tutorial app where users could easily and clearly learn how to use the robots, and to implement a little gamification.",
+        "ucl": "Exam project where my group and I were tasked with improving the school's student counseling process when students apply for guidance. We succeeded in making it more user-friendly and we also received praise for it. The school ended up using some of our design for their final product!",
         "read_more": "Read more",
-        "see_all": "See All",
-        "view_prototype": "View prototype",
-        "visit_web": "Visit Website",
-        "git_btn": "Visit GIT repo"
+        "see_all": "See All"
     },
 
     "about": {
