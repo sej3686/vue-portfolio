@@ -46,7 +46,7 @@ export default {
           id: 'recraft_mobile',
           title: "ReCraft App",
           category: 'UI/UX',
-          image: new URL('@/assets/img/projectrecraft.jpg', import.meta.url).href,
+          image: new URL('@/assets/img/project-recraft.jpg', import.meta.url).href,
           figma: '/',
           languages: ['figma'],
         },
