@@ -41,7 +41,62 @@
         "nordbo_robotics": "An exam project that my group and I did for the client 'Nordbo Robotics'. The idea was to find out how to teach customers how to use the robots in the best possible way. Our idea was to create a tutorial app where users could easily and clearly learn how to use the robots, and to implement a little gamification.",
         "ucl": "Exam project where my group and I were tasked with improving the school's student counseling process when students apply for guidance. We succeeded in making it more user-friendly and we also received praise for it. The school ended up using some of our design for their final product!",
         "read_more": "Read more",
-        "see_all": "See All"
+        "see_all": "See All",
+        "buttons": {
+            "github": "View code",
+            "live": "Visit Website",
+            "figma": "View prototype"
+        },
+        "details": {
+          "sejs_pizza": {
+            "undertitle": "A website to order pizzas",
+            "summary": "Sej's pizza is a hobby project that I currently have running. Coded in ReactJS",
+            "desc1": "Sej's Desc 1",
+            "desc2": "Sej's Desc 2"
+          },
+          "recraft_mobile": {
+            "undertitle": "Re-design of ReCraft's old mobile application",
+            "summary": "A prototype made in Figma, of ReCraft's redesigned app. I created a simple but good design that the colleagues at ReCraft were very happy with.",
+            "desc1": "recraft_mobile Desc 1",
+            "desc2": "recraft_mobile Desc 2"
+          },
+          "rtid": {
+            "undertitle": "WordPress shopping site",
+            "summary": "RTID by LUDO has two websites, the .com and the .asia site. My friend and I have been working together to re-design the .com site and create the .asia site from scratch in WordPress.",
+            "desc1": "RTID by LUDO 1",
+            "desc2": "RTID by LUDO 2"
+          },
+          "llr": {
+            "undertitle": "Re-design WordPress website",
+            "summary": "During my internship at Lifeline Robotics, my colleague and I had to redesign their old WordPress website that they were unhappy with.",
+            "desc1": "LLR 1",
+            "desc2": "LLR 2"
+          },
+          "wbd": {
+            "undertitle": "Purchase flow for the Webdock website",
+            "summary": "My friend and I had Webdock as a client where we had to code a page to share as their purchase flow using Vue and REST_API. We ended up getting a high grade.",
+            "desc1": "Webdock 1",
+            "desc2": "Webdock 2"
+          },
+          "recraft_website": {
+            "undertitle": "Re-design of ReCraft's website",
+            "summary": "A simple lo-fi prototype made in Figma. I had worked hard researching trends and how other knitting websites have structured their websites.",
+            "desc1": "ReCraft hjemmeside 1",
+            "desc2": "ReCraft hjemmeside 2"
+          },
+          "nordbo_robotics": {
+            "undertitle": "Videos tutorials for users",
+            "summary": "As a result of an exam project, everyone was given Nordbo Robotics as a client. My group and I decided to create an educational website with the use of videos, using Firebase and Vue",
+            "desc1": "Nordbo Robotics 1",
+            "desc2": "Nordbo Robotics 2"
+          },
+          "ucl": {
+            "undertitle": "Improve student guidance input",
+            "summary": "A school project where my group and I had to improve the school's current student guidance input, coded in C# and Vue",
+            "desc1": "UCL 1",
+            "desc2": "UCL 2"
+          }
+        }
     },
 
     "about": {

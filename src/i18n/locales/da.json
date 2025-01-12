@@ -1,73 +1,128 @@
 {
-    "locale": {
-        "en": "Engelsk",
-        "da": "Dansk",
-        "ja": "Japansk"
-    },
+  "locale": {
+    "en": "Engelsk",
+    "da": "Dansk",
+    "ja": "Japansk"
+  },
 
-    "nav": {
-        "skills": "Færdigheder",
-        "projects": "Projekter",
-        "about": "Om mig",
-        "contact": "Kontakt"
-    },
+  "nav": {
+    "skills": "Færdigheder",
+    "projects": "Projekter",
+    "about": "Om mig",
+    "contact": "Kontakt"
+  },
 
-    "header": {
-        "sej": "webudvikling",
-        "desc":"Hos mig får du SEJ webudvikling med speciale i frontend, backend og Figma og så passer det med, at jeg hedder Stefan Emil Jespersen",
-        "intro": "Hej",
-        "iam": "Jeg er",
-        "name": "Stefan",
-        "experience": "Jeg har erfaring med:"
-    },
+  "header": {
+    "sej": "webudvikling",
+    "desc": "Hos mig får du SEJ webudvikling med speciale i frontend, backend og Figma og så passer det med, at jeg hedder Stefan Emil Jespersen",
+    "intro": "Hej",
+    "iam": "Jeg er",
+    "name": "Stefan",
+    "experience": "Jeg har erfaring med:"
+  },
 
-    "skills": {
-        "title": "Færdigheder",
-        "c_language": "Kode sprog",
-        "frameworks": "Frameworks",
-        "databases": "Databaser",
-        "o_tools": "Andre"
-    },
+  "skills": {
+    "title": "Færdigheder",
+    "c_language": "Kodesprog",
+    "frameworks": "Frameworks",
+    "databases": "Databaser",
+    "o_tools": "Andre"
+  },
 
-    "projects": {
-        "title": "Udvalgte Projekter",
-        "all_title": "Alle Projekter",
-        "sejs_pizza": "En webapp til et indkøbssted, hvor kunderne kan vælge deres ordrer og derefter købe dem. Mit mål er at skabe et enkelt, men brugervenligt indkøbshjemmeside. Jeg arbejder på at skabe backend, så det rent faktisk fungerer, men indtil videre har jeg kun lavet frontend. Appen er bygget i React.js og JavaScript.",
-        "recraft_mobile": "Dette er et projekt, som jeg har arbejdet på i ca. 4 uger på mit arbejde for ReCraft. Prototypen er til et re-design af deres gamle (nuværende) app. Jeg har fået vist hi-fi-designs i Canvas og mit job var at implementere en fungerende prototype i Figma. Denne prototype indeholder næsten alle de sider, der vil blive implementeret.",
-        "rtid": "RTID by LUDO er et shoppingsite, hvor folk kan købe tørklæder og andre ting, der er skabt og fremstillet af mennesker i nød i Thailand. Jeg har arbejdet på både .com- og .asia-siderne. Målet var at vise varerne på en måde, der fanger kundernes opmærksomhed, og samtidig vise dem RTID by LUDO's formål.",
-        "llr": "Et re-design af hjemmesiden for Lifeline Roboitcs. De var utilfredse med deres nuværende hjemmeside, så jeg og en kollega fik til opgave at redesigne den. Da tiden var begrænset og det var et praktikophold, blev det aldrig helt færdigt, og derfor er hjemmesiden ikke perfekt. Vi arbejdede i WordPress og PHP.",
-        "wbd": "En applikation til et købsflow. Det var til et bachelorprojekt, hvor kunden var den danske virksomhed Webdock. Webdock er en virksomhed, der sælger servere til deres kunder. Målet med appen var at gøre det så nemt som muligt for kunderne at købe en del af serverne og samtidig hjælpe dem med at lære tingene, hvis de ikke forstod det hele.",
-        "recraft_website": "En lo-fi wireframe til et re-design af ReCrafts nuværende hjemmeside. Jeg har studeret og ladet mig inspirere af forskellige andre hjemmesider, da jeg skabte denne prototype. Hovedformålet var at skabe en slags »opfordring til handling« for at få folk til at downloade deres app, som er der, hvor ReCraft har deres markedsplads.",
-        "nordbo_robotics": "Et eksamensprojekt som jeg og min gruppe i sin tid lavede for klienten 'Nordbo Robotics'. Meningen var at vi skulle finde ud af hvordan man lære kunderne på den bedst mulige måde at bruge robotterne. Her var vores idé at vi skulle lave en tutorial app, hvor brugere nemt og overskueligt kunne lære at bruge robotterne, samt at implementere lidt gamification.",
-        "ucl": "Eksamensprojekt hvor jeg og min gruppe fik til opgave at forbedre skolens studievejledningsforløb, når elever henvender sig til vejledning. Vi lykkedes med at få gjort det mere brugervenligt og vi fik også ros for det. Det endte med at skolen brugte noget af vores design til deres endelige produkt!",
-        "read_more": "Læs mere",
-        "see_all": "Se Alle"
+  "projects": {
+    "title": "Udvalgte Projekter",
+    "all_title": "Alle Projekter",
+    "sejs_pizza": "En webapp til et indkøbssted, hvor kunderne kan vælge deres ordrer og derefter købe dem. Mit mål er at skabe et enkelt, men brugervenligt indkøbshjemmeside. Jeg arbejder på at skabe backend, så det rent faktisk fungerer, men indtil videre har jeg kun lavet frontend. Appen er bygget i React.js og JavaScript.",
+    "recraft_mobile": "Dette er et projekt, som jeg har arbejdet på i ca. 4 uger på mit arbejde for ReCraft. Prototypen er til et re-design af deres gamle (nuværende) app. Jeg har fået vist hi-fi-designs i Canvas og mit job var at implementere en fungerende prototype i Figma. Denne prototype indeholder næsten alle de sider, der vil blive implementeret.",
+    "rtid": "RTID by LUDO er et shoppingsite, hvor folk kan købe tørklæder og andre ting, der er skabt og fremstillet af mennesker i nød i Thailand. Jeg har arbejdet på både .com- og .asia-siderne. Målet var at vise varerne på en måde, der fanger kundernes opmærksomhed, og samtidig vise dem RTID by LUDO's formål.",
+    "llr": "Et re-design af hjemmesiden for Lifeline Roboitcs. De var utilfredse med deres nuværende hjemmeside, så jeg og en kollega fik til opgave at redesigne den. Da tiden var begrænset og det var et praktikophold, blev det aldrig helt færdigt, og derfor er hjemmesiden ikke perfekt. Vi arbejdede i WordPress og PHP.",
+    "wbd": "En applikation til et købsflow. Det var til et bachelorprojekt, hvor kunden var den danske virksomhed Webdock. Webdock er en virksomhed, der sælger servere til deres kunder. Målet med appen var at gøre det så nemt som muligt for kunderne at købe en del af serverne og samtidig hjælpe dem med at lære tingene, hvis de ikke forstod det hele.",
+    "recraft_website": "En lo-fi wireframe til et re-design af ReCrafts nuværende hjemmeside. Jeg har studeret og ladet mig inspirere af forskellige andre hjemmesider, da jeg skabte denne prototype. Hovedformålet var at skabe en slags »opfordring til handling« for at få folk til at downloade deres app, som er der, hvor ReCraft har deres markedsplads.",
+    "nordbo_robotics": "Et eksamensprojekt som jeg og min gruppe i sin tid lavede for klienten 'Nordbo Robotics'. Meningen var at vi skulle finde ud af hvordan man lære kunderne på den bedst mulige måde at bruge robotterne. Her var vores idé at vi skulle lave en tutorial app, hvor brugere nemt og overskueligt kunne lære at bruge robotterne, samt at implementere lidt gamification.",
+    "ucl": "Eksamensprojekt hvor jeg og min gruppe fik til opgave at forbedre skolens studievejledningsforløb, når elever henvender sig til vejledning. Vi lykkedes med at få gjort det mere brugervenligt og vi fik også ros for det. Det endte med at skolen brugte noget af vores design til deres endelige produkt!",
+    "read_more": "Læs mere",
+    "see_all": "Se Alle",
+    "buttons": {
+        "github": "Se kode",
+        "live": "Besøg hjemmeside",
+        "figma": "Se prototypen"
     },
-
-    "about": {
-        "title": "Om mig",
-        "undertitle": "One man’s dream - drømmen om at komme der ud og gøre en forskel!",
-        "motivation": "Jeg har altid haft en drøm om at kunne komme ud og arbejde for en masse skønne mennesker og lave spændende cases sammen.",
-        "desc1": "Som du nok allerede ved er jeg Stefan og jeg leder lige nu efter et arbejde, hvor jeg kan udøve mine færdigheder.",
-        "desc2": "Jeg har en bachelor i Webudvikling og en Erhvervsakademisk uddannelse inden for Multimediedeisgn, begge steder fra UCL (University College Lillebælt)",
-        "desc3": "Her for tiden arbejder jeg på mit portfolio, samt er i gang med at lave en pizza leverings/shopping hjemmeside. Derudover arbejder jeg også med andre små projekter her og der.",
-        "desc4": "Jeg har erfaring inden for fullstack udvikling - jeg leger runjdt med Vue, ReactJS og TypeScript som frontend. Backend er det Google firebase, Azure SQL og MongoDB."
-    },
-
-    "contact": {
-        "title": "Send mig en besked!",
-        "name": "Navn",
-        "email": "E-mail",
-        "message": "Besked",
-        "send_btn": "Send besked"
-    },
-
-    "footer": {
-        "made_by": "Personligt lavet af Stefan E. J."
-    },
-
-    "project_vue": {
-        "title": "WIP",
-        "back": "Gå tilbage"
+    "details": {
+      "sejs_pizza": {
+        "undertitle": "En hjemmeside for at bestille pizza'er",
+        "summary": "Sej's pizza er en hobby projekt, som jeg lige nu har kørende. Kodet i ReactJS",
+        "desc1": "Sej's Beskrivelse 1",
+        "desc2": "Sej's Beskrivelse 2"
+      },
+      "recraft_mobile": {
+        "undertitle": "Re-design af ReCraft's gamle mobil applikation",
+        "summary": "En protoype lavet i Figma, af ReCraft's re-designede app. Jeg skabte et simpelt men godt design som kollegaerne hos ReCraft var meget glade for.",
+        "desc1": "recraft_mobile Beskrivelse 1",
+        "desc2": "recraft_mobile Beskrivelse 2"
+      },
+      "rtid": {
+        "undertitle": "WordPress shoppingsite",
+        "summary": "RTID by LUDO har to hjemmesider, .com og .asia siden. Min ven og jeg har arbejdet sammen på at re-designe .com siden og lave .asia siden fra bunden af i WordPress.",
+        "desc1": "RTID by LUDO 1",
+        "desc2": "RTID by LUDO 2"
+      },
+      "llr": {
+        "undertitle": "Re-design WordPress hjemmeside",
+        "summary": "Da jeg var i praktik hos Lifeline Robotics, skulle min kollega og jeg lave en re-design af deres gamle WordPress hjemmeside som de var utilfredse med.",
+        "desc1": "LLR 1",
+        "desc2": "LLR 2"
+      },
+      "wbd": {
+        "undertitle": "Købsflow for Webdock's hjemmeside",
+        "summary": "Min ven og jeg havde Webdock som klient, hvor vi skulle kode en side til del som deres købsflow med brug af Vue og REST_API. Vi endte med at få en høj karakter.",
+        "desc1": "Webdock 1",
+        "desc2": "Webdock 2"
+      },
+      "recraft_website": {
+        "undertitle": "Re-design af ReCraft's hjemmeside",
+        "summary": "Et simpelt lo-fi prototype lavet i Figma. Jeg havde arbejdet hårdt på at researche trends og hvordan andre strikke hjemmesider har strukturet deres hjemmeside.",
+        "desc1": "ReCraft hjemmeside 1",
+        "desc2": "ReCraft hjemmeside 2"
+      },
+      "nordbo_robotics": {
+        "undertitle": "Videoer tutorial's for brugere",
+        "summary": "Som følge af et eksamensprojekt fik alle Nordbo Robotics som klient. Min gruppe og jeg valgte at lave en undervisnings hjemmeside med brug af video'er, lavet med brug af Firebase og Vue",
+        "desc1": "Nordbo Robotics 1",
+        "desc2": "Nordbo Robotics 2"
+      },
+      "ucl": {
+        "undertitle": "Forbedre studievejlednings input",
+        "summary": "Et skoleprojekt hvor at jeg og min gruppe har skullet forbedre skolen's nuværende studievejlednings input, kodet i C# og Vue",
+        "desc1": "UCL 1",
+        "desc2": "UCL 2"
+      }
     }
+  },
+
+  "about": {
+    "title": "Om mig",
+    "undertitle": "One man’s dream - drømmen om at komme der ud og gøre en forskel!",
+    "motivation": "Jeg har altid haft en drøm om at kunne komme ud og arbejde for en masse skønne mennesker og lave spændende cases sammen.",
+    "desc1": "Som du nok allerede ved er jeg Stefan og jeg leder lige nu efter et arbejde, hvor jeg kan udøve mine færdigheder.",
+    "desc2": "Jeg har en bachelor i Webudvikling og en Erhvervsakademisk uddannelse inden for Multimediedeisgn, begge steder fra UCL (University College Lillebælt)",
+    "desc3": "Her for tiden arbejder jeg på mit portfolio, samt er i gang med at lave en pizza leverings/shopping hjemmeside. Derudover arbejder jeg også med andre små projekter her og der.",
+    "desc4": "Jeg har erfaring inden for fullstack udvikling - jeg leger runjdt med Vue, ReactJS og TypeScript som frontend. Backend er det Google firebase, Azure SQL og MongoDB."
+  },
+
+  "contact": {
+    "title": "Send mig en besked!",
+    "name": "Navn",
+    "email": "E-mail",
+    "message": "Besked",
+    "send_btn": "Send besked"
+  },
+
+  "footer": {
+    "made_by": "Personligt lavet af Stefan E. J."
+  },
+
+  "project_vue": {
+    "title": "WIP",
+    "back": "Gå tilbage"
+  }
 }

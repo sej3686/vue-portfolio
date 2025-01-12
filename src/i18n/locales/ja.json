@@ -38,7 +38,62 @@
         "nordbo_robotics": "私のグループと私が「Nordbo Robotics」というクライアントのために行った試験プロジェクト。ロボットの使い方を顧客に最適な方法で教える方法を見つけることでした。私たちのアイデアは、ユーザーがロボットの使い方を簡単かつ明確に学べるチュートリアルアプリを作成し、ちょっとしたゲーミフィケーションを実装することでした。",
         "ucl": "私のグループと私は、学生がガイダンスに申し込む際の学校の学生相談プロセスを改善することを課された試験プロジェクトに参加しました。私たちは、より使いやすいものにすることに成功し、また、それに対する賞賛もいただきました。最終的に、学校は私たちのデザインの一部を最終製品に使用することになりました！",
         "read_more": "もっと読む",
-        "see_all": "もっと見る"
+        "see_all": "もっと見る",
+        "buttons": {
+            "github": "コードを見る",
+            "live": "ウェブサイトへ",
+            "figma": "プロトタイプを見る"
+        },
+        "details": {
+          "sejs_pizza": {
+            "undertitle": "ピザを注文するウェブサイト",
+            "summary": "Sej'sピザは、私が現在行っている趣味のプロジェクトです。ReactJSでコーディング",
+            "desc1": "Sej's 記述 1",
+            "desc2": "Sej's 記述 2"
+          },
+          "recraft_mobile": {
+            "undertitle": "ReCraftの旧モバイル・アプリケーションの再設計",
+            "summary": "Figmaで作ったリクラフトのアプリのプロトタイプ。シンプルで良いデザインに仕上がり、ReCraftの同僚たちも大満足でした。",
+            "desc1": "recraft_mobile 記述 1",
+            "desc2": "recraft_mobile 記述 2"
+          },
+          "rtid": {
+            "undertitle": "WordPressショッピングサイト",
+            "summary": "RTID by LUDOには、.comと.asiaの2つのサイトがあります。私の友人と私は、.comサイトのデザインを変更し、WordPressでゼロから.asiaサイトを作成するために一緒に働いています。",
+            "desc1": "RTID by LUDO 1",
+            "desc2": "RTID by LUDO 2"
+          },
+          "llr": {
+            "undertitle": "WordPress ウェブサイトのデザイン変更",
+            "summary": "ライフライン・ロボティクス社でのインターンシップ中、同僚と私は、彼らが不満に思っていた古いワードプレスのウェブサイトを再設計しなければならなかった。",
+            "desc1": "LLR 1",
+            "desc2": "LLR 2"
+          },
+          "wbd": {
+            "undertitle": "ウェブドック購入の流れ",
+            "summary": "友人と私はウェブドックをクライアントに持ち、VueとREST_APIを使って購入フローとして共有するページをコーディングしなければなりませんでした。私たちは高い評価を得ることができました。",
+            "desc1": "Webdock 1",
+            "desc2": "Webdock 2"
+          },
+          "recraft_website": {
+            "undertitle": "ReCraftのウェブサイトをリニューアル",
+            "summary": "Figmaで作ったシンプルでローファイなプロトタイプ。私は、トレンドや他の編み物サイトがどのようにウェブサイトを構成しているかを懸命に研究しました。",
+            "desc1": "ReCraft hjemmeside 1",
+            "desc2": "ReCraft hjemmeside 2"
+          },
+          "nordbo_robotics": {
+            "undertitle": "ユーザー向けビデオチュートリアル",
+            "summary": "試験プロジェクトの結果、全員にNordbo Roboticsがクライアントとして与えられました。私のグループと私は、FirebaseとVueを使って、動画を使った教育用ウェブサイトを作ることにしました。",
+            "desc1": "Nordbo Robotics 1",
+            "desc2": "Nordbo Robotics 2"
+          },
+          "ucl": {
+            "undertitle": "生徒指導インプットの改善",
+            "summary": "私のグループと私は、C#とVueでコード化された学校の現在の生徒指導の入力を改善する必要がありました。",
+            "desc1": "UCL 1",
+            "desc2": "UCL 2"
+          }
+        }
     },
 
     "about": {

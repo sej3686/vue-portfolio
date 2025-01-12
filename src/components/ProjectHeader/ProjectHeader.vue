@@ -2,9 +2,7 @@
   <header class="project-header">
     <ul class="header-menu">
       <li>
-        <RouterLink to="/"
-          ><button><i class="arrow-header"></i></button
-        ></RouterLink>
+          <button @click="goBack"><i class="arrow-header"></i></button>
       </li>
       <li></li>
       <li>
@@ -26,7 +24,6 @@
 </template>
 
 <script>
-import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import Tr from "@/i18n/translation";
 
@@ -49,7 +46,11 @@ export default {
 
   props: {},
 
-  methods: {},
+  methods: {
+    goBack() {
+      this.$router.back();
+    }
+  },
 };
 </script>
 
@@ -74,17 +75,17 @@ $lightBlue: #203c98;
     height: 30px;
     padding-left: 5px;
     width: 100px;
-    z-index: 97;
+    z-index: 5;
   }
 }
 
 .project-header {
   position: fixed;
   width: 100%;
-  z-index: 15;
+  z-index: 5;
 
   .header-menu {
-    background-color: $darkColor;
+    background-color: transparent;
     display: flex;
     list-style-type: none;
     justify-content: space-between;

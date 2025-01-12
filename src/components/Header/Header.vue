@@ -98,12 +98,13 @@
         <a
           href="https://www.linkedin.com/in/stefan-jespersen-1a79ab109/"
           aria-label="My linkedIn profile"
+          target="_blank"
           ><img src="../../assets/img/icons/linkedin.png" alt="LinkedIn"
         /></a>
-        <a href="https://github.com/sej3686" aria-label="My Github"
+        <a href="https://github.com/sej3686" aria-label="My Github" target="_blank"
           ><img src="../../assets/img/icons/github.png" alt="Github"
         /></a>
-        <a href="mailto:sej.webudvikling.com">
+        <a target="_blank" href="mailto:sej.webudvikling.com" aria-label="My Email">
           <img src="../../assets/img/icons/mail-white.png" alt="My email" />
         </a>
       </div>
