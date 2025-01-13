@@ -51,50 +51,58 @@
           "sejs_pizza": {
             "undertitle": "A website to order pizzas",
             "summary": "Sej's pizza is a hobby project that I currently have running. Coded in ReactJS",
-            "desc1": "Sej's Desc 1",
-            "desc2": "Sej's Desc 2"
+            "desc1": "Sej's Pizza is the place to order pizza simply and easily. The website has a simple and clear design that makes it easy for the user to navigate around.",
+            "desc2": "The website is coded in ReactJS and JavaScript, which makes it easy to create the website. I started by researching other websites that also offer pizza delivery, in addition, I started sketching a wireframe in Figma.",
+            "desc3": "Although I still have to do the backend, I have already learned a lot. Both in terms of coding in React, but also in designing websites that enhance the user experience."
           },
           "recraft_mobile": {
             "undertitle": "Re-design of ReCraft's old mobile application",
             "summary": "A prototype made in Figma, of ReCraft's redesigned app. I created a simple but good design that the colleagues at ReCraft were very happy with.",
-            "desc1": "recraft_mobile Desc 1",
-            "desc2": "recraft_mobile Desc 2"
+            "desc1": "The leaders at ReCraft were tired of the current design of their app, performance issues and users started giving feedback on the design, which was negative.",
+            "desc2": "ReCraft asked me to create a new and interactive prototype in Figma. Before I came, they used to hire freelancers who started changing the design, which created small conflicts. Therefore, my task was to collaborate and communicate with ReCreaft that the re-design of the new app should be done with their feedback and opinions.",
+            "desc3": "I managed to get a new design and with the great feedback from the wonderful people at ReCraft, I made a good and intuitive design. I learned a lot and was very happy with my experience at ReCraft."
           },
           "rtid": {
             "undertitle": "WordPress shopping site",
             "summary": "RTID by LUDO has two websites, the .com and the .asia site. My friend and I have been working together to re-design the .com site and create the .asia site from scratch in WordPress.",
-            "desc1": "RTID by LUDO 1",
-            "desc2": "RTID by LUDO 2"
+            "desc1": "My friend had an acquaintance who ran a business. The person needed help to re-design and build a new website in WordPress. My friend and I accepted the challenge with open hands.",
+            "desc2": "The first thing we looked at was redesigning and fixing the .com site. Once that was done, we started fresh with the .asia site. We researched Asian trends and how to build websites in the Far East.",
+            "desc3": "We managed to re-design and create a new WordPress website. Although there were challenges, we continued and the result was a nice and simple website."
           },
           "llr": {
             "undertitle": "Re-design WordPress website",
             "summary": "During my internship at Lifeline Robotics, my colleague and I had to redesign their old WordPress website that they were unhappy with.",
-            "desc1": "LLR 1",
-            "desc2": "LLR 2"
+            "desc1": "The colleagues from Lifeline Robotics informed my fellow intern and I that they would like a redesign of their current website.",
+            "desc2": "We immediately started doing research and researching trends for other robot websites. Even though we were both relatively new to WordPress, we created a nice flow and always thought about how the user will think when he/she sees the website for the first time.",
+            "desc3": "Unfortunately, the internship ended and we started to lose contact with Lifeline Robotics. But still, I learned a lot, working with others and increasing my own efficiency."
           },
           "wbd": {
             "undertitle": "Purchase flow for the Webdock website",
             "summary": "My friend and I had Webdock as a client where we had to code a page to share as their purchase flow using Vue and REST_API. We ended up getting a high grade.",
-            "desc1": "Webdock 1",
-            "desc2": "Webdock 2"
+            "desc1": "Webdock is a company that offers server hosting for their users. We found the company when my friend was doing an internship with them. Since we had a bachelor's degree, it was easy to choose a client.",
+            "desc2": "We immediately had contact and several meetings with Webdock's CEO to hear about the problems he was experiencing and what he wanted to happen. We investigated which frameworks would best fit the project and the result was Vue.",
+            "desc3": "A one-page website was created that made it easy for users to select server parts. This is where I really learned about Vue and enjoyed every moment coding in it."
           },
           "recraft_website": {
             "undertitle": "Re-design of ReCraft's website",
             "summary": "A simple lo-fi prototype made in Figma. I had worked hard researching trends and how other knitting websites have structured their websites.",
-            "desc1": "ReCraft hjemmeside 1",
-            "desc2": "ReCraft hjemmeside 2"
+            "desc1": "When the interactive prototype of their app was finished, I immediately started looking at the re-design of the ReCraft website. Again, I researched how other knitting websites had organized their design.",
+            "desc2": "After some time, I started making a lo-fi prototype in Figma. When I finished, I showed my prototype to ReCraft.",
+            "desc3": "ReCraft liked my lo-fi, gave me good feedback and I was happy to continue working."
           },
           "nordbo_robotics": {
             "undertitle": "Videos tutorials for users",
             "summary": "As a result of an exam project, everyone was given Nordbo Robotics as a client. My group and I decided to create an educational website with the use of videos, using Firebase and Vue",
-            "desc1": "Nordbo Robotics 1",
-            "desc2": "Nordbo Robotics 2"
+            "desc1": "Nordbo Robotics is a company that sells robots to companies with a focus on automation. My group and I started thinking about how to get users to learn their robots better - the result was to create an app to teach users.",
+            "desc2": "The project was created in Vue and with Firebase as the database. Dynamic router was used in Vue. to make the experience as fluid and unambiguous as possible.",
+            "desc3": "Although we encountered several problems, we made a finished product that we are proud of. As a result, we received praise from Nordbo Robotics who loved our way of teaching users."
           },
           "ucl": {
             "undertitle": "Improve student guidance input",
             "summary": "A school project where my group and I had to improve the school's current student guidance input, coded in C# and Vue",
-            "desc1": "UCL 1",
-            "desc2": "UCL 2"
+            "desc1": "UCL had problems at the time, as students using their student guidance input system had some misunderstandings and thought the whole system was a mess.",
+            "desc2": "My group was tasked with making their system better and unambiguous. We created a system where the user would be able to easily understand various inputs and give feedback on them. Furthermore, we improved the admin page so that the student counselors could more easily categorize the feedback they had received.",
+            "desc3": "The new system was coded in a large project in C#, with a login system and an interactive admin panel and a functional feedback input."
           }
         }
     },

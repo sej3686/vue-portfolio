@@ -107,7 +107,6 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-    // height: 80vh;
 
     .skills-wrapper {
       align-items: center;
@@ -117,20 +116,8 @@ $darkGreenColor: #228a30;
     }
   }
 
-  // #projects {
-  //   margin-top: 200px;
-  // }
-
   .container {
     max-width: 100%;
-  }
-
-  .project-details-wrapper {
-
-    .project-details {
-      margin-top: 6em !important;
-      z-index: 2 !important;
-    }
   }
 }
 

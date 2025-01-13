@@ -141,6 +141,7 @@ const projectId = computed(() => props.id);
       <div class="markdown">
         <p v-html="$t(`projects.details.${projectId}.desc1`)"></p>
         <p v-html="$t(`projects.details.${projectId}.desc2`)"></p>
+        <p v-html="$t(`projects.details.${projectId}.desc3`)"></p>
       </div>
     </div>
   </section>

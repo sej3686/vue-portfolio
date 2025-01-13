@@ -51,50 +51,58 @@
       "sejs_pizza": {
         "undertitle": "En hjemmeside for at bestille pizza'er",
         "summary": "Sej's pizza er en hobby projekt, som jeg lige nu har kørende. Kodet i ReactJS",
-        "desc1": "Sej's Beskrivelse 1",
-        "desc2": "Sej's Beskrivelse 2"
+        "desc1": "Sej's Pizza er stedet hvor man enkelt og nemt kan bestille pizza'er. Hjemmesiden har et enkelt og overskueligt design der nemt får brugeren til at navigere rundt.",
+        "desc2": "Hjemmesiden er kodet i ReactJS og JavaScript, som gør det at lave hjemmesiden. Jeg startede med at undersøge andre hjemmesider som også tilbyder pizza levering, derudover begyndte jeg at skitsere et wireframe i Figma.",
+        "desc3": "Selvom jeg mangler at lave backend, har jeg allerede lært rigtigt meget. Både hvad angår at kode i React, men også at designe hjemmesider der øger brugeroplevelsen."
       },
       "recraft_mobile": {
         "undertitle": "Re-design af ReCraft's gamle mobil applikation",
         "summary": "En protoype lavet i Figma, af ReCraft's re-designede app. Jeg skabte et simpelt men godt design som kollegaerne hos ReCraft var meget glade for.",
-        "desc1": "recraft_mobile Beskrivelse 1",
-        "desc2": "recraft_mobile Beskrivelse 2"
+        "desc1": "Lederne hos ReCraft var trætte at deres nuværende design på deres app, ydermere kom der performence issues og brugerne begyndte at komme med feedback til design, som var negativt.",
+        "desc2": "ReCraft bedte mig om at lave et nyt og interaktivt prototype i Figma. Før jeg kom plejede de at hyre freelancers som begyndte at lave om på design, hvilket skabte små konkfliter. Derfor var min opgave at samarbejde og kommunikere med ReCreaft om at re-design'et af den nye app skal ske med deres feedback og holdninger.",
+        "desc3": "Jeg lykkedes med at få lavet et nyt design og med den gode feedback fra de skønne mennesker fra ReCraft, lavede jeg et godt og intuitivt design. Jeg lærte en hel masse og var meget glad for min oplevelse hos ReCraft."
       },
       "rtid": {
         "undertitle": "WordPress shoppingsite",
         "summary": "RTID by LUDO har to hjemmesider, .com og .asia siden. Min ven og jeg har arbejdet sammen på at re-designe .com siden og lave .asia siden fra bunden af i WordPress.",
-        "desc1": "RTID by LUDO 1",
-        "desc2": "RTID by LUDO 2"
+        "desc1": "Min ven havde en bekendt som drev en forretning. Personen havde brug for hjælp til at re-designe og designe en ny hjemmeside i WordPress. Min ven og jeg tog imod udfordringen med åbne hænder.",
+        "desc2": "Det første vi kiggede på, var at re-designe og fixe .com siden. Da det så var gjort, startede vi på en frisk med .asia siden. Vi undersøgte de asiatiske trends og hvordan man bygger hjemmesider på i fjernøsten.",
+        "desc3": "Vi lykkedes med at re-designe og lave en ny WordPress hjemmeside. Selvom der var udfordringer fortsatte vi og resultatet blev til en fin og enkelt hjemmeside."
       },
       "llr": {
         "undertitle": "Re-design WordPress hjemmeside",
         "summary": "Da jeg var i praktik hos Lifeline Robotics, skulle min kollega og jeg lave en re-design af deres gamle WordPress hjemmeside som de var utilfredse med.",
-        "desc1": "LLR 1",
-        "desc2": "LLR 2"
+        "desc1": "Kollegaerne fra Lifeline Robotics gav min med-praktikant og jeg besked om at de gerne vil have en re-design af deres nuværende hjemmeside.",
+        "desc2": "Vi gik straks i gang med at lave undersøgelse og researche trends for andre robot hjemmesider. Selvom vi begge var relativt nye til WordPress, lavede vi et fint flow og tænkte altid på hvordan brugeren vil tænkte, når han/hun ser hjemmesiden for første gang.",
+        "desc3": "Desværre udløb praktik-perioden og vi begyndte at miste kontakten til Lifeline Robotics. Men stadigvæk lærte jeg rigtigt meget, at arbejde sammen med andre og øge ens egen effektivitet."
       },
       "wbd": {
         "undertitle": "Købsflow for Webdock's hjemmeside",
         "summary": "Min ven og jeg havde Webdock som klient, hvor vi skulle kode en side til del som deres købsflow med brug af Vue og REST_API. Vi endte med at få en høj karakter.",
-        "desc1": "Webdock 1",
-        "desc2": "Webdock 2"
+        "desc1": "Webdock er en firma som tilbyder hosting af servere til deres brugere. Vi fandt virksomheden da min ven var ude i praktik hos dem. Da vi havde bachelor eksamen var det så derfor nemt at vælge en klient.",
+        "desc2": "Vi havde straks kontakt og flere møder med Webdock's CEO for at høre om hvilke problemer han oplever og hvad han ønsker der skulle ske. Vi undersøgte hvilket frameworks der bedst kunne passe til projeket og resultatet blev Vue.",
+        "desc3": "Der blev lavet en one-page hjemmeside, der gjorde det enkelt for brugerne at vælge server-dele. Her lærte jeg for alvor om Vue og nød hvert eneste øjeblik at kode i det."
       },
       "recraft_website": {
         "undertitle": "Re-design af ReCraft's hjemmeside",
         "summary": "Et simpelt lo-fi prototype lavet i Figma. Jeg havde arbejdet hårdt på at researche trends og hvordan andre strikke hjemmesider har strukturet deres hjemmeside.",
-        "desc1": "ReCraft hjemmeside 1",
-        "desc2": "ReCraft hjemmeside 2"
+        "desc1": "Da den interaktive prototype af deres app blev færdig, gik jeg straks i gang med at få kigget på re-design af ReCraft's hjemmeside. Igen, undersøgte jeg hvordan andre strikke hjemmesider havde indrettet deres design.",
+        "desc2": "Efter lidt tid, gik jeg i gang med at lave en lo-fi prototpye i Figma. Da jeg blev færdig viste jeg min prototype over for ReCraft.",
+        "desc3": "ReCraft var glade for min lo-fi, gav mig god feedback og jeg kunne med glæde arbejde videre."
       },
       "nordbo_robotics": {
         "undertitle": "Videoer tutorial's for brugere",
         "summary": "Som følge af et eksamensprojekt fik alle Nordbo Robotics som klient. Min gruppe og jeg valgte at lave en undervisnings hjemmeside med brug af video'er, lavet med brug af Firebase og Vue",
-        "desc1": "Nordbo Robotics 1",
-        "desc2": "Nordbo Robotics 2"
+        "desc1": "Nordbo Robotics er en virksomhed som sælge robotter ud til virksomheder med fokus på automation. Min gruppe og jeg gik i gang med at tænke på hvordan man kunne få brugere til at lære deres robotter bedre - resultatet blev at lave en app til at undervise brugerne.",
+        "desc2": "Projektet blev lavet i Vue og med Firebase som database. Der blev brugt dynamic router i Vue. for at gøre oplevelsen så flydende og entydig som overhovedet muligt.",
+        "desc3": "Selvom vi flere gange stødte på problemer, lavede vi et færdigt produkt som vi har stolt af. Resultatet blev at vi fik ros fra Nordbo Robotics der var vilde med vores måde at undervise brugerne på."
       },
       "ucl": {
         "undertitle": "Forbedre studievejlednings input",
         "summary": "Et skoleprojekt hvor at jeg og min gruppe har skullet forbedre skolen's nuværende studievejlednings input, kodet i C# og Vue",
-        "desc1": "UCL 1",
-        "desc2": "UCL 2"
+        "desc1": "UCL havde på daværende tidspunkt problemer, da elverne som brugte deres studievejlednings input system, havde nogle misforståelser og syntes at hele systemet var noget rod.",
+        "desc2": "Min gruppe fik til at opgave at gøre deres system bedre og entydigt. Vi fik lavet et system, hvor at brugeren nemt vil kunne forstå diverse input's derved give feedback på dem. Ydermere forbedrede vi admin siden, hvor at studievejlederne havde nemmere ved at katogoriser feedback som de havde fået.",
+        "desc3": "Den nye system blev kodet i et stort projekt i C#, med login-system og en interaktiv admin-panel og en funktionel feedback input."
       }
     }
   },
