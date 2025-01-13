@@ -85,7 +85,7 @@ $lightBlue: #203c98;
   z-index: 5;
 
   .header-menu {
-    background-color: transparent;
+    background-color: #121111;
     display: flex;
     list-style-type: none;
     justify-content: space-between;

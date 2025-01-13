@@ -124,6 +124,14 @@ $darkGreenColor: #228a30;
   .container {
     max-width: 100%;
   }
+
+  .project-details-wrapper {
+
+    .project-details {
+      margin-top: 6em !important;
+      z-index: 2 !important;
+    }
+  }
 }
 
 /* sm */

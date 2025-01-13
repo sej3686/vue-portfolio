@@ -168,7 +168,7 @@ export default {
           id: 'recraft_mobile',
           title: "ReCraft App",
           category: 'UI/UX',
-          image: new URL('@/assets/img/projectrecraft.jpg', import.meta.url).href,
+          image: new URL('@/assets/img/project-recraft.jpg', import.meta.url).href,
           figma: '/',
         },
         {
@@ -212,7 +212,7 @@ export default {
           id: 'ucl',
           title: "Studievejledning",
           category: 'WEBSITE',
-          image: new URL('@/assets/img/uclc.jpg', import.meta.url).href,
+          image: new URL('@/assets/img/ucl.jpg', import.meta.url).href,
           github: 'https://github.com/FrederikLandtved/UCLStudievejleder',
         },
       ];
@@ -239,13 +239,13 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 100%;
-  z-index: 2;
 
   .project-details {
     // background-color: red;
     margin-top: 2em;
-    width: 30%;
+    position: relative;
+    max-width: 450px;
+    z-index: 20;
 
     h2 {
       color: $lightGreenColor;
