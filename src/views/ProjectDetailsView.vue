@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import Footer from "../components/Footer/Footer.vue";
-import ProjectHeader from "../components/ProjectHeader/ProjectHeader.vue";
+import ProjectDetailHeader from "../components/ProjectDetailHeader/ProjectDetailHeader.vue";
 
 const props = defineProps(["id"]);
 
@@ -12,7 +12,7 @@ const projectId = computed(() => props.id);
   <img :src="project.image" :alt="$t(`projects.details.${projectId}.category`)" />
   <!-- <ProjectDetailHeader /> -->
 
-  <ProjectHeader />
+  <ProjectDetailHeader />
 
   <section class="project-details-wrapper">
     <div class="project-details">
