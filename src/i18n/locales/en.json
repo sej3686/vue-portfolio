@@ -14,10 +14,9 @@
 
     "header": {
         "sej": "Syntax Error Jedi",
-        "desc":"I can offer SEJ Syntax Error Jedi specializing in frontend, backend and Figma and it's fitting that my name is Stefan Emil Jespersen",
-        "intro": "Hi",
-        "iam": "I'm",
-        "name": "Stefan",
+        "desc":"I can offer SEJ Syntax Error Jedi specializing in frontend, backend and Figma and it's fitting that my name is",
+        "name": "Stefan Emil Jespersen",
+        "extionsion": ".",
         "experience": "I have experience in:"
     },
 

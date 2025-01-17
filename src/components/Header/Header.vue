@@ -92,7 +92,7 @@
         </div>
       </div>
 
-      <p>{{ $t("header.desc") }}</p>
+      <p>{{ $t("header.desc") }} <span>{{ $t("header.name") }}</span>{{ $t("header.extionsion") }}</p>
 
       <div class="some-menu">
         <a
@@ -424,6 +424,14 @@ header {
       color: #ffffff;
       font-size: 1.4rem;
       margin-top: 2em;
+
+      span {
+        color: $lightGreenColor;
+      }
+
+      span:hover {
+        text-decoration: underline;
+      }
     }
 
     .some-menu {
