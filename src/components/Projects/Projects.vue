@@ -196,6 +196,7 @@ $darkGreenColor: #228a30;
           align-items: center;
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           margin-top: 1em;
           gap: 10px;
 
