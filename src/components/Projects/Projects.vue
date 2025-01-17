@@ -47,7 +47,7 @@ export default {
           title: "ReCraft App",
           category: 'UI/UX',
           image: new URL('@/assets/img/project-recraft.jpg', import.meta.url).href,
-          figma: '/',
+          figma: 'https://www.figma.com/design/9uqqV8wiOk1EuvsdYKjDAs/App?node-id=0-1&t=D0owKcxtN0a7bvJ1-1',
           languages: ['figma'],
         },
         {
@@ -71,6 +71,7 @@ export default {
           title: "Webdock",
           category: 'WEB APP',
           image: new URL('@/assets/img/webdock-2.jpg', import.meta.url).href,
+          figma: 'https://www.figma.com/design/7pRq0LW8Z510eWAnITRLTR/Lo-fi-%26-Hi-fi?node-id=0-1&t=aVPevinUwzmCRWDY-1',
           github: 'https://github.com/jacobdolleris/webdock-bachelor',
           live: 'http://www.bachelor.sej.one/',
           languages: ['vue', 'javascript', 'json', 'api'],
@@ -80,7 +81,7 @@ export default {
           title: "ReCraft Website",
           category: 'UI/UX',
           image: new URL('@/assets/img/recraft-website.jpg', import.meta.url).href,
-          figma: '/',
+          figma: 'https://www.figma.com/design/MpvwcWAah33Of0APP7v9i9/Hjemmeside?node-id=0-1&t=mjsDi9I7pKnej8Fk-1',
           languages: ['figma'],
         },
       ]
