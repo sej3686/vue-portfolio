@@ -435,9 +435,17 @@ $darkGreenColor: #228a30;
     .skills-wrapper {
       margin-top: 2em;
 
-      // .skills-box {
-      //   width: 380px;
-      // }
+      .skills-box {
+        width: 380px;
+
+        .skills-box-content:nth-child(1) {
+          width: 100%;
+        }
+
+        .skills-box-content-divider {
+          margin: 0 2.5rem;
+        }
+      }
     }
   }
 
