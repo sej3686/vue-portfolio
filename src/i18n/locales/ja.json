@@ -22,7 +22,9 @@
         "c_language": "コード言語",
         "frameworks": "フレームワーク",
         "databases": "データベース",
-        "o_tools": "他のツール"
+        "o_tools": "他のツール",
+        "adobe": "アドビ",
+        "design": "デザイン"
     },
 
     "projects": {

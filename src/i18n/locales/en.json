@@ -25,7 +25,9 @@
         "c_language": "Languages",
         "frameworks": "Frameworks",
         "databases": "Databases",
-        "o_tools": "Other tools"
+        "o_tools": "Other tools",
+        "adobe": "Adobe",
+        "design": "Design"
     },
 
     "projects": {
