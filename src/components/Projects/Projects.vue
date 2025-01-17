@@ -74,7 +74,7 @@ export default {
           figma: 'https://www.figma.com/design/7pRq0LW8Z510eWAnITRLTR/Lo-fi-%26-Hi-fi?node-id=0-1&t=aVPevinUwzmCRWDY-1',
           github: 'https://github.com/jacobdolleris/webdock-bachelor',
           live: 'http://www.bachelor.sej.one/',
-          languages: ['vue', 'javascript', 'json', 'api'],
+          languages: ['vue', 'javascript', 'json', 'api', 'figma'],
         },
         {
           id: 'recraft_website',
