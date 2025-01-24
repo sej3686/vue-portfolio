@@ -7,9 +7,12 @@ const Trans = {
   },
 
   getUserLocale() {
-    const locale = window.navigator.language || 
-                   window.navigator.userLanguage || 
-                   Trans.defaultLocale;
+    const locale =
+      window.navigator.language ||
+      window.navigator.userLanguage ||
+      Trans.defaultLocale;
+      console.log("navigator.language:", window.navigator.language);
+      console.log("navigator.languages:", window.navigator.languages);
     return {
       locale: locale,
       localeNoRegion: locale.split("-")[0],
@@ -51,7 +54,10 @@ const Trans = {
         console.log(`Loaded messages for ${locale}:`, messages);
         i18n.global.setLocaleMessage(locale, messages.default);
       } catch (error) {
-        console.error(`[i18n] Failed to load messages for locale: ${locale}`, error);
+        console.error(
+          `[i18n] Failed to load messages for locale: ${locale}`,
+          error
+        );
       }
     }
     return nextTick();

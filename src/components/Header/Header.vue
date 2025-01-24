@@ -45,7 +45,7 @@
       </div>
 
       <div class="header-wrapper">
-        <a href="#header"
+        <a href="#"
           ><img id="logo" src="../../assets/img/logo-new-white.png" alt="logo"
         /></a>
         <ul class="main-menu">
