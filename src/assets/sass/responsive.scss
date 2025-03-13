@@ -462,11 +462,12 @@ $darkGreenColor: #228a30;
   #contact {
     .contact-container {
       .form-box {
-        width: 90%;
-        margin: 0 auto;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+
 
         .field {
           width: 100%;
