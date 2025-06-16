@@ -5,6 +5,12 @@ $darkGreenColor: #228a30;
 
 /* 2k */
 @media (max-width: 2700px) {
+  .intro-box-image {
+    img {
+      width: 80%;
+    }
+  }
+
   .container {
     max-width: 1920px;
   }
@@ -64,24 +70,12 @@ $darkGreenColor: #228a30;
     max-width: 768px;
   }
 
-  #projects {
-    // margin-top: 7em;
-  }
-
   #about {
     .about-wrapper {
       .about-img {
         width: 60%;
       }
     }
-  }
-
-  #contact {
-    // margin-top: 20em;
-  }
-
-  footer {
-    // margin-top: 14em;
   }
 }
 
@@ -99,15 +93,14 @@ $darkGreenColor: #228a30;
   }
 
   .main-menu {
-      li {
-        a {
-         font-size: 0.9rem !important; 
-        }
+    li {
+      a {
+        font-size: 0.9rem !important;
       }
+    }
   }
 
   #skills {
-
     .skills-wrapper {
       align-items: center;
       flex-direction: column;
@@ -379,7 +372,6 @@ $darkGreenColor: #228a30;
 
   //Contact
   #contact {
-
     .contact-container {
       width: 100%;
     }
@@ -414,7 +406,6 @@ $darkGreenColor: #228a30;
   }
 
   .intro {
-
     .intro-box-text {
       height: 50%;
       width: 100%;
@@ -431,7 +422,6 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-
     .skills-wrapper {
       margin-top: 2em;
 
@@ -450,7 +440,6 @@ $darkGreenColor: #228a30;
   }
 
   #about {
-
     .about-wrapper {
       .about-list-wrapper {
         width: 90%;
@@ -468,7 +457,6 @@ $darkGreenColor: #228a30;
         margin: 0 auto;
         width: 90%;
 
-
         .field {
           width: 100%;
           margin-left: 0;
@@ -481,7 +469,6 @@ $darkGreenColor: #228a30;
       }
     }
   }
-
 }
 
 @media (max-width: 350px) {
@@ -497,11 +484,9 @@ $darkGreenColor: #228a30;
       width: 100%;
 
       .title-box {
-
         .typing {
-
           .blinking-cursor {
-            font-size: 26px
+            font-size: 26px;
           }
 
           .typed-text {
@@ -517,7 +502,6 @@ $darkGreenColor: #228a30;
   }
 
   #skills {
-
     .skills-wrapper {
       margin-top: 2em;
 
@@ -541,7 +525,6 @@ $darkGreenColor: #228a30;
   }
 
   #projects {
-
     .project-wrapper {
       .project {
         width: 115%;

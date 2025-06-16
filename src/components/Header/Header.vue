@@ -485,6 +485,7 @@ header {
 
     img {
       box-shadow: rgba(80, 80, 80, 0.35) 0px 5px 15px;
+      width: 95%;
     }
   }
 }
